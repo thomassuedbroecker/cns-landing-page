@@ -7,31 +7,45 @@
     <cv-header-name to="/" prefix="">Cloud Native Starter</cv-header-name>
 
     <cv-header-nav aria-label="Carbon tutorial nav">
-      <cv-header-menu-item to="/repos">Repositories</cv-header-menu-item>
+      <cv-header-menu-item to="/repos">Get Started</cv-header-menu-item>
+    </cv-header-nav>
+
+     <cv-header-nav aria-label="Carbon tutorial nav">
+      <cv-header-menu-item to="/repos">Capabilities</cv-header-menu-item>
+    </cv-header-nav>
+
+    <cv-header-nav aria-label="Carbon tutorial nav">
+      <cv-header-menu-item to="/repos">Videos</cv-header-menu-item>
+    </cv-header-nav>
+
+    <cv-header-nav aria-label="Carbon tutorial nav">
+      <cv-header-menu-item to="/repos">Blogs</cv-header-menu-item>
     </cv-header-nav>
 
     <template slot="header-global">
-      <cv-header-global-action aria-label="Notifications">
-        <notification-20 />
+      <cv-header-global-action aria-label="Notifications" v-on:click="onLoginClicked">
+        <Github20 />
       </cv-header-global-action>
-      <cv-header-global-action aria-label="User avatar">
-        <user-avatar-20 />
-      </cv-header-global-action>
-      <cv-header-global-action aria-label="App switcher">
-        <app-switcher-20 />
-      </cv-header-global-action>
+      
     </template>
   </cv-header>
 </template>
 
 <script>
-import Notification20 from '@carbon/icons-vue/es/notification/20';
-import UserAvatar20 from '@carbon/icons-vue/es/user--avatar/20';
-import AppSwitcher20 from '@carbon/icons-vue/es/app-switcher/20';
+
+//import UserAvatar20 from '@carbon/icons-vue/es/user--avatar/20';
+//import AppSwitcher20 from '@carbon/icons-vue/es/app-switcher/20';
+import Github20 from '@carbon/icons-vue/es/logo--github/20';
 
 export default {
   name: 'TutorialHeader',
-  components: { Notification20, UserAvatar20, AppSwitcher20 }
+  components: { Github20 },
+  methods: {
+    onLoginClicked() {
+      window.open('https://github.com/ibm/cloud-native-starter','_blank');
+     
+    }
+  }
 };
 </script>
 
