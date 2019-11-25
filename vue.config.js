@@ -1,4 +1,3 @@
 module.exports = {
-    publicPath: '/cns-landing-page',
-    outputDir: 'docs'
+    publicPath: '/cns-landing-page'
   }
