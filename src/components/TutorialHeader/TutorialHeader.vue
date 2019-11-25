@@ -4,7 +4,7 @@
       >Skip to content</cv-skip-to-content
     >
 
-    <cv-header-name to="/" prefix="IBM">Carbon Tutorial</cv-header-name>
+    <cv-header-name to="/" prefix="">Cloud Native Starter</cv-header-name>
 
     <cv-header-nav aria-label="Carbon tutorial nav">
       <cv-header-menu-item to="/repos">Repositories</cv-header-menu-item>
