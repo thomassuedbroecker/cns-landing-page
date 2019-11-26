@@ -1,5 +1,5 @@
 <template>
-  <div>to be done - get started
+  <div>to be done - about
   </div>
 </template>
 

@@ -167,7 +167,7 @@
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Run everywhere</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Run Everywhere</h1>
               <p
                 class="landing-page__p"
               >Cloud Native Starter can be run on any Kubernetes implementation without any vendor lock-in.</p>
@@ -220,7 +220,7 @@
               <h1
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
-              >Easy first time Experience</h1>
+              >Easy First Time Experience</h1>
               <p
                 class="landing-page__p"
               >To minimize the time to get productive, several scripts are provided which make the setup as easy as possible.</p>

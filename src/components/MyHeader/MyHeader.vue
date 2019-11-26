@@ -9,26 +9,27 @@
 
     <cv-header-nav aria-label="label nav">
       <cv-header-menu-item to="/get-started">Get Started</cv-header-menu-item>
+      
     </cv-header-nav>
 
      <cv-header-nav aria-label="label nav">
-      <cv-header-menu-item to="/repos">Capabilities</cv-header-menu-item>
+      <cv-header-menu-item to="/capabilities">Capabilities</cv-header-menu-item>
     </cv-header-nav>
 
     <cv-header-nav aria-label="label nav">
-      <cv-header-menu-item to="/repos">Videos</cv-header-menu-item>
+      <cv-header-menu-item to="/videos">Videos</cv-header-menu-item>
     </cv-header-nav>
 
     <cv-header-nav aria-label="label nav">
-      <cv-header-menu-item to="/repos">Blogs</cv-header-menu-item>
+      <cv-header-menu-item to="/blogs">Blogs</cv-header-menu-item>
     </cv-header-nav>
 
     <cv-header-nav aria-label="label nav">
-      <cv-header-menu-item to="/repos">Workshops</cv-header-menu-item>
+      <cv-header-menu-item to="/workshops">Workshops</cv-header-menu-item>
     </cv-header-nav>
 
     <cv-header-nav aria-label="label nav">
-      <cv-header-menu-item to="/repos">About</cv-header-menu-item>
+      <cv-header-menu-item to="/about">About</cv-header-menu-item>
     </cv-header-nav>
 
     <template slot="header-global">
@@ -38,6 +39,8 @@
       
     </template>
   </cv-header>
+
+  
 </template>
 
 <script>

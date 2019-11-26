@@ -1,5 +1,5 @@
 <template>
-  <div>to be done - get started
+  <div>to be done - capabilities
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 
 
 export default {
-  name: 'GetStarted'
+  name: 'Capabilities'
   
 };
 </script>

@@ -1,5 +1,6 @@
 <template>
-  <div>to be done - get started
+  <div>to be done - workshops
+    
   </div>
 </template>
 
