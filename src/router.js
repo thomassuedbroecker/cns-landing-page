@@ -11,6 +11,7 @@ export default new Router({
       name: 'landing-page',
       component: LandingPage
     },
+    
     {
       path: '/repos',
       name: 'repo-page',
