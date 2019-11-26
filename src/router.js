@@ -13,10 +13,10 @@ export default new Router({
     },
     
     {
-      path: '/repos',
-      name: 'repo-page',
+      path: '/get-started',
+      name: 'get-started',
       component: () =>
-        import(/* webpackChunkName: "repo-page" */ './views/RepoPage')
+        import(/* webpackChunkName: "get-started" */ './views/GetStarted')
     }
   ]
 });

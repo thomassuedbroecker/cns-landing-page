@@ -5,11 +5,16 @@
   >
     <div
       class="bx--row landing-page__banner"
-      style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 4rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col-lg-16">
-        <h1 class="landing-page__heading" style="font-size:3rem" >Learn how to develop and operate Microservices</h1>
+        <h1 class="landing-page__heading" style="font-size:3rem;line-height: normal;" >Learn how to develop and operate Microservices</h1>
+      <p class="landing-page__p" style="padding-top: 25px;">
+                <cv-button style="padding-right: 12px;font-size: 20px;">Get Started</cv-button>
+                <cv-button style="padding-right: 12px;margin-left: 20px;font-size: 20px;" v-on:click="onGithubClicked" kind="tertiary">Open Repo</cv-button>
+              </p>
       </div>
+
     </div>
 
     <div
@@ -29,7 +34,7 @@
               >Cloud Native Starter is an open source project that demonstrates how to develop complete enterprise applications with Java and MicroProfile and how to operate it with Kubernetes and Istio.</p>
               
               <p class="landing-page__p">
-                <cv-button style="padding-right: 12px;">Get Started</cv-button>
+                The project comes with a simple sample application that displays and manages articles.
               </p>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
@@ -38,9 +43,7 @@
                 src="../../assets/web-app.png"
                 style="border:1px solid #ddd"
               />
-              <p class="landing-page__p">
-                A simple sample application displays and manages articles.
-              </p>
+              
             </div>
           </div>
         </div>
@@ -270,25 +273,14 @@
 </template>
 
 <script>
-import { InfoSection, InfoCard } from '../../components/InfoSection';
-import Globe32 from '@carbon/icons-vue/lib/globe/32';
-import PersonFavorite32 from '@carbon/icons-vue/lib/person--favorite/32';
-import Application32 from '@carbon/icons-vue/lib/application/32';
 
 export default {
   name: 'LandingPage',
-  components: { InfoSection, InfoCard },
   created() {
-    // Add icons to this
-    Object.assign(this, {
-      Globe32,
-      PersonFavorite32,
-      Application32
-    });
   },
   methods: {
-    onDiagramClicked() {
-      window.open('../../assets/architecture-2.png', '_blank');
+    onGithubClicked() {
+      window.open('https://github.com/ibm/cloud-native-starter','_blank');
     }
   }
 };
