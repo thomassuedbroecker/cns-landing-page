@@ -26,7 +26,7 @@
               >What is Cloud Native Starter?</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter is an open source project that demonstrates how to develop complete enterprise applications with JakartaEE and MicroProfile and how to operate it with Kubernetes and Istio.</p>
+              >Cloud Native Starter is an open source project that demonstrates how to develop complete enterprise applications with Java and MicroProfile and how to operate it with Kubernetes and Istio.</p>
               
               <p class="landing-page__p">
                 <cv-button style="padding-right: 12px;">Get Started</cv-button>
@@ -39,7 +39,7 @@
                 style="border:1px solid #ddd"
               />
               <p class="landing-page__p">
-                The simple sample application displays and manages articles.
+                A simple sample application displays and manages articles.
               </p>
             </div>
           </div>
@@ -170,7 +170,7 @@
               >Cloud Native Starter can be run on any Kubernetes implementation without any vendor lock-in.</p>
              <p
                 class="landing-page__p"
-              >Documentation and scripts have been provided to deploy the sample application to the following environments:</p>
+              >Documentation and scripts are provided to deploy the sample application to the following environments:</p>
              
               <p class="landing-page__p">
                 <cv-list>
@@ -220,7 +220,7 @@
               >Easy first time Experience</h1>
               <p
                 class="landing-page__p"
-              >To minimize the time to get productive, several scripts are provided whic make the setup as easy as possible.</p>
+              >To minimize the time to get productive, several scripts are provided which make the setup as easy as possible.</p>
               <p  class="landing-page__p"
               >Endpoint URLs are displayed of all services and tools.</p>
               
