@@ -9,11 +9,11 @@
     >
       <div class="bx--col-lg-16">
         <h1 class="landing-page__heading" style="font-size:3rem;line-height: normal;" >Contact the Authors</h1>
-      
-      </div>
       <p
                 class="landing-page__p"
               >We are always looking for feedback and we will try to answer your questions!</p>
+      </div>
+      
 
     </div>
 
@@ -68,7 +68,7 @@
               
               <img
                 class="landing-page__illo"
-                src="../../assets/Harald02-500px.jpg"
+                src="../../assets/Harald.jpg"
                 alt="Carbon illustration"
               />
              
