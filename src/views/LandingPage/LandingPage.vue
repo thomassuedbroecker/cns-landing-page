@@ -10,7 +10,7 @@
       <div class="bx--col-lg-16">
         <h1 class="landing-page__heading" style="font-size:3rem;line-height: normal;" >Learn how to develop and operate Microservices</h1>
       <p class="landing-page__p" style="padding-top: 25px;">
-                <cv-button style="padding-right: 12px;font-size: 20px;">Get Started</cv-button>
+                <cv-button style="padding-right: 12px;font-size: 20px;" v-on:click="onGetStartedClicked">Get Started</cv-button>
                 <cv-button style="padding-right: 12px;margin-left: 20px;font-size: 20px;" v-on:click="onGithubClicked" kind="tertiary">Open Repo</cv-button>
               </p>
       </div>
@@ -31,7 +31,7 @@
               >What is Cloud Native Starter?</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter is an open source project that demonstrates how to develop complete enterprise applications with Java and MicroProfile and how to operate it with Kubernetes and Istio.</p>
+              >Cloud Native Starter is an open source project that demonstrates how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes and Istio.</p>
               
               <p class="landing-page__p">
                 The project comes with a simple sample application that displays and manages articles.
@@ -129,7 +129,7 @@
               >Core Services are based on Open Source</h1>
               <p
                 class="landing-page__p"
-              >The core components used in the sample application are available under open source licenses. The Cloud Native Starter repo is available under the Apache license.</p>
+              >The core components and platforms used in the sample application are available under open source licenses. Additionally the Cloud Native Starter project is available under the Apache license.</p>
               <p  class="landing-page__p"
               >The components which are not available as open source, are only optional and can be replaced with other implementations.</p>
               
@@ -170,7 +170,7 @@
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Run Everywhere</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter can be run on any Kubernetes implementation without any vendor lock-in.</p>
+              >Cloud Native Starter can be run on any Kubernetes implementation without vendor lock-in.</p>
              <p
                 class="landing-page__p"
               >Documentation and scripts are provided to deploy the sample application to the following environments:</p>
@@ -209,6 +209,10 @@
 
 
 
+
+
+
+
   <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 2rem;padding-left: 2rem; padding-right: 2rem;"
@@ -225,7 +229,7 @@
                 class="landing-page__p"
               >To minimize the time to get productive, several scripts are provided which make the setup as easy as possible.</p>
               <p  class="landing-page__p"
-              >Endpoint URLs are displayed of all services and tools.</p>
+              >Since finding the URLs of all services and tools can be challenging, a script displays all relevant endpoints.</p>
               
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
@@ -243,14 +247,75 @@
 
 
 
-<div
+
+
+    <div
       class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 0rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
+              <img
+                class="landing-page__illo"
+                src="../../assets/directory-235562_1280.png"
+                alt="Carbon illustration"
+              />
+              <p class="landing-page__p"></p>
+            </div>
+
+            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">What's next?</h1>
+              <p
+                class="landing-page__p"
+              >Multiple roads lead to Rome. Choose yourself how you prefer to learn more about Cloud Native Starter.</p>
+            
+              <p class="landing-page__p">
+                <cv-list>
+                  
+                  <cv-list-item>
+                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/get-started">Set up the sample application</router-link>   
+                  </cv-list-item>
+                  <cv-list-item>
+                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/capabilities">Learn about the capabilities</router-link>   
+                  </cv-list-item>
+                  <cv-list-item>
+                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/talks">Watch recorded talks</router-link>   
+                  </cv-list-item>
+                  <cv-list-item>
+                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/blogs">Read blogs</router-link>   
+                  </cv-list-item>
+                  <cv-list-item>
+                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/get-started">Get your hands dirty with workshops</router-link>   
+                  </cv-list-item>
+                  <cv-list-item>
+                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/get-started">Contact the Cloud Native Starter developers</router-link>   
+                  </cv-list-item>
+                  
+                  
+                  
+                </cv-list>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+<div
+      class="bx--row landing-page__r2"
+      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+    >
+      <div class="bx--col bx--no-gutter">
+        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
+          <div class="bx--row landing-page__tab-content">
+            <div class="bx--col-md-8 bx--col-lg-14">
            <cv-link style="font-size: inherit;" href="https://github.com/ibm/cloud-native-starter">Repo on GitHub</cv-link>
             |
            <cv-link style="font-size: inherit;" href="https://www.ibm.com/cloud/container-service/">IBM Privacy Statement</cv-link>
@@ -264,6 +329,11 @@
         </div>
       </div>
     </div>
+
+
+
+
+
 
 
 
@@ -281,6 +351,9 @@ export default {
   methods: {
     onGithubClicked() {
       window.open('https://github.com/ibm/cloud-native-starter','_blank');
+    },
+    onGetStartedClicked() {
+      this.$router.push("get-started");
     }
   }
 };
@@ -288,8 +361,8 @@ export default {
 
 <style lang="scss">
 @import '../../styles/carbon-utils';
-@import './carbon-overrides';
-@import './mixins';
+@import './../carbon-overrides';
+@import './../mixins';
 
 .landing-page__illo {
   max-width: 100%;

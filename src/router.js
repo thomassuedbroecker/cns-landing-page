@@ -5,7 +5,9 @@ import LandingPage from './views/LandingPage';
 Vue.use(Router);
 
 export default new Router({
+  mode: 'history',
     routes: [
+      
     {
       path: '/',
       name: 'landing-page',
@@ -25,10 +27,10 @@ export default new Router({
         import(/* webpackChunkName: "capabilities" */ './views/Capabilities')
     },
     {
-      path: '/videos',
-      name: 'videos',
+      path: '/talks',
+      name: 'talks',
       component: () =>
-        import(/* webpackChunkName: "videos" */ './views/Videos')
+        import(/* webpackChunkName: "talks" */ './views/Talks')
     },
     {
       path: '/blogs',

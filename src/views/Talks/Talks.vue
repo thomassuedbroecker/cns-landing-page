@@ -8,15 +8,12 @@
       style="padding-top: 4rem;padding-bottom: 4rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col-lg-16">
-        <h1 class="landing-page__heading" style="font-size:3rem;line-height: normal;" >Get Started: Set up the Sample Application</h1>
+        <h1 class="landing-page__heading" style="font-size:3rem;line-height: normal;" >Talks</h1>
       
       </div>
 
     </div>
 
-
-
-
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -28,80 +25,11 @@
               <h1
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
-              >1. Set up a Kubernetes Cluster</h1>
-              <p
-                class="landing-page__p"
-              >The sample application runs on any Kubernetes cluster. </p>
-             
-              
-            </div>
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <!--
-              <img
-                class="landing-page__illo"
-                src="../../assets/a.png"
-                style="border:1px solid #ddd"
-              />
-              -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
-    >
-      <div class="bx--col bx--no-gutter">
-        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
-          <div class="bx--row landing-page__tab-content">
-            <div class="bx--col-md-4 bx--col-lg-7">
-              <!--
-              <img
-                class="landing-page__illo"
-                src="../../assets/logos.png"
-                alt="Carbon illustration"
-              />
-              -->
-              <p class="landing-page__p"></p>
-            </div>
-
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">2. Install Tools</h1>
-              <p class="landing-page__p">
-                to be done
-              </p>
-               <cv-code-snippet >
-$ git clone https://github.com/IBM/cloud-native-starter.git
-$ cd cloud-native-starter
-$ ROOT_FOLDER=$(pwd)
-</cv-code-snippet>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-
-
-    <div
-      class="bx--row landing-page__r2"
-      style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
-    >
-      <div class="bx--col bx--no-gutter">
-        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
-          <div class="bx--row landing-page__tab-content">
-            <div class="bx--col-md-4 bx--col-lg-7">
-              <h1
-                class="landing-page__subheading"
-                style="font-size: 1.7rem;"
-              >3. Clone the Repo</h1>
+              >to be done</h1>
               <p
                 class="landing-page__p"
               >to be done</p>
-             
+              
               
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
@@ -137,15 +65,10 @@ $ ROOT_FOLDER=$(pwd)
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">4. Deploy the Sample Application</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">to be done</h1>
               <p class="landing-page__p">
                 to be done
               </p>
-               <cv-code-snippet >
-$ git clone https://github.com/IBM/cloud-native-starter.git
-$ cd cloud-native-starter
-$ ROOT_FOLDER=$(pwd)
-</cv-code-snippet>
             </div>
           </div>
         </div>
@@ -192,7 +115,7 @@ $ ROOT_FOLDER=$(pwd)
 <script>
 
 export default {
-  name: 'GetStarted',
+  name: 'Talks',
   created() {
   },
   methods: {
