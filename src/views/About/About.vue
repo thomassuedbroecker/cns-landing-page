@@ -122,7 +122,7 @@
               
               <img
                 class="landing-page__illo"
-                src="../../assets/thomas.png"
+                src="../../assets/thomas.jpg"
                 
               />
               
