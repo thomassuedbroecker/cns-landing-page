@@ -237,7 +237,7 @@
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">What's next?</h1>
               <p
                 class="landing-page__p"
-              >Choose yourself how you prefer to learn more about Cloud Native Starter.</p>
+              >Choose how you prefer to learn more about Cloud Native Starter.</p>
             
               <p class="landing-page__p">
                 <cv-list>

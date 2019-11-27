@@ -32,6 +32,11 @@
               and <cv-link style="font-size: inherit;" href="https://twitter.com/harald_u">Harald Uebele</cv-link> present
               how developers can get started with cloud-native applications.
               </p>
+<p
+                class="landing-page__p"
+              >The <cv-link style="font-size: inherit;" href="http://heidloff.net/recording-of-talk-how-to-develop-your-first-cloud-native-applications-with-java/">slides</cv-link> have been published.
+              </p>
+              
               
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
@@ -79,7 +84,10 @@
               >In this 45 minutes webinar <cv-link style="font-size: inherit;" href="https://twitter.com/nheidloff">Niklas Heidloff</cv-link>
               gives an overview of most of the cloud-native functionality in Cloud Native Starter.
               </p>
-              
+              <p
+                class="landing-page__p"
+              >The <cv-link style="font-size: inherit;" href="http://heidloff.net/article/recording-jakarta-tech-talk-how-to-develop-microservices/">slides</cv-link> have been published.
+              </p>
              
             </div>
           </div>
@@ -106,6 +114,10 @@
                 class="landing-page__p"
               >In this 30 minutes talk <cv-link style="font-size: inherit;" href="https://twitter.com/nheidloff">Niklas Heidloff</cv-link>
               gives a quick overview of the key cloud-native functionality in Cloud Native Starter.
+              </p>
+              <p
+                class="landing-page__p"
+              >The <cv-link style="font-size: inherit;" href="https://github.com/nheidloff/cloud-native-starter/blob/master/documentation/OneHourTalk.pdf">slides</cv-link> have been published.
               </p>
              
               
@@ -186,7 +198,7 @@
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">What's next?</h1>
               <p
                 class="landing-page__p"
-              >Choose yourself how you prefer to learn more about Cloud Native Starter.</p>
+              >Choose how you prefer to learn more about Cloud Native Starter.</p>
             
               <p class="landing-page__p">
                 <cv-list>
