@@ -11,6 +11,9 @@
         <h1 class="landing-page__heading" style="font-size:3rem;line-height: normal;" >Contact the Authors</h1>
       
       </div>
+      <p
+                class="landing-page__p"
+              >We are always looking for feedback and we will try to answer your questions!</p>
 
     </div>
 
