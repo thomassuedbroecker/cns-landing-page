@@ -77,4 +77,10 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.bx--header__nav {
+    height: 100%;
+    padding-left: 1rem;
+    position: relative;
+    display: contents !important;
+}</style>

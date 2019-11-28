@@ -14,7 +14,7 @@
 
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 3rem;padding-bottom: 3  rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -22,15 +22,20 @@
             <div class="bx--col-md-4 bx--col-lg-7">
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">One Hour Workshop</h1>
               <p class="landing-page__p">to be done</p>
+              <p class="landing-page__p" style="padding-top: 15px;">
+                <cv-button
+                  style="padding-right: 12px;font-size: 20px;"
+                  v-on:click="onWorkshop1Clicked"
+                  kind="tertiary"
+                >Open Workshop</cv-button>
+              </p>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <!--
               <img
                 class="landing-page__illo"
-                src="../../assets/a.png"
+                src="../../assets/workshop1.png"
                 style="border:1px solid #ddd"
               />
-              -->
             </div>
           </div>
         </div>
@@ -45,19 +50,23 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <!--
               <img
                 class="landing-page__illo"
-                src="../../assets/logos.png"
-                
+                src="../../assets/workshop2.png"
               />
-              -->
               <p class="landing-page__p"></p>
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Three Hours Workshop</h1>
               <p class="landing-page__p">to be done</p>
+              <p class="landing-page__p" style="padding-top: 15px;">
+                <cv-button
+                  style="padding-right: 12px;font-size: 20px;"
+                  v-on:click="onWorkshop2Clicked"
+                  kind="tertiary"
+                >Open Workshop</cv-button>
+              </p>
             </div>
           </div>
         </div>
@@ -66,7 +75,7 @@
 
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -74,15 +83,19 @@
             <div class="bx--col-md-4 bx--col-lg-7">
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">OpenShift Workshop</h1>
               <p class="landing-page__p">to be done</p>
+              <p class="landing-page__p" style="padding-top: 15px;">
+                <cv-button
+                  style="padding-right: 12px;font-size: 20px;"
+                  v-on:click="onWorkshop3Clicked"
+                  kind="tertiary"
+                >Open Workshop</cv-button>
+              </p>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <!--
               <img
                 class="landing-page__illo"
-                src="../../assets/a.png"
-                style="border:1px solid #ddd"
+                src="../../assets/workshop3.png"
               />
-              -->
             </div>
           </div>
         </div>
@@ -91,7 +104,7 @@
 
     <div
       class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
+      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -194,6 +207,15 @@ export default {
     },
     onGetStartedClicked() {
       this.$router.push('get-started');
+    },
+    onWorkshop1Clicked() {
+      window.open('https://github.com/IBM/cloud-native-starter/tree/master/workshop-one-service', '_blank');
+    },
+    onWorkshop2Clicked() {
+      window.open('https://github.com/IBM/cloud-native-starter/tree/master/workshop', '_blank');
+    },
+    onWorkshop3Clicked() {
+      window.open('https://github.com/ibm/openshift-on-ibm-cloud-workshops/tree/master/2-deploying-to-openshift', '_blank');
     }
   }
 };
