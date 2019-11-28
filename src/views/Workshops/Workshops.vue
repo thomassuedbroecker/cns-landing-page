@@ -14,14 +14,14 @@
 
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 3rem;padding-bottom: 3  rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">One Hour Workshop</h1>
-              <p class="landing-page__p">to be done</p>
+              <p class="landing-page__p">This workshop demonstrates how to develop the 'authors' microservice with MicroProfile and how to deploy it to Kubernetes.</p>
               <p class="landing-page__p" style="padding-top: 15px;">
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;"
@@ -59,7 +59,7 @@
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Three Hours Workshop</h1>
-              <p class="landing-page__p">to be done</p>
+              <p class="landing-page__p">In this workshop you will learn how to develop microservices with MicroProfile, how to implement REST APIs, how to do traffic management and how to develop resilient applications. The application, which uses several microservices, is deployed to Kubernetes.</p>
               <p class="landing-page__p" style="padding-top: 15px;">
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;"
@@ -82,7 +82,7 @@
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">OpenShift Workshop</h1>
-              <p class="landing-page__p">to be done</p>
+              <p class="landing-page__p">This workshop describes four different ways how to deploy the 'authors' microservice to Red Hat OpenShift.</p>
               <p class="landing-page__p" style="padding-top: 15px;">
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;"
@@ -95,6 +95,7 @@
               <img
                 class="landing-page__illo"
                 src="../../assets/workshop3.png"
+                style="border:1px solid #ddd"
               />
             </div>
           </div>
