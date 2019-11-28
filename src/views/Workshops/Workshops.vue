@@ -127,6 +127,13 @@
                     <router-link
                       class="cv-link bx--link"
                       style="font-size:20px"
+                      to="/talks"
+                    >Watch recorded talks</router-link>
+                  </cv-list-item>
+                  <cv-list-item>
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
                       to="/blogs"
                     >Read blogs</router-link>
                   </cv-list-item>
@@ -134,14 +141,7 @@
                     <router-link
                       class="cv-link bx--link"
                       style="font-size:20px"
-                      to="/get-started"
-                    >Get your hands dirty with workshops</router-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <router-link
-                      class="cv-link bx--link"
-                      style="font-size:20px"
-                      to="/get-started"
+                      to="/about"
                     >Contact the Cloud Native Starter developers</router-link>
                   </cv-list-item>
                 </cv-list>

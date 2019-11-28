@@ -12,13 +12,13 @@
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
         >Learn how to develop and operate Microservices</h1>
-        <p class="landing-page__p" style="padding-top: 25px;">
+        <p class="landing-page__p" style="padding-top: 5px;">
           <cv-button
             style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
             v-on:click="onGetStartedClicked"
           >Get Started</cv-button>
           <cv-button
-            style="padding-right: 12px;font-size: 20px;"
+            style="padding-right: 12px;font-size: 20px;margin-top:20px"
             v-on:click="onGithubClicked"
             kind="tertiary"
           >Open Repo</cv-button>
@@ -282,14 +282,14 @@
                     <router-link
                       class="cv-link bx--link"
                       style="font-size:20px"
-                      to="/get-started"
+                      to="/workshops"
                     >Get your hands dirty with workshops</router-link>
                   </cv-list-item>
                   <cv-list-item>
                     <router-link
                       class="cv-link bx--link"
                       style="font-size:20px"
-                      to="/get-started"
+                      to="/about"
                     >Contact the Cloud Native Starter developers</router-link>
                   </cv-list-item>
                 </cv-list>

@@ -36,7 +36,7 @@
               <p
                 class="landing-page__p"
                 style="font-style: italic;"
-              >"Hi, my name is Niklas Heidloff. I work for IBM as a Developer Advocate. I like learning, cloud technologies, Java, JavaScript and AI. I'm a proud father of five and love BBQ. My Twitter DMs are open and I'm looking forward to chatting with you."</p>
+              >"Hi, my name is Niklas Heidloff. I work as a developer advocate at IBM. I like learning, cloud technologies, Java, JavaScript and AI. I'm a proud father of five and love BBQ. My Twitter DMs are open and I'm looking forward to chatting with you."</p>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img
@@ -71,6 +71,10 @@
                 Twitter:
                 <cv-link style="font-size: inherit;" href="https://twitter.com/harald_u">@harald_u</cv-link>
               </p>
+              <p
+                class="landing-page__p"
+                style="font-style: italic;"
+              >"I'm Harald Uebele. I am a Developer Advocate for IBM based in Stuttgart, Germany. I have been working with Cloud technologies for the last couple of years, I like to share my knowledge with other people, and I am a big fan of Open Source. If you want to contact me, you can reach me via Twitter."</p>
             </div>
           </div>
         </div>
@@ -95,6 +99,10 @@
                   href="https://twitter.com/tsuedbroecker"
                 >@tsuedbroecker</cv-link>
               </p>
+               <p
+                class="landing-page__p"
+                style="font-style: italic;"
+              >"My objective is to provide developers help and guidance, to enable themselves on Cloud development topics. My personal guideline is: 'You may fall down, but you have to get up again!' I like creating my own music by playing all types of drums. Just contact me via Twitter, I'm looking forward to chatting with you ... CU."</p>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img class="landing-page__illo" src="../../assets/thomas.jpg" />
@@ -156,7 +164,7 @@
                     <router-link
                       class="cv-link bx--link"
                       style="font-size:20px"
-                      to="/get-started"
+                      to="/workshops"
                     >Get your hands dirty with workshops</router-link>
                   </cv-list-item>
                 </cv-list>

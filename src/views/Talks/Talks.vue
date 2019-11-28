@@ -212,14 +212,14 @@
                     <router-link
                       class="cv-link bx--link"
                       style="font-size:20px"
-                      to="/get-started"
+                      to="/workshops"
                     >Get your hands dirty with workshops</router-link>
                   </cv-list-item>
                   <cv-list-item>
                     <router-link
                       class="cv-link bx--link"
                       style="font-size:20px"
-                      to="/get-started"
+                      to="/about"
                     >Contact the Cloud Native Starter developers</router-link>
                   </cv-list-item>
                 </cv-list>
