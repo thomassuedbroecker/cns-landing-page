@@ -8,13 +8,14 @@
       style="padding-top: 4rem;padding-bottom: 4rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col-lg-16">
-        <h1 class="landing-page__heading" style="font-size:3rem;line-height: normal;" >Contact the Authors</h1>
-      <p
-                class="landing-page__p"
-              >We are always looking for feedback and we will try to answer your questions!</p>
+        <h1
+          class="landing-page__heading"
+          style="font-size:3rem;line-height: normal;"
+        >Contact the Authors</h1>
+        <p
+          class="landing-page__p"
+        >We are always looking for feedback and we will try our best to answer your questions!</p>
       </div>
-      
-
     </div>
 
     <div
@@ -25,37 +26,29 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1
-                class="landing-page__subheading"
-                style="font-size: 1.7rem;"
-              >Niklas Heidloff</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Niklas Heidloff</h1>
+              <p class="landing-page__p"></p>
+              <p class="landing-page__p">Developer Advocate, IBM</p>
+              <p class="landing-page__p">
+                Twitter:
+                <cv-link style="font-size: inherit;" href="https://twitter.com/nheidloff">@nheidloff</cv-link>
+              </p>
               <p
                 class="landing-page__p"
-              ></p>
-              <p
-                class="landing-page__p"
-              >Developer Advocate, IBM</p>
-              <p
-                class="landing-page__p"
-              >Twitter: <cv-link style="font-size: inherit;" href="https://twitter.com/nheidloff">@nheidloff</cv-link></p>
-              
-              
+                style="font-style: italic;"
+              >"Hi, my name is Niklas Heidloff. I work for IBM as a Developer Advocate. I like learning, cloud technologies, Java, JavaScript and AI. I'm a proud father of five and love BBQ. My Twitter DMs are open and I'm looking forward to chatting with you."</p>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              
               <img
                 class="landing-page__illo"
                 src="../../assets/niklas.jpg"
                 style="border:1px solid #ddd"
               />
-              
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
 
     <div
       class="bx--row landing-page__r2"
@@ -65,33 +58,24 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              
-              <img
-                class="landing-page__illo"
-                src="../../assets/Harald.jpg"
-                alt="Carbon illustration"
-              />
-             
+              <img class="landing-page__illo" src="../../assets/Harald.jpg" />
+
               <p class="landing-page__p"></p>
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Harald Uebele</h1>
-              <p
-                class="landing-page__p"
-              ></p>
-              <p
-                class="landing-page__p"
-              >Developer Advocate, IBM</p>
-              <p
-                class="landing-page__p"
-              >Twitter: <cv-link style="font-size: inherit;" href="https://twitter.com/harald_u">@harald_u</cv-link></p>
+              <p class="landing-page__p"></p>
+              <p class="landing-page__p">Developer Advocate, IBM</p>
+              <p class="landing-page__p">
+                Twitter:
+                <cv-link style="font-size: inherit;" href="https://twitter.com/harald_u">@harald_u</cv-link>
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  
 
     <div
       class="bx--row landing-page__r2"
@@ -101,37 +85,24 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1
-                class="landing-page__subheading"
-                style="font-size: 1.7rem;"
-              >Thomas Südbröcker</h1>
-              <p
-                class="landing-page__p"
-              ></p>
-              <p
-                class="landing-page__p"
-              >Developer Advocate, IBM</p>
-              <p
-                class="landing-page__p"
-              >Twitter: <cv-link style="font-size: inherit;" href="https://twitter.com/tsuedbroecker">@tsuedbroecker</cv-link></p>
-          
-              
-              
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Thomas Südbröcker</h1>
+              <p class="landing-page__p"></p>
+              <p class="landing-page__p">Developer Advocate, IBM</p>
+              <p class="landing-page__p">
+                Twitter:
+                <cv-link
+                  style="font-size: inherit;"
+                  href="https://twitter.com/tsuedbroecker"
+                >@tsuedbroecker</cv-link>
+              </p>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              
-              <img
-                class="landing-page__illo"
-                src="../../assets/thomas.jpg"
-                
-              />
-              
+              <img class="landing-page__illo" src="../../assets/thomas.jpg" />
             </div>
           </div>
         </div>
       </div>
     </div>
-
 
     <div
       class="bx--row landing-page__r2"
@@ -141,11 +112,7 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <img
-                class="landing-page__illo"
-                src="../../assets/directory-235562_1280.png"
-                alt="Carbon illustration"
-              />
+              <img class="landing-page__illo" src="../../assets/next.png" />
               <p class="landing-page__p"></p>
             </div>
 
@@ -153,28 +120,45 @@
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">What's next?</h1>
               <p
                 class="landing-page__p"
-              >Multiple roads lead to Rome. Choose yourself how you prefer to learn more about Cloud Native Starter.</p>
-            
+              >Choose how you prefer to learn more about Cloud Native Starter.</p>
+
               <p class="landing-page__p">
                 <cv-list>
-                  
                   <cv-list-item>
-                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/get-started">Set up the sample application</router-link>   
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
+                      to="/get-started"
+                    >Set up the sample application</router-link>
                   </cv-list-item>
                   <cv-list-item>
-                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/capabilities">Learn about the capabilities</router-link>   
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
+                      to="/capabilities"
+                    >Learn about the capabilities</router-link>
                   </cv-list-item>
                   <cv-list-item>
-                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/talks">Watch recorded talks</router-link>   
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
+                      to="/talks"
+                    >Watch recorded talks</router-link>
                   </cv-list-item>
                   <cv-list-item>
-                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/blogs">Read blogs</router-link>   
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
+                      to="/blogs"
+                    >Read blogs</router-link>
                   </cv-list-item>
                   <cv-list-item>
-                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/get-started">Get your hands dirty with workshops</router-link>   
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
+                      to="/get-started"
+                    >Get your hands dirty with workshops</router-link>
                   </cv-list-item>
-                  
-                  
                 </cv-list>
               </p>
             </div>
@@ -183,9 +167,7 @@
       </div>
     </div>
 
-
-
-<div
+    <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
@@ -193,44 +175,40 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-8 bx--col-lg-14">
-           <cv-link style="font-size: inherit;" href="https://github.com/ibm/cloud-native-starter">Repo on GitHub</cv-link>
-            |
-           <cv-link style="font-size: inherit;" href="https://www.ibm.com/cloud/container-service/">IBM Privacy Statement</cv-link>
- |
-           <cv-link style="font-size: inherit;" href="https://www.ibm.com/legal/us/en/">Terms of Use</cv-link>
- |
-           <cv-link style="font-size: inherit;" href="https://www.ibm.com/legal">Imprint / Impressum</cv-link>
-          
+              <cv-link
+                style="font-size: inherit;"
+                href="https://github.com/ibm/cloud-native-starter"
+              >Repo on GitHub</cv-link> |
+              <cv-link
+                style="font-size: inherit;"
+                href="https://www.ibm.com/cloud/container-service/"
+              >IBM Privacy Statement</cv-link> |
+              <cv-link
+                style="font-size: inherit;"
+                href="https://www.ibm.com/legal/us/en/"
+              >Terms of Use</cv-link> |
+              <cv-link
+                style="font-size: inherit;"
+                href="https://www.ibm.com/legal"
+              >Imprint / Impressum</cv-link>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
-
   </div>
-
-  
 </template>
 
 <script>
-
 export default {
   name: 'About',
-  created() {
-  },
+  created() {},
   methods: {
     onGithubClicked() {
-      window.open('https://github.com/ibm/cloud-native-starter','_blank');
+      window.open('https://github.com/ibm/cloud-native-starter', '_blank');
     },
     onGetStartedClicked() {
-      this.$router.push("get-started");
+      this.$router.push('get-started');
     }
   }
 };

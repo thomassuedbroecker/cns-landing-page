@@ -8,12 +8,18 @@
       style="padding-top: 4rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col-lg-16">
-        <h1 class="landing-page__heading" style="font-size:3rem;line-height: normal;" >Blogs and Articles</h1>
-      <p class="landing-page__p" style="padding-top: 5px;">
-                <cv-button style="padding-right: 12px;font-size: 20px;" v-on:click="onOverviewClicked" kind="tertiary">Read Overview Blog</cv-button>
-              </p>
+        <h1
+          class="landing-page__heading"
+          style="font-size:3rem;line-height: normal;"
+        >Blogs and Articles</h1>
+        <p class="landing-page__p" style="padding-top: 5px;">
+          <cv-button
+            style="padding-right: 12px;font-size: 20px;"
+            v-on:click="onOverviewClicked"
+            kind="tertiary"
+          >Read Overview Blog</cv-button>
+        </p>
       </div>
-
     </div>
 
     <div
@@ -24,93 +30,101 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1
-                class="landing-page__subheading"
-                style="font-size: 1.7rem;"
-              >MicroProfile</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">MicroProfile</h1>
               <p
                 class="landing-page__p"
               >The following blogs cover cloud-native functionality in MicroProfile:</p>
+
               <p class="landing-page__p">
-                <cv-list>
-                  <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/how-to-build-and-run-a-hello-world-java-microservice/">How to build and run a Hello World Java Microservice</cv-link>
+                <cv-list style="list-style: black important!;">
+                  <cv-list-item style="font-size: inherit;list-style: black;">
+                    <cv-link
+                      style="font-size: inherit;list-style: black;"
+                      href="http://heidloff.net/article/how-to-build-and-run-a-hello-world-java-microservice/"
+                    >How to build and run a Hello World Java Microservice</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/dockerizing-container-java-microprofile">Dockerizing Java MicroProfile Applications</cv-link> 
-                    </cv-list-item>
-                      <cv-list-item>-
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/dockerizing-container-java-microprofile"
+                    >Dockerizing Java MicroProfile Applications</cv-link>
+                  </cv-list-item>
+                  <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
                       href="http://heidloff.net/article/resiliency-microservice-microprofile-java-istio"
                     >Developing resilient Microservices with Istio and MicroProfile</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
                     <cv-link
                       style="font-size: inherit;"
                       href="http://heidloff.net/article/rest-apis-microprofile-javaee-jaxrs"
                     >Implementing and documenting REST APIs with JavaEE</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
                     <cv-link
                       style="font-size: inherit;"
                       href="http://heidloff.net/invoke-rest-apis-java-microprofile-microservice"
                     >Invoking REST APIs from Java Microservices</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/prometheus-metrics-microprofile-microservices-istio/">Prometheus Metrics for MicroProfile Microservices in Istio</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/prometheus-metrics-microprofile-microservices-istio/"
+                    >Prometheus Metrics for MicroProfile Microservices in Istio</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/implementing-health-checks-microprofile-istio">Implementing Health Checks with MicroProfile and Istio</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/implementing-health-checks-microprofile-istio"
+                    >Implementing Health Checks with MicroProfile and Istio</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/configuring-java-microservices-microprofile-kubernetes/">Configuring Microservices with MicroProfile and Kubernetes</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/configuring-java-microservices-microprofile-kubernetes/"
+                    >Configuring Microservices with MicroProfile and Kubernetes</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/persistence-java-microservices-kubernetes-jpa/">Persistence for Java Microservices in Kubernetes via JPA</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/persistence-java-microservices-kubernetes-jpa/"
+                    >Persistence for Java Microservices in Kubernetes via JPA</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/quarkus-javaee-microprofile-kubernetes">Using Quarkus to run Java Apps on Kubernetes</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/quarkus-javaee-microprofile-kubernetes"
+                    >Using Quarkus to run Java Apps on Kubernetes</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/debugging-microservices-kubernetes">Debugging Microservices running in Kubernetes</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/debugging-microservices-kubernetes"
+                    >Debugging Microservices running in Kubernetes</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/authenticating-web-users-openid-connect-jwt/">Authenticating Web Users with OpenID and JWT</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/authenticating-web-users-openid-connect-jwt/"
+                    >Authenticating Web Users with OpenID and JWT</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/authorization-microservices-java-microprofile/">Authorization in Microservices with MicroProfile</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/authorization-microservices-java-microprofile/"
+                    >Authorization in Microservices with MicroProfile</cv-link>
                   </cv-list-item>
                 </cv-list>
               </p>
-              
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              
-              <img
-                class="landing-page__illo"
-                src="../../assets/microprofile.png"
-                
-              />
-              
+              <img class="landing-page__illo" src="../../assets/microprofile.jpg" />
             </div>
           </div>
         </div>
       </div>
     </div>
-
 
     <div
       class="bx--row landing-page__r2"
@@ -120,69 +134,70 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1
-                class="landing-page__subheading"
-                style="font-size: 1.7rem;"
-              >Kubernetes and Istio</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Kubernetes and Istio</h1>
               <p
                 class="landing-page__p"
-              >The following blogs cover cloud-native functionality in Kubernetes and Istio:</p><p class="landing-page__p">
+              >The following blogs cover cloud-native functionality in Kubernetes and Istio:</p>
+              <p class="landing-page__p">
                 <cv-list>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="https://haralduebele.blog/2019/03/11/managing-microservices-traffic-with-istio/">Managing Microservices Traffic with Istio</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="https://haralduebele.blog/2019/03/11/managing-microservices-traffic-with-istio/"
+                    >Managing Microservices Traffic with Istio</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/sample-app-manage-microservices-traffic-istio">Web Application to demo Traffic Management with Istio</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/sample-app-manage-microservices-traffic-istio"
+                    >Web Application to demo Traffic Management with Istio</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/setup-local-development-kubernetes-istio">Setup of a Local Kubernetes and Istio Dev Environment</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/setup-local-development-kubernetes-istio"
+                    >Setup of a Local Kubernetes and Istio Dev Environment</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="https://haralduebele.blog/2019/04/04/moving-from-minikube-to-ibm-cloud-kubernetes-service/">Moving from Minikube to IBM Cloud Kubernetes Service</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="https://haralduebele.blog/2019/04/04/moving-from-minikube-to-ibm-cloud-kubernetes-service/"
+                    >Moving from Minikube to IBM Cloud Kubernetes Service</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/how-to-develop-your-first-cloud-native-applications-with-java/">Recorded demos: Traffic management, resiliency, authorization, logging</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/how-to-develop-your-first-cloud-native-applications-with-java/"
+                    >Recorded demos: Traffic management, resiliency, authorization, logging</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/deploying-microprofile-microservices-tekton/">Deploying MicroProfile Microservices with Tekton</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/deploying-microprofile-microservices-tekton/"
+                    >Deploying MicroProfile Microservices with Tekton</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="https://haralduebele.blog/2019/04/08/whats-going-on-in-my-cluster/">Distributed logging with LogDNA and Monitoring with Sysdig</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="https://haralduebele.blog/2019/04/08/whats-going-on-in-my-cluster/"
+                    >Distributed logging with LogDNA and Monitoring with Sysdig</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/authentication-authorization-openid-connect-istio">Authorization in Cloud-Native Applications via OpenID and Istio</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/authentication-authorization-openid-connect-istio"
+                    >Authorization in Cloud-Native Applications via OpenID and Istio</cv-link>
                   </cv-list-item>
-                 
                 </cv-list>
               </p>
-              
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              
-              <img
-                class="landing-page__illo"
-                src="../../assets/kubeistio.png"
-                
-              />
-              
+              <img class="landing-page__illo" src="../../assets/kubeistio.png" />
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
-
-
-
 
     <div
       class="bx--row landing-page__r2"
@@ -192,72 +207,64 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1
-                class="landing-page__subheading"
-                style="font-size: 1.7rem;"
-              >Red Hat OpenShift</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Red Hat OpenShift</h1>
               <p
                 class="landing-page__p"
               >The following blogs cover cloud-native functionality in OpenShift:</p>
               <p class="landing-page__p">
                 <cv-list>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/setup-cloud-native-sample-app-minishift/">Setting up a cloud-native Sample App on Minishift in an Hour</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/setup-cloud-native-sample-app-minishift/"
+                    >Setting up a cloud-native Sample App on Minishift in an Hour</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="https://haralduebele.blog/2019/07/03/deploying-the-cloud-native-starter-microservices-on-minishift/">Deploying the Cloud Native Starter microservices on Minishift</cv-link> 
-                    </cv-list-item>
-                      <cv-list-item>-
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="https://haralduebele.blog/2019/07/03/deploying-the-cloud-native-starter-microservices-on-minishift/"
+                    >Deploying the Cloud Native Starter microservices on Minishift</cv-link>
+                  </cv-list-item>
+                  <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
                       href="https://haralduebele.blog/2019/07/10/deploying-the-cloud-native-starter-example-on-red-hat-openshift-on-the-ibm-cloud/"
                     >Deploying on Red Hat OpenShift on the IBM Cloud</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
                     <cv-link
                       style="font-size: inherit;"
                       href="http://heidloff.net/article/source-to-image-builder-open-liberty-openshift/"
                     >Source to Image Builder for Open Liberty Apps on OpenShift</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
                     <cv-link
                       style="font-size: inherit;"
                       href="http://heidloff.net/article/how-to-develop-open-liberty-microservices-openshift/"
                     >How to develop Open Liberty Microservices on OpenShift</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/deploying-open-liberty-microservices-openshift/">Deploying Open Liberty Microservices to OpenShift</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/deploying-open-liberty-microservices-openshift/"
+                    >Deploying Open Liberty Microservices to OpenShift</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    -
-                    <cv-link style="font-size: inherit;" href="http://heidloff.net/article/accessing-private-gitlab-repositories-from-openshift/">Accessing private GitLab Repositories from OpenShift</cv-link>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="http://heidloff.net/article/accessing-private-gitlab-repositories-from-openshift/"
+                    >Accessing private GitLab Repositories from OpenShift</cv-link>
                   </cv-list-item>
-                 
                 </cv-list>
               </p>
-              
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              
-              <img
-                class="landing-page__illo"
-                src="../../assets/openshift.png"
-                
-              />
-              
+              <img class="landing-page__illo" src="../../assets/openshift.jpg" />
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
-
 
     <div
       class="bx--row landing-page__r2"
@@ -267,11 +274,7 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <img
-                class="landing-page__illo"
-                src="../../assets/directory-235562_1280.png"
-                alt="Carbon illustration"
-              />
+              <img class="landing-page__illo" src="../../assets/next.png" />
               <p class="landing-page__p"></p>
             </div>
 
@@ -280,28 +283,44 @@
               <p
                 class="landing-page__p"
               >Choose how you prefer to learn more about Cloud Native Starter.</p>
-            
+
               <p class="landing-page__p">
                 <cv-list>
-                  
                   <cv-list-item>
-                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/get-started">Set up the sample application</router-link>   
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
+                      to="/get-started"
+                    >Set up the sample application</router-link>
                   </cv-list-item>
                   <cv-list-item>
-                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/capabilities">Learn about the capabilities</router-link>   
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
+                      to="/capabilities"
+                    >Learn about the capabilities</router-link>
                   </cv-list-item>
                   <cv-list-item>
-                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/talks">Watch recorded talks</router-link>   
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
+                      to="/talks"
+                    >Watch recorded talks</router-link>
                   </cv-list-item>
                   <cv-list-item>
-                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/get-started">Get your hands dirty with workshops</router-link>   
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
+                      to="/get-started"
+                    >Get your hands dirty with workshops</router-link>
                   </cv-list-item>
                   <cv-list-item>
-                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/get-started">Contact the Cloud Native Starter developers</router-link>   
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
+                      to="/get-started"
+                    >Contact the Cloud Native Starter developers</router-link>
                   </cv-list-item>
-                  
-                  
-                  
                 </cv-list>
               </p>
             </div>
@@ -310,9 +329,7 @@
       </div>
     </div>
 
-
-
-<div
+    <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
@@ -320,47 +337,46 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-8 bx--col-lg-14">
-           <cv-link style="font-size: inherit;" href="https://github.com/ibm/cloud-native-starter">Repo on GitHub</cv-link>
-            |
-           <cv-link style="font-size: inherit;" href="https://www.ibm.com/cloud/container-service/">IBM Privacy Statement</cv-link>
- |
-           <cv-link style="font-size: inherit;" href="https://www.ibm.com/legal/us/en/">Terms of Use</cv-link>
- |
-           <cv-link style="font-size: inherit;" href="https://www.ibm.com/legal">Imprint / Impressum</cv-link>
-          
+              <cv-link
+                style="font-size: inherit;"
+                href="https://github.com/ibm/cloud-native-starter"
+              >Repo on GitHub</cv-link> |
+              <cv-link
+                style="font-size: inherit;"
+                href="https://www.ibm.com/cloud/container-service/"
+              >IBM Privacy Statement</cv-link> |
+              <cv-link
+                style="font-size: inherit;"
+                href="https://www.ibm.com/legal/us/en/"
+              >Terms of Use</cv-link> |
+              <cv-link
+                style="font-size: inherit;"
+                href="https://www.ibm.com/legal"
+              >Imprint / Impressum</cv-link>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
-
   </div>
-
-  
 </template>
 
 <script>
-
 export default {
   name: 'Blogs',
-  created() {
-  },
+  created() {},
   methods: {
     onGithubClicked() {
-      window.open('https://github.com/ibm/cloud-native-starter','_blank');
+      window.open('https://github.com/ibm/cloud-native-starter', '_blank');
     },
     onGetStartedClicked() {
-      this.$router.push("get-started");
+      this.$router.push('get-started');
     },
     onOverviewClicked() {
-      window.open('http://heidloff.net/article/example-java-app-cloud-kubernetes','_blank');
+      window.open(
+        'http://heidloff.net/article/example-java-app-cloud-kubernetes',
+        '_blank'
+      );
     }
   }
 };
@@ -370,6 +386,12 @@ export default {
 @import '../../styles/carbon-utils';
 @import './../carbon-overrides';
 @import './../mixins';
+
+ol,
+ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
 
 .landing-page__illo {
   max-width: 100%;

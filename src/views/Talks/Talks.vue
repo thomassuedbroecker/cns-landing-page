@@ -8,15 +8,16 @@
       style="padding-top: 4rem;padding-bottom: 4rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col-lg-16">
-        <h1 class="landing-page__heading" style="font-size:3rem;line-height: normal;" >Talks, Webinars and Podcasts</h1>
-      
+        <h1
+          class="landing-page__heading"
+          style="font-size:3rem;line-height: normal;"
+        >Talks, Webinars and Podcasts</h1>
       </div>
-
     </div>
 
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -26,30 +27,30 @@
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
               >Microservices for Beginners</h1>
-              <p
-                class="landing-page__p"
-              >In this 30 minutes talk <cv-link style="font-size: inherit;" href="https://twitter.com/nheidloff">Niklas Heidloff</cv-link>
-              and <cv-link style="font-size: inherit;" href="https://twitter.com/harald_u">Harald Uebele</cv-link> present
-              how developers can get started with cloud-native applications.
+              <p class="landing-page__p">
+                In this 30 minutes talk
+                <cv-link
+                  style="font-size: inherit;"
+                  href="https://twitter.com/nheidloff"
+                >Niklas Heidloff</cv-link> and
+                <cv-link
+                  style="font-size: inherit;"
+                  href="https://twitter.com/harald_u"
+                >Harald Uebele</cv-link> present
+                how developers can get started with cloud-native applications.
               </p>
-<p
-                class="landing-page__p"
-              >The <cv-link style="font-size: inherit;" href="http://heidloff.net/recording-of-talk-how-to-develop-your-first-cloud-native-applications-with-java/">slides</cv-link> have been published.
+              <p class="landing-page__p">
+                The
+                <cv-link
+                  style="font-size: inherit;"
+                  href="http://heidloff.net/recording-of-talk-how-to-develop-your-first-cloud-native-applications-with-java/"
+                >slides</cv-link> have been published.
               </p>
-              
-              
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <a href="https://youtu.be/Z0yQ5XowDI4">
-
-  <img
-                class="landing-page__illo"
-                src="../../assets/talk-berlin.png"
-                alt="Carbon illustration"
-              />
-</a>
-              
-              
+                <img class="landing-page__illo" src="../../assets/talk-berlin.jpg" />
+              </a>
             </div>
           </div>
         </div>
@@ -64,39 +65,33 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              
-              
               <a href="https://youtu.be/kp6tm8gdjTc?t=77">
-
-  <img
-                class="landing-page__illo"
-                src="../../assets/talk-webinar.png"
-                alt="Carbon illustration"
-              />
-</a>
+                <img class="landing-page__illo" src="../../assets/talk-webinar.jpg" />
+              </a>
               <p class="landing-page__p"></p>
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">JakartaEE Tech Talk</h1>
-              <p
-                class="landing-page__p"
-              >In this 45 minutes webinar <cv-link style="font-size: inherit;" href="https://twitter.com/nheidloff">Niklas Heidloff</cv-link>
-              gives an overview of most of the cloud-native functionality in Cloud Native Starter.
+              <p class="landing-page__p">
+                In this 45 minutes webinar
+                <cv-link
+                  style="font-size: inherit;"
+                  href="https://twitter.com/nheidloff"
+                >Niklas Heidloff</cv-link> gives an overview of most of the cloud-native functionality in Cloud Native Starter.
               </p>
-              <p
-                class="landing-page__p"
-              >The <cv-link style="font-size: inherit;" href="http://heidloff.net/article/recording-jakarta-tech-talk-how-to-develop-microservices/">slides</cv-link> have been published.
+              <p class="landing-page__p">
+                The
+                <cv-link
+                  style="font-size: inherit;"
+                  href="http://heidloff.net/article/recording-jakarta-tech-talk-how-to-develop-microservices/"
+                >slides</cv-link> have been published.
               </p>
-             
             </div>
           </div>
         </div>
       </div>
     </div>
-  
-
-
 
     <div
       class="bx--row landing-page__r2"
@@ -110,34 +105,30 @@
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
               >Microservices für Beginner (German)</h1>
-              <p
-                class="landing-page__p"
-              >In this 30 minutes talk <cv-link style="font-size: inherit;" href="https://twitter.com/nheidloff">Niklas Heidloff</cv-link>
-              gives a quick overview of the key cloud-native functionality in Cloud Native Starter.
+              <p class="landing-page__p">
+                In this 30 minutes talk
+                <cv-link
+                  style="font-size: inherit;"
+                  href="https://twitter.com/nheidloff"
+                >Niklas Heidloff</cv-link> gives a quick overview of the key cloud-native functionality in Cloud Native Starter.
               </p>
-              <p
-                class="landing-page__p"
-              >The <cv-link style="font-size: inherit;" href="https://github.com/nheidloff/cloud-native-starter/blob/master/documentation/OneHourTalk.pdf">slides</cv-link> have been published.
+              <p class="landing-page__p">
+                The
+                <cv-link
+                  style="font-size: inherit;"
+                  href="https://github.com/nheidloff/cloud-native-starter/blob/master/documentation/OneHourTalk.pdf"
+                >slides</cv-link> have been published.
               </p>
-             
-              
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-                 <a href="https://www.youtube.com/watch?v=oabKnZO2mUA">
-
-  <img
-                class="landing-page__illo"
-                src="../../assets/talk-hamburg.png"
-                alt="Carbon illustration"
-              />
-</a>
+              <a href="https://www.youtube.com/watch?v=oabKnZO2mUA">
+                <img class="landing-page__illo" src="../../assets/talk-hamburg.jpg" />
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
 
     <div
       class="bx--row landing-page__r2"
@@ -147,50 +138,44 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              
-              
               <a href="http://airhacks.fm/#episode_63">
-
-  <img
-                class="landing-page__illo"
-                src="../../assets/podcast.png"
-                alt="Carbon illustration"
-              />
-</a>
+                <img class="landing-page__illo" src="../../assets/podcast.png" />
+              </a>
               <p class="landing-page__p"></p>
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Airhacks Podcast</h1>
-              <p
-                class="landing-page__p"
-              >In this podcast <cv-link style="font-size: inherit;" href="https://twitter.com/AdamBien">Adam Bien</cv-link>
-              interviews <cv-link style="font-size: inherit;" href="https://twitter.com/nheidloff">Niklas Heidloff</cv-link>
-              about the Cloud Native Starter project and provides feedback.
+              <p class="landing-page__p">
+                In this podcast
+                <cv-link style="font-size: inherit;" href="https://twitter.com/AdamBien">Adam Bien</cv-link> interviews
+                <cv-link
+                  style="font-size: inherit;"
+                  href="https://twitter.com/nheidloff"
+                >Niklas Heidloff</cv-link> about the Cloud Native Starter project and provides feedback.
               </p>
-              
-             
+              <p class="landing-page__p">
+                Listen to the 
+                <cv-link
+                  style="font-size: inherit;"
+                  href="http://airhacks.fm/#episode_63"
+                >podcast</cv-link>.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-
-
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 1rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <img
-                class="landing-page__illo"
-                src="../../assets/directory-235562_1280.png"
-                alt="Carbon illustration"
-              />
+              <img class="landing-page__illo" src="../../assets/next.png" />
               <p class="landing-page__p"></p>
             </div>
 
@@ -199,28 +184,44 @@
               <p
                 class="landing-page__p"
               >Choose how you prefer to learn more about Cloud Native Starter.</p>
-            
+
               <p class="landing-page__p">
                 <cv-list>
-                  
                   <cv-list-item>
-                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/get-started">Set up the sample application</router-link>   
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
+                      to="/get-started"
+                    >Set up the sample application</router-link>
                   </cv-list-item>
                   <cv-list-item>
-                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/capabilities">Learn about the capabilities</router-link>   
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
+                      to="/capabilities"
+                    >Learn about the capabilities</router-link>
                   </cv-list-item>
                   <cv-list-item>
-                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/blogs">Read blogs</router-link>   
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
+                      to="/blogs"
+                    >Read blogs</router-link>
                   </cv-list-item>
                   <cv-list-item>
-                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/get-started">Get your hands dirty with workshops</router-link>   
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
+                      to="/get-started"
+                    >Get your hands dirty with workshops</router-link>
                   </cv-list-item>
                   <cv-list-item>
-                    - <router-link class="cv-link bx--link" style="font-size:20px" to="/get-started">Contact the Cloud Native Starter developers</router-link>   
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
+                      to="/get-started"
+                    >Contact the Cloud Native Starter developers</router-link>
                   </cv-list-item>
-                  
-                  
-                  
                 </cv-list>
               </p>
             </div>
@@ -229,8 +230,7 @@
       </div>
     </div>
 
-
-<div
+    <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
@@ -238,44 +238,40 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-8 bx--col-lg-14">
-           <cv-link style="font-size: inherit;" href="https://github.com/ibm/cloud-native-starter">Repo on GitHub</cv-link>
-            |
-           <cv-link style="font-size: inherit;" href="https://www.ibm.com/cloud/container-service/">IBM Privacy Statement</cv-link>
- |
-           <cv-link style="font-size: inherit;" href="https://www.ibm.com/legal/us/en/">Terms of Use</cv-link>
- |
-           <cv-link style="font-size: inherit;" href="https://www.ibm.com/legal">Imprint / Impressum</cv-link>
-          
+              <cv-link
+                style="font-size: inherit;"
+                href="https://github.com/ibm/cloud-native-starter"
+              >Repo on GitHub</cv-link> |
+              <cv-link
+                style="font-size: inherit;"
+                href="https://www.ibm.com/cloud/container-service/"
+              >IBM Privacy Statement</cv-link> |
+              <cv-link
+                style="font-size: inherit;"
+                href="https://www.ibm.com/legal/us/en/"
+              >Terms of Use</cv-link> |
+              <cv-link
+                style="font-size: inherit;"
+                href="https://www.ibm.com/legal"
+              >Imprint / Impressum</cv-link>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
-
   </div>
-
-  
 </template>
 
 <script>
-
 export default {
   name: 'Talks',
-  created() {
-  },
+  created() {},
   methods: {
     onGithubClicked() {
-      window.open('https://github.com/ibm/cloud-native-starter','_blank');
+      window.open('https://github.com/ibm/cloud-native-starter', '_blank');
     },
     onGetStartedClicked() {
-      this.$router.push("get-started");
+      this.$router.push('get-started');
     }
   }
 };
@@ -286,6 +282,11 @@ export default {
 @import './../carbon-overrides';
 @import './../mixins';
 
+ol,
+ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
 .landing-page__illo {
   max-width: 100%;
 }
