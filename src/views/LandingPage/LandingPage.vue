@@ -189,8 +189,8 @@
                     <cv-link
                       style="font-size: inherit;"
                       href="https://www.ibm.com/cloud/openshift"
-                    >Red Hat Open Shift on IBM Cloud</cv-link>
-                  </cv-list-item>
+                    >Red Hat OpenShift on IBM Cloud</cv-link>
+                  </cv-list-item> 
                 </cv-list>
               </p>
             </div>
