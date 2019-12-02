@@ -286,7 +286,7 @@ $ scripts/show-urls.sh
               >Repo on GitHub</cv-link> |
               <cv-link
                 style="font-size: inherit;"
-                href="https://www.ibm.com/cloud/container-service/"
+                href="https://www.ibm.com/privacy/us/en/"
               >IBM Privacy Statement</cv-link> |
               <cv-link
                 style="font-size: inherit;"
