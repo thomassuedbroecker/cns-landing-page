@@ -295,7 +295,11 @@ $ scripts/show-urls.sh
               <cv-link
                 style="font-size: inherit;"
                 href="https://www.ibm.com/legal"
-              >Imprint / Impressum</cv-link>
+              >Imprint / Impressum</cv-link> |
+              <cv-link
+                style="font-size: inherit;"
+                href="https://www.ibm.com/de-de/about?lnk=flg"
+              >Impressum (German)</cv-link>
             </div>
           </div>
         </div>

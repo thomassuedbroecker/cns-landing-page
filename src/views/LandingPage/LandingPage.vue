@@ -81,7 +81,7 @@
                     <cv-link style="font-size: inherit;" href="https://quarkus.io/">Quarkus</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    <cv-link style="font-size: inherit;" href="https://openliberty.io/">Open Liberty</cv-link>/
+                    <cv-link style="font-size: inherit;" href="https://openliberty.io/">Open Liberty</cv-link> /
                     <cv-link
                       style="font-size: inherit;"
                       href="https://jakarta.ee/"
@@ -323,7 +323,11 @@
               <cv-link
                 style="font-size: inherit;"
                 href="https://www.ibm.com/legal"
-              >Imprint / Impressum</cv-link>
+              >Imprint / Impressum</cv-link> |
+              <cv-link
+                style="font-size: inherit;"
+                href="https://www.ibm.com/de-de/about?lnk=flg"
+              >Impressum (German)</cv-link>
             </div>
           </div>
         </div>
