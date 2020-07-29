@@ -220,7 +220,7 @@ export default {
       window.open('https://github.com/IBM/cloud-native-starter/tree/master/workshop', '_blank');
     },
     onWorkshop3Clicked() {
-      window.open('https://github.com/ibm/openshift-on-ibm-cloud-workshops/tree/master/2-deploying-to-openshift', '_blank');
+      window.open('https://github.com/IBM/openshift-on-ibm-cloud-workshops/blob/master/README.md', '_blank');
     }
   }
 };
