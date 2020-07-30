@@ -21,7 +21,18 @@
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">One Hour Workshop</h1>
-              <p class="landing-page__p">This workshop demonstrates how to develop the 'authors' microservice with MicroProfile and how to deploy it to Kubernetes.</p>
+              <p class="landing-page__p">This workshop demonstrates how to develop the 'authors' microservice with MicroProfile and how to deploy it to Kubernetes. The workshop is the prerequisite for the 
+              <cv-link
+                  style="font-size: inherit;"
+                  href="https://github.com/IBM/cloud-native-starter/tree/master/workshop-one-service#cloud-native-starter-badge---level-1"
+                >OpenBadge "Cloud Native Starter Level 1"</cv-link>.
+              </p>
+              <img
+                class="landing-page__illo"
+                src="../../assets/cloud-native-starter-level-1.png"
+                style="border:1px solid #ddd"
+                v-on:click="onWorkshop1BadgeClicked"
+              /> 
               <p class="landing-page__p" style="padding-top: 15px;">
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;"
@@ -215,6 +226,9 @@ export default {
     },
     onWorkshop1Clicked() {
       window.open('https://github.com/IBM/cloud-native-starter/tree/master/workshop-one-service', '_blank');
+    },
+    onWorkshop1BadgeClicked() {
+      window.open('https://github.com/IBM/cloud-native-starter/tree/master/workshop-one-service#cloud-native-starter-badge---level-1', '_blank');
     },
     onWorkshop2Clicked() {
       window.open('https://github.com/IBM/cloud-native-starter/tree/master/workshop', '_blank');
