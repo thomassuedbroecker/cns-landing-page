@@ -26,6 +26,21 @@ export default new Router({
       name: 'about',
       component: () =>
         import(/* webpackChunkName: "about" */ './views/About')
+    },
+    {
+      path: '/reactive',
+      name: 'reactive',
+      beforeEnter() {location.href = 'https://cloud-native-starter-reactive-tsuedbro.mybluemix.net/'}
+    },
+    {
+      path: '/synchron',
+      name: 'synchron',
+      beforeEnter() {location.href = 'https://cloud-native-starter-synchron-tsuedbro.mybluemix.net/'}
+    },
+    {
+      path: '/security',
+      name: 'security',
+      beforeEnter() {location.href = 'https://cloud-native-starter-security-tsuedbro.mybluemix.net/'}
     }
   ]
 });

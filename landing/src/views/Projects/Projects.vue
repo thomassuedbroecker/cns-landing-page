@@ -1,4 +1,5 @@
 <template>
+  <!-- Header -->
   <div
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
@@ -11,10 +12,11 @@
         <h1
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
-        >Cloud-Native-Starter projects</h1>
+        >Cloud Native Starter projects</h1>
       </div>
     </div>
 
+    <!-- Synchronous -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -47,6 +49,7 @@
       </div>
     </div>
 
+    <!-- Reactive -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -67,7 +70,7 @@
               >This part of the cloud-native-starter project describes how to implement reactive microservices with Quarkus, MicroProfile, Vert.x, Kafka and Postgres.</p>
               <cv-button
                 style="padding-right: 12px;font-size: 20px;"
-                v-on:click="onRestClicked"
+                v-on:click="onReactiveClicked"
                 kind="tertiary"
               >Learn More</cv-button>
             </div>
@@ -76,6 +79,7 @@
       </div>
     </div>
 
+    <!-- Security -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -90,7 +94,7 @@
               >The project shows how traffic between different versions of services can be split with Istio.</p>
               <cv-button
                 style="padding-right: 12px;font-size: 20px;"
-                v-on:click="onTrafficClicked"
+                v-on:click="onSecurityClicked"
                 kind="tertiary"
               >Learn More</cv-button>
               <p
@@ -99,8 +103,7 @@
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <img class="landing-page__illo" src="../../assets/traffic-management.png" style="border:1px solid #ddd" />
-
+              <img class="landing-page__illo" src="../../assets/architecture-security.png" style="border:1px solid #ddd" />
               <p class="landing-page__p"></p>
             </div>
           </div>
@@ -108,69 +111,7 @@
       </div>
     </div>
 
-    <div
-      class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
-    >
-      <div class="bx--col bx--no-gutter">
-        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
-          <div class="bx--row landing-page__tab-content">
-            <div class="bx--col-md-4 bx--col-lg-7">
-              <img class="landing-page__illo" src="../../assets/next.png" />
-              <p class="landing-page__p"></p>
-            </div>
-
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">What's next?</h1>
-              <p
-                class="landing-page__p"
-              >Choose how you prefer to learn more about Cloud Native Starter.</p>
-
-              <p class="landing-page__p">
-                <cv-list>
-                  <cv-list-item>
-                    <router-link
-                      class="cv-link bx--link"
-                      style="font-size:20px"
-                      to="/get-started"
-                    >Set up the sample application</router-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <router-link
-                      class="cv-link bx--link"
-                      style="font-size:20px"
-                      to="/talks"
-                    >Watch recorded talks</router-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <router-link
-                      class="cv-link bx--link"
-                      style="font-size:20px"
-                      to="/blogs"
-                    >Read blogs</router-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <router-link
-                      class="cv-link bx--link"
-                      style="font-size:20px"
-                      to="/workshops"
-                    >Get your hands dirty with workshops</router-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <router-link
-                      class="cv-link bx--link"
-                      style="font-size:20px"
-                      to="/about"
-                    >Contact the Cloud Native Starter developers</router-link>
-                  </cv-list-item>
-                </cv-list>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -218,27 +159,22 @@ export default {
     onGetStartedClicked() {
       this.$router.push('get-started');
     },
+    /* Navigation to external pages*/
     onSynchronousClicked() {
       window.open(
-        'https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoJavaImage.md',
+        'https://cloud-native-starter-synchron-tsuedbro.mybluemix.net/',
         '_blank'
       );
     },
-    onRestClicked() {
+    onSecurityClicked() {
       window.open(
-        'https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoConsumeRESTAPIs.md',
+        'https://cloud-native-starter-security-tsuedbro.mybluemix.net/',
         '_blank'
       );
     },
-    onTrafficClicked() {
+    onReactiveClicked() {
       window.open(
-        'https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoTrafficRouting.md',
-        '_blank'
-      );
-    },
-    onResiliencyClicked() {
-      window.open(
-        'https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoResiliency.md',
+        'https://cloud-native-starter-reactive-tsuedbro.mybluemix.net/',
         '_blank'
       );
     }

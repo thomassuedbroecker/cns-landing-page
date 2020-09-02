@@ -1,4 +1,5 @@
 <template>
+  <!-- Page header -->
   <div
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
@@ -15,12 +16,7 @@
         <p class="landing-page__p" style="padding-top: 5px;">
           <cv-button
             style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
-            v-on:click="onGetStartedMicroservices"
-          >Get Started</cv-button>
-          <cv-button
-            style="padding-right: 12px;font-size: 20px;margin-top:20px"
             v-on:click="onGithubClicked"
-            kind="tertiary"
           >Open Repo</cv-button>
         </p>
       </div>
@@ -62,7 +58,7 @@
                     <router-link
                       class="cv-link bx--link"
                       style="font-size:20px"
-                      to="/talks"
+                      to="/security"
                     ><b>Security</b> in microservices applications</router-link>
                   </cv-list-item>
                 </cv-list>
@@ -190,7 +186,7 @@
       </div>
     </div>
 
-    <!-- -->
+    <!-- Easy First Time Experience -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -199,18 +195,17 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <img class="landing-page__illo" src="../../assets/platforms.png" />
+              <img class="landing-page__illo" src="../../assets/urls.jpg" />
               <p class="landing-page__p"></p>
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Run Everywhere</h1>
-              <p
-                class="landing-page__p"
-              >Cloud Native Starter can be run on any Kubernetes implementation without vendor lock-in.</p>
-              <p
-                class="landing-page__p"
-              >Documentation and scripts are provided to deploy the sample application to the following environments:</p>
+            <h1 class="landing-page__subheading" style="font-size: 1.7rem;"
+            >Easy First Time Experience</h1>
+              <p class="landing-page__p"
+              >To minimize the time to get productive, several scripts are provided which make the setup as easy as possible.</p>
+              <p class="landing-page__p"
+              >Since finding the URLs of all services and tools can be challenging, a script displays all relevant endpoints.</p>
 
               <p class="landing-page__p">
                 <cv-list>
@@ -246,38 +241,7 @@
       </div>
     </div>
     
-    <!-- Easy First Time Experience -->
-    <div
-      class="bx--row landing-page__r2"
-      style="padding-top: 3rem;padding-bottom: 2rem;padding-left: 2rem; padding-right: 2rem;"
-    >
-      <div class="bx--col bx--no-gutter">
-        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
-          <div class="bx--row landing-page__tab-content">
-            <div class="bx--col-md-4 bx--col-lg-7">
-              <h1
-                class="landing-page__subheading"
-                style="font-size: 1.7rem;"
-              >Easy First Time Experience</h1>
-              <p
-                class="landing-page__p"
-              >To minimize the time to get productive, several scripts are provided which make the setup as easy as possible.</p>
-              <p
-                class="landing-page__p"
-              >Since finding the URLs of all services and tools can be challenging, a script displays all relevant endpoints.</p>
-            </div>
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <img
-                class="landing-page__illo"
-                src="../../assets/urls.jpg"
-                style="border:1px solid #ddd"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -321,9 +285,6 @@ export default {
   methods: {
     onGithubClicked() {
       window.open('https://github.com/ibm/cloud-native-starter', '_blank');
-    },
-    onGetStartedClicked() {
-      this.$router.push('get-started');
     }
   }
 };
