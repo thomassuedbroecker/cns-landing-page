@@ -1,6 +1,6 @@
 applications:
-- name: cloud-native-starter-microservices-tsuedbro
-  host: cloud-native-starter-microservices-tsuedbro
+- name: cloud-native-starter-synchron-tsuedbro
+  host: cloud-native-starter-synchron-tsuedbro
   memory: 512M
   instances: 1
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack
