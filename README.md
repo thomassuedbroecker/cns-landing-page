@@ -1,12 +1,55 @@
 # cloud-native-starter.com Website
 
+## Connect to IBM Cloud 
+
+```sh
+ibmcloud login -sso
+ibmcloud target -o [CF-ORG] -s [CF-SPACE] --cf-api [https://api.us-south.cf.cloud.ibm.com] -g [default]
+sh deployCF.sh
+```
+## Landing
+
+...
+
 ```sh
 git clone
-cd cns-landing-page
+cd landing
 yarn install
 yarn serve
 ```
 
+## Microserices
+
+...
+
+```sh
+git clone
+cd microservices
+yarn install
+yarn serve
+```
+
+## Reactive
+
+...
+
+```sh
+git clone
+cd reactive
+yarn install
+yarn serve
+```
+
+## Security 
+
+...
+
+```sh
+git clone
+cd security
+yarn install
+yarn serve
+```
 
 # System prerequisites
 

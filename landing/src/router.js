@@ -16,12 +16,6 @@ export default new Router({
       component: LandingPage
     },
     {
-      path: '/get-started',
-      name: 'get-started',
-      component: () =>
-        import(/* webpackChunkName: "get-started" */ './views/GetStarted')
-    },
-    {
       path: '/projects',
       name: 'projects',
       component: () =>

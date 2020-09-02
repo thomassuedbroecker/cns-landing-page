@@ -6,14 +6,6 @@
 
     <nav class="cv-header-nav bx--header__nav" aria-label="label nav">
       <ul role="menubar" class="bx--header__menu-bar">
-        <li class="cv-header-menu-item">
-          <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/get-started">
-          <span class="bx--text-truncate--end">Get Started</span></router-link>
-        </li>
-      </ul>
-    </nav>
-    <nav class="cv-header-nav bx--header__nav" aria-label="label nav">
-      <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">      
           <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/projects">
           <span class="bx--text-truncate--end">Projects</span></router-link>

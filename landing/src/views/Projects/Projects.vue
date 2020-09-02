@@ -38,7 +38,7 @@
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img
                 class="landing-page__illo"
-                src="../../assets/containers.jpg"
+                src="../../assets/architecture-synchron.png"
                 style="border:1px solid #ddd"
               />
             </div>
@@ -55,7 +55,7 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <img class="landing-page__illo" src="../../assets/rest.png" />
+              <img class="landing-page__illo" src="../../assets/architecture-reactive.png" />
 
               <p class="landing-page__p"></p>
             </div>
@@ -64,7 +64,7 @@
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Get started with reactive programming for microservices applications</h1>
               <p
                 class="landing-page__p"
-              >The sample shows how to expose and consume REST APIs with MicroProfile.</p>
+              >This part of the cloud-native-starter project describes how to implement reactive microservices with Quarkus, MicroProfile, Vert.x, Kafka and Postgres.</p>
               <cv-button
                 style="padding-right: 12px;font-size: 20px;"
                 v-on:click="onRestClicked"
@@ -100,100 +100,6 @@
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img class="landing-page__illo" src="../../assets/traffic-management.png" style="border:1px solid #ddd" />
-
-              <p class="landing-page__p"></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
-    >
-      <div class="bx--col bx--no-gutter">
-        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
-          <div class="bx--row landing-page__tab-content">
-            <div class="bx--col-md-4 bx--col-lg-7">
-              <img class="landing-page__illo" src="../../assets/resiliency.png" />
-
-              <p class="landing-page__p"></p>
-            </div>
-
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Resiliency</h1>
-              <p
-                class="landing-page__p"
-              >The sample shows how to develop Java microservices with MicroProfile so that application stay responsive.</p>
-              <cv-button
-                style="padding-right: 12px;font-size: 20px;"
-                v-on:click="onResiliencyClicked"
-                kind="tertiary"
-              >Learn More</cv-button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="bx--row landing-page__r2"
-      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
-    >
-      <div class="bx--col bx--no-gutter">
-        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
-          <div class="bx--row landing-page__tab-content">
-            <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">More Capabilities</h1>
-              <p
-                class="landing-page__p"
-              >Cloud Native Starter demonstrates several other cloud-native features:</p>
-              <cv-list>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoDistributedLoggingMonitoring.md"
-                  >Distributed Logging</cv-link>
-                </cv-list-item>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoHealthCheck.md"
-                  >Health Checks</cv-link>
-                </cv-list-item>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoConfiguration.md"
-                  >Configuration</cv-link>
-                </cv-list-item>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoMetrics.md"
-                  >Metrics</cv-link>
-                </cv-list-item>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoAuthentication.md"
-                  >Authentication and Authorization</cv-link>
-                </cv-list-item>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoJPA.md"
-                  >Persistence</cv-link>
-                </cv-list-item>
-              </cv-list>
-              <p
-                class="landing-page__p"
-              ></p>
-            </div>
-
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <img class="landing-page__illo" src="../../assets/logging.jpg" />
 
               <p class="landing-page__p"></p>
             </div>
