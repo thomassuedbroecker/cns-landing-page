@@ -1,4 +1,5 @@
 <template>
+  <!-- Header -->
   <div
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
@@ -11,7 +12,7 @@
         <h1
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
-        >Learn how to develop and operate Microservices</h1>
+        >Get started with reactive programming</h1>
         <p class="landing-page__p" style="padding-top: 5px;">
           <cv-button
             style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
@@ -342,7 +343,7 @@ export default {
   created() {},
   methods: {
     onGithubClicked() {
-      window.open('https://github.com/ibm/cloud-native-starter', '_blank');
+      window.open('https://github.com/IBM/cloud-native-starter/blob/master/reactive/README.md', '_blank');
     },
     onGetStartedClicked() {
       this.$router.push('get-started');

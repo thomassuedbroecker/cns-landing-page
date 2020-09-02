@@ -7,6 +7,37 @@ ibmcloud login -sso
 ibmcloud target -o [CF-ORG] -s [CF-SPACE] --cf-api [https://api.us-south.cf.cloud.ibm.com] -g [default]
 sh deployCF.sh
 ```
+
+## Configure pipline jobs for the deployment
+
+```sh
+#!/bin/bash
+echo "-----------------------------"
+echo " install yarn"
+echo "-----------------------------"
+curl -o- -L https://yarnpkg.com/install.sh | bash
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+echo "-----------------------------"
+echo "deploy landing page"
+echo "-----------------------------"
+
+echo "build application"
+cd landing
+yarn install
+yarn build
+cp Staticfile dist/Staticfile
+cp manifest.yaml dist/manifest.yaml
+cd dist
+
+echo "-----------------------------"
+echo "deploy application"
+echo "-----------------------------"
+cf push
+```
+
+# Run the applications locally
+
 ## Landing
 
 ...
@@ -18,13 +49,13 @@ yarn install
 yarn serve
 ```
 
-## Microserices
+## Synchron
 
 ...
 
 ```sh
 git clone
-cd microservices
+cd synchron
 yarn install
 yarn serve
 ```

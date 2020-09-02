@@ -16,6 +16,11 @@ export default new Router({
       component: LandingPage
     },
     {
+      path: '/home',
+      name: 'home',
+      beforeEnter() {location.href = 'https://cloud-native-starter-landing-tsuedbro.mybluemix.net/'}
+    },
+    {
       path: '/get-started',
       name: 'get-started',
       component: () =>

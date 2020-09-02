@@ -2,7 +2,7 @@
   <header role="banner" data-header class="cv-header bx--header" aria-label="label">
     
     <router-link class="cv-header-name bx--header__name router-link-exact-active router-link-active" role="menuitem" style="font-size:14px" to="/">
-    <span class="bx--text-truncate--end">Cloud Native Starter - Security</span></router-link>
+    <span class="bx--text-truncate--end">Security</span></router-link>
 
     <nav class="cv-header-nav bx--header__nav" aria-label="label nav">
       <ul role="menubar" class="bx--header__menu-bar">
@@ -71,7 +71,7 @@ export default {
   components: { Github20 },
   methods: {
     onGithubClicked() {
-      window.open('https://github.com/ibm/cloud-native-starter', '_blank');
+      window.open('https://github.com/IBM/cloud-native-starter/blob/master/security/README.md', '_blank');
     }
   }
 };
