@@ -3,7 +3,7 @@
     
     <!-- Header -->
     <router-link class="cv-header-name bx--header__name router-link-exact-active router-link-active" role="menuitem" style="font-size:14px" to="/home">
-    <span class="bx--text-truncate--end"></span>Cloud Native Starter</router-link>
+    <span class="bx--text-truncate--end">Cloud Native Starter</span></router-link>
 
     <!-- Home Cloud Native Starter -->
     <nav class="cv-header-nav bx--header__nav" aria-label="label nav">
