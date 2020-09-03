@@ -25,10 +25,10 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Get started with synchronous microservices</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Get started with Cloud Native Applications</h1>
               <p
                 class="landing-page__p"
-              >The first part of the project focusses on how to build microservices with Java EE and the open source technologies Eclipse MicroProfile, Eclipse OpenJ9, AdoptOpenJDK and Open Liberty.</p>
+              >Cloud Native Starter demonstrates how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, OpenShift and Istio.</p>
               <p class="landing-page__p" style="padding-top: 5px;">
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;"
@@ -64,10 +64,10 @@
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Get started with reactive programming for microservices applications</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Get started with Reactive Applications</h1>
               <p
                 class="landing-page__p"
-              >This part of the cloud-native-starter project describes how to implement reactive microservices with Quarkus, MicroProfile, Vert.x, Kafka and Postgres.</p>
+              >Cloud Native Starter explains how to use reactive programming and event based messaging in Quarkus applications and how to run them on Kubernetes and OpenShift.</p>
               <cv-button
                 style="padding-right: 12px;font-size: 20px;"
                 v-on:click="onReactiveClicked"
@@ -91,7 +91,7 @@
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Get started with security for microservices applications</h1>
               <p
                 class="landing-page__p"
-              >The project shows how traffic between different versions of services can be split with Istio.</p>
+              >Cloud Native Starter explains how to do authentication and authorization in Quarkus applications with Keycloak and how to do network encryption with Istio.</p>
               <cv-button
                 style="padding-right: 12px;font-size: 20px;"
                 v-on:click="onSecurityClicked"

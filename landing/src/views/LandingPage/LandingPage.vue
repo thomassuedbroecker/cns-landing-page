@@ -12,7 +12,7 @@
         <h1
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
-        >Learn to get started with Microservices</h1>
+        >Learn how to develop and operate cloud-native applications</h1>
         <p class="landing-page__p" style="padding-top: 5px;">
           <cv-button
             style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
@@ -45,21 +45,21 @@
                       class="cv-link bx--link"
                       style="font-size:20px"
                       to="/synchon"
-                    ><b>Synchronous RESTful architecture</b> in microservices applications</router-link>
+                    >First Cloud Native Applications</router-link>
                   </cv-list-item>
                   <cv-list-item>
                     <router-link
                       class="cv-link bx--link"
                       style="font-size:20px"
                       to="/reactive"
-                    ><b>Reactive programming</b> in microservices applications</router-link>
+                    >Reactive Applications</router-link>
                   </cv-list-item>
                   <cv-list-item>
                     <router-link
                       class="cv-link bx--link"
                       style="font-size:20px"
                       to="/security"
-                    ><b>Security</b> in microservices applications</router-link>
+                    >Security for Cloud Native Applications</router-link>
                   </cv-list-item>
                 </cv-list>
               </p>

@@ -12,7 +12,7 @@
         <h1
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
-        >Get started with reactive programming</h1>
+        >Learn how to develop modern cloud native applications with reactive programming and messaging</h1>
         <p class="landing-page__p" style="padding-top: 5px;">
           <cv-button
             style="padding-right: 12px;font-size: 20px;margin-right: 20px;"

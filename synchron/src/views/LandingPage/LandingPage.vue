@@ -11,7 +11,7 @@
         <h1
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
-        >Learn how to develop and operate Microservices</h1>
+        >Learn how to start developing and operating simple cloud native applications</h1>
         <p class="landing-page__p" style="padding-top: 5px;">
           <cv-button
             style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
