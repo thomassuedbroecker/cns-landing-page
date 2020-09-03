@@ -44,7 +44,7 @@
                     <router-link
                       class="cv-link bx--link"
                       style="font-size:20px"
-                      to="/synchon"
+                      to="/synchron"
                     >First Cloud Native Application</router-link>
                   </cv-list-item>
                   <cv-list-item>
