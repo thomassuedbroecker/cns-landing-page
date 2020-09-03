@@ -11,7 +11,7 @@
         <h1
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
-        >Learn how to start developing and operating simple cloud native applications</h1>
+        > Learn how to start developing and operating simple Cloud-Native Applications</h1>
         <p class="landing-page__p" style="padding-top: 5px;">
           <cv-button
             style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
@@ -26,6 +26,7 @@
       </div>
     </div>
 
+    <!-- What is ... -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -37,14 +38,14 @@
               <h1
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
-              >What is Cloud Native Starter?</h1>
+              >What is the First Cloud-Native Application subproject?</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter is an open source project that demonstrates how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes and Istio.</p>
+              >This subproject demonstrates how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes and Istio.</p>
 
               <p
                 class="landing-page__p"
-              >The project comes with a simple sample application that displays and manages articles.</p>
+              >It uses a simple sample application that displays and manages articles.</p>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img
@@ -58,6 +59,7 @@
       </div>
     </div>
 
+    <!-- Get started -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -74,7 +76,7 @@
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Key Technologies</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter explains how to use the following technologies together:</p>
+              >This subproject uses the following technologies:</p>
               <p class="landing-page__p">
                 <cv-list>
                   <cv-list-item>

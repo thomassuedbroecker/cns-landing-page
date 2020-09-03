@@ -3,14 +3,14 @@
     
     <!-- Header -->
     <router-link class="cv-header-name bx--header__name router-link-exact-active router-link-active" role="menuitem" style="font-size:14px" to="/">
-    <span class="bx--text-truncate--end">Synchronous</span></router-link>
+    <span class="bx--text-truncate--end">First Cloud-Native Application</span></router-link>
 
-    <!-- Home -->
+    <!-- Home Cloud Native Starter -->
     <nav class="cv-header-nav bx--header__nav" aria-label="label nav">
       <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">
           <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/home">
-          <span class="bx--text-truncate--end">Home</span></router-link>
+          <span class="bx--text-truncate--end">Cloud Native Starter</span></router-link>
         </li>
       </ul>
     </nav>

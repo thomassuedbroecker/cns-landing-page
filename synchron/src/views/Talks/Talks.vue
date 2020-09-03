@@ -3,6 +3,7 @@
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
   >
+    <!-- Header -->
     <div
       class="bx--row landing-page__banner"
       style="padding-top: 4rem;padding-bottom: 4rem;padding-left: 2rem; padding-right: 2rem;"
@@ -14,7 +15,8 @@
         >Talks, Webinars and Podcasts</h1>
       </div>
     </div>
-
+    
+    <!-- Microservices for Beginners -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -56,7 +58,8 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- JakartaEE Tech Talk -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -93,6 +96,7 @@
       </div>
     </div>
 
+    <!-- Microservices für Beginner (German) -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -130,6 +134,7 @@
       </div>
     </div>
 
+    <!-- Adam Bien -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -158,7 +163,7 @@
                 Listen to the 
                 <cv-link
                   style="font-size: inherit;"
-                  href="http://airhacks.fm/#episode_63"
+                  href="https://airhacks.fm/#episode_66"
                 >podcast</cv-link>.
               </p>
             </div>
@@ -167,6 +172,7 @@
       </div>
     </div>
 
+    <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -229,7 +235,8 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
