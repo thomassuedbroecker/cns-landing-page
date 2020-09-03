@@ -12,7 +12,7 @@
         <h1
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
-        >Cloud Native Starter projects</h1>
+        >Cloud-Native, Reactive and Security</h1>
       </div>
     </div>
 
@@ -25,7 +25,7 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Get started with Cloud Native Applications</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">First Cloud Native Application</h1>
               <p
                 class="landing-page__p"
               >Cloud Native Starter demonstrates how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, OpenShift and Istio.</p>
@@ -64,7 +64,7 @@
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Get started with Reactive Applications</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Reactive Application</h1>
               <p
                 class="landing-page__p"
               >Cloud Native Starter explains how to use reactive programming and event based messaging in Quarkus applications and how to run them on Kubernetes and OpenShift.</p>
@@ -88,7 +88,7 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Get started with security for microservices applications</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Security for a Cloud Native Application</h1>
               <p
                 class="landing-page__p"
               >Cloud Native Starter explains how to do authentication and authorization in Quarkus applications with Keycloak and how to do network encryption with Istio.</p>

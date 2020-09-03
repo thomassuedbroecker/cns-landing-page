@@ -8,7 +8,7 @@
       <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">      
           <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/projects">
-          <span class="bx--text-truncate--end">Projects</span></router-link>
+          <span class="bx--text-truncate--end">Subprojects</span></router-link>
         </li>
       </ul>
     </nav>

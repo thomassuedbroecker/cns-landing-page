@@ -12,7 +12,7 @@
         <h1
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
-        >Learn how to develop and operate cloud-native applications</h1>
+        >Learn how to develop and operate Cloud-Native applications</h1>
         <p class="landing-page__p" style="padding-top: 5px;">
           <cv-button
             style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
@@ -37,29 +37,29 @@
               >What is Cloud Native Starter?</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter is an open source project that demonstrates how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, Istio and OpenShift. The project comes with a simple sample application that displays and manages articles.</p>           
-              <p class="landing-page__p">It covers the topics:
+              >Cloud Native Starter is an open source project.<br><br>The project demonstrates, how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, Istio and OpenShift. <br>The project comes with a simple sample application that displays and manages articles, and contains the following three subprojects:</p>           
+              <p class="landing-page__p">
                 <cv-list>
                   <cv-list-item>
                     <router-link
                       class="cv-link bx--link"
                       style="font-size:20px"
                       to="/synchon"
-                    >First Cloud Native Applications</router-link>
+                    >First Cloud Native Application</router-link>
                   </cv-list-item>
                   <cv-list-item>
                     <router-link
                       class="cv-link bx--link"
                       style="font-size:20px"
                       to="/reactive"
-                    >Reactive Applications</router-link>
+                    >Reactive Application</router-link>
                   </cv-list-item>
                   <cv-list-item>
                     <router-link
                       class="cv-link bx--link"
                       style="font-size:20px"
                       to="/security"
-                    >Security for Cloud Native Applications</router-link>
+                    >Security for a Cloud Native Application</router-link>
                   </cv-list-item>
                 </cv-list>
               </p>
@@ -90,10 +90,10 @@
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Open source as key technologies</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Open Source as Key Technologies</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter explains how to use the following open source technologies to build a microserices application based:</p>
+              >Cloud Native Starter uses open source technologies.<br>For example:</p>
               <p class="landing-page__p">
                 <cv-list>
                   <cv-list-item>
@@ -124,6 +124,9 @@
                   <cv-list-item>
                     <cv-link style="font-size: inherit;" href="https://istio.io/">Istio</cv-link>
                   </cv-list-item>
+                  <cv-list-item>
+                    <cv-link style="font-size: inherit;" href="https://www.keycloak.org/">Keycloak</cv-link>
+                  </cv-list-item>
                 </cv-list>
               </p>
             </div>
@@ -147,7 +150,7 @@
               >Run everywhere</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter can be run on any Kubernetes implementation without vendor lock-in. Documentation and scripts are provided to deploy the sample application to the following environments:</p>
+              >Cloud Native Starter subprojects can be run on any Kubernetes implementation without vendor lock-in. It provides documentation and scripts to deploy the sample application to different Kubernetes environments.</p>
               <p class="landing-page__p">
                 <cv-list>
                   <cv-list-item>
@@ -203,38 +206,7 @@
             <h1 class="landing-page__subheading" style="font-size: 1.7rem;"
             >Easy First Time Experience</h1>
               <p class="landing-page__p"
-              >To minimize the time to get productive, several scripts are provided which make the setup as easy as possible.</p>
-              <p class="landing-page__p"
-              >Since finding the URLs of all services and tools can be challenging, a script displays all relevant endpoints.</p>
-
-              <p class="landing-page__p">
-                <cv-list>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://kubernetes.io/docs/setup/learning-environment/minikube/"
-                    >Minikube</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://www.ibm.com/cloud/container-service/"
-                    >IBM Cloud Kubernetes Service</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://developers.redhat.com/products/codeready-containers/overview"
-                    >Red Hat CodeReady Containers</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://www.ibm.com/cloud/openshift"
-                    >Red Hat OpenShift on IBM Cloud</cv-link>
-                  </cv-list-item> 
-                </cv-list>
-              </p>
+              >To minimize the time to get productive, several scripts are provided which make the setup as easy as possible. Finding the URLs of all services and tools can be challenging. The image on the left-hand side shows for example, how a script displays the relevant endpoints in a subproject.</p>
             </div>
           </div>
         </div>
