@@ -2,15 +2,15 @@
   <header role="banner" data-header class="cv-header bx--header" aria-label="label">
     
     <!-- Header -->
-    <router-link class="cv-header-name bx--header__name router-link-exact-active router-link-active" role="menuitem" style="font-size:14px" to="/">
-    <span class="bx--text-truncate--end">Reactive programming</span></router-link>
+    <router-link class="cv-header-name bx--header__name router-link-exact-active router-link-active" role="menuitem" style="font-size:14px" to="/home">
+    <span class="bx--text-truncate--end">Cloud Native Starter</span></router-link>
 
     <!-- Home -->
     <nav class="cv-header-nav bx--header__nav" aria-label="label nav">
       <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">
-          <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/home">
-          <span class="bx--text-truncate--end">Home</span></router-link>
+          <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/">
+          <span class="bx--text-truncate--end">Reactive Application</span></router-link>
         </li>
       </ul>
     </nav>

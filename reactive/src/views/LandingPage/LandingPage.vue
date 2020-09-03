@@ -1,9 +1,10 @@
 <template>
-  <!-- Header -->
+  
   <div
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
   >
+    <!-- Header -->
     <div
       class="bx--row landing-page__banner"
       style="padding-top: 4rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -12,21 +13,22 @@
         <h1
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
-        >Learn how to develop modern Cloud Native Applications with Reactive programming and messaging</h1>
+        >Learn how to develop modern Cloud-Native Applications with Reactive Programming and Messaging</h1>
         <p class="landing-page__p" style="padding-top: 5px;">
           <cv-button
             style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
             v-on:click="onGetStartedClicked"
           >Get Started</cv-button>
           <cv-button
-            style="padding-right: 12px;font-size: 20px;margin-top:20px"
+            style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
             v-on:click="onGithubClicked"
             kind="tertiary"
           >Open Repo</cv-button>
         </p>
       </div>
     </div>
-
+    
+    <!-- What is .. -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -38,10 +40,10 @@
               <h1
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
-              >What is Cloud Native Starter?</h1>
+              >What is the Reactive Application subproject?</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter is an open source project that demonstrates how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes and Istio.</p>
+              >The Reactive Application subproject explains how to use reactive programming and event based messaging in Quarkus applications and how to run them on Kubernetes and OpenShift.</p>
 
               <p
                 class="landing-page__p"
@@ -59,6 +61,7 @@
       </div>
     </div>
 
+    <!-- Key Technologies -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -75,14 +78,13 @@
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Key Technologies</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter explains how to use the following technologies together:</p>
+              >The subproject Reactive Application explains how to use the following technologies:</p>
               <p class="landing-page__p">
                 <cv-list>
                   <cv-list-item>
                     <cv-link style="font-size: inherit;" href="https://quarkus.io/">Quarkus</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    <cv-link style="font-size: inherit;" href="https://openliberty.io/">Open Liberty</cv-link> /
                     <cv-link
                       style="font-size: inherit;"
                       href="https://jakarta.ee/"
@@ -104,7 +106,10 @@
                     <cv-link style="font-size: inherit;" href="https://kubernetes.io/">Kubernetes</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    <cv-link style="font-size: inherit;" href="https://istio.io/">Istio</cv-link>
+                    <cv-link style="font-size: inherit;" href="https://vertx.io">Vert.x</cv-link>
+                  </cv-list-item>
+                  <cv-list-item>
+                    <cv-link style="font-size: inherit;" href="https://kafka.apache.org">Apache Kafka</cv-link>
                   </cv-list-item>
                 </cv-list>
               </p>
@@ -114,6 +119,7 @@
       </div>
     </div>
 
+    <!-- Core Services are based on Open Source -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 4rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -136,7 +142,7 @@
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img
                 class="landing-page__illo"
-                src="../../assets/architecture.jpg"
+                src="../../assets/architecture-reactive.png"
                 style="border:1px solid #ddd"
               />
             </div>
@@ -301,6 +307,7 @@
       </div>
     </div>
 
+    <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"

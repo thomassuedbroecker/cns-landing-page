@@ -3,6 +3,7 @@
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
   >
+    <!-- Header -->
     <div
       class="bx--row landing-page__banner"
       style="padding-top: 4rem;padding-bottom: 4rem;padding-left: 2rem; padding-right: 2rem;"
@@ -11,10 +12,11 @@
         <h1
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
-        >Capabilities and Cloud-Native Functionality</h1>
+        >Capabilities</h1>
       </div>
     </div>
-
+    
+    <!-- Reactive messaging -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -23,14 +25,33 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Java Containers</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Reactive Messaging</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter demonstrates how to containerize microservices which use Quarkus and Open Liberty.</p>
+              >One benefit of reactive models is the ability to update web applications by sending messages, rather than pulling for updates. This is more efficient and improves the user experience. Articles can be created via REST API. The web application receives a notification and adds the new article to the page.<br>The following diagram explains the flow.</p>
+              <img
+                class="landing-page__illo"
+                src="../../assets/demo-2.png"
+                style="border:1px solid #ddd"
+              />
+              <p
+                class="landing-page__p"
+              >To try this functionality yourself, create a new article either via the API explorer or curl. Open either the web application or only the stream endpoint in a browser. See the output of 'show-urls.sh' for the URLs.<br>This scenario uses the following reactive functionality:              
+              </p>
+              <p
+                class="landing-page__p"
+              >
+              <cv-list-item>1. Sending events from a microservice to a web application via Server Sent Events</cv-list-item>
+              <cv-list-item>2. Sending in-memory messages via MicroProfile</cv-list-item> 
+              <cv-list-item>3. Sending in-memory messages via Vertx event bus</cv-list-item>
+              <cv-list-item>4. Sending and receiving Kafka messages via MicroProfile</cv-list-item>
+              <cv-list-item>5. Sending Kafka messages via Kafka API</cv-list-item>
+              </p>
+              
               <p class="landing-page__p" style="padding-top: 5px;">
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;"
-                  v-on:click="onContainerClicked"
+                  v-on:click="onReactiveMessagingClicked"
                   kind="tertiary"
                 >Learn More</cv-button>
               </p>
@@ -38,7 +59,7 @@
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img
                 class="landing-page__illo"
-                src="../../assets/containers.jpg"
+                src="../../assets/demo-1-video.gif"
                 style="border:1px solid #ddd"
               />
             </div>
@@ -312,9 +333,9 @@ export default {
     onGetStartedClicked() {
       this.$router.push('get-started');
     },
-    onContainerClicked() {
+    onReactiveMessagingClicked() {
       window.open(
-        'https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoJavaImage.md',
+        'https://github.com/IBM/cloud-native-starter/blob/master/reactive/README.md#scenario-1---reactive-messaging',
         '_blank'
       );
     },
