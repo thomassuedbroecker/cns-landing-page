@@ -28,26 +28,8 @@
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Reactive Messaging</h1>
               <p
                 class="landing-page__p"
-              >One benefit of reactive models is the ability to update web applications by sending messages, rather than pulling for updates. This is more efficient and improves the user experience. Articles can be created via REST API. The web application receives a notification and adds the new article to the page.<br>The following diagram explains the flow.</p>
-              <img
-                class="landing-page__illo"
-                src="../../assets/demo-2.png"
-                style="border:1px solid #ddd"
-              />
-              <p
-                class="landing-page__p"
-              >To try this functionality yourself, create a new article either via the API explorer or curl. Open either the web application or only the stream endpoint in a browser. See the output of 'show-urls.sh' for the URLs.<br>This scenario uses the following reactive functionality:              
-              </p>
-              <p
-                class="landing-page__p"
-              >
-              <cv-list-item>1. Sending events from a microservice to a web application via Server Sent Events</cv-list-item>
-              <cv-list-item>2. Sending in-memory messages via MicroProfile</cv-list-item> 
-              <cv-list-item>3. Sending in-memory messages via Vertx event bus</cv-list-item>
-              <cv-list-item>4. Sending and receiving Kafka messages via MicroProfile</cv-list-item>
-              <cv-list-item>5. Sending Kafka messages via Kafka API</cv-list-item>
-              </p>
-              
+              >One benefit of reactive models is the ability to update web applications by sending messages, rather than pulling for updates. This is more efficient and improves the user experience. Articles can be created via REST API. The web application receives a notification and adds the new article to the page.</p>
+
               <p class="landing-page__p" style="padding-top: 5px;">
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;"
@@ -68,6 +50,7 @@
       </div>
     </div>
 
+    <!-- Reactive REST Endpoints -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -76,19 +59,19 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <img class="landing-page__illo" src="../../assets/rest.png" />
+              <img class="landing-page__illo" src="../../assets/reactive-rest-endpoint.png" />
 
               <p class="landing-page__p"></p>
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">REST APIs</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Reactive REST Endpoints for higher Efficiency</h1>
               <p
                 class="landing-page__p"
-              >The sample shows how to expose and consume REST APIs with MicroProfile.</p>
+              >Another benefit of reactive systems and reactive REST endpoints is efficiency. This scenario describes how to use reactive systems and reactive programming to achieve faster response times. Especially in public clouds where costs depend on CPU, RAM and compute durations this model saves money.</p>
               <cv-button
                 style="padding-right: 12px;font-size: 20px;"
-                v-on:click="onRestClicked"
+                v-on:click="onReactiveRestClicked"
                 kind="tertiary"
               >Learn More</cv-button>
             </div>
@@ -96,136 +79,11 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 3rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
-    >
-      <div class="bx--col bx--no-gutter">
-        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
-          <div class="bx--row landing-page__tab-content">
-            <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Traffic Routing</h1>
-              <p
-                class="landing-page__p"
-              >The project shows how traffic between different versions of services can be split with Istio.</p>
-              <cv-button
-                style="padding-right: 12px;font-size: 20px;"
-                v-on:click="onTrafficClicked"
-                kind="tertiary"
-              >Learn More</cv-button>
-              <p
-                class="landing-page__p"
-              ></p>
-            </div>
-
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <img class="landing-page__illo" src="../../assets/traffic-management.png" style="border:1px solid #ddd" />
-
-              <p class="landing-page__p"></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
-    >
-      <div class="bx--col bx--no-gutter">
-        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
-          <div class="bx--row landing-page__tab-content">
-            <div class="bx--col-md-4 bx--col-lg-7">
-              <img class="landing-page__illo" src="../../assets/resiliency.png" />
-
-              <p class="landing-page__p"></p>
-            </div>
-
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Resiliency</h1>
-              <p
-                class="landing-page__p"
-              >The sample shows how to develop Java microservices with MicroProfile so that application stay responsive.</p>
-              <cv-button
-                style="padding-right: 12px;font-size: 20px;"
-                v-on:click="onResiliencyClicked"
-                kind="tertiary"
-              >Learn More</cv-button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="bx--row landing-page__r2"
-      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
-    >
-      <div class="bx--col bx--no-gutter">
-        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
-          <div class="bx--row landing-page__tab-content">
-            <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">More Capabilities</h1>
-              <p
-                class="landing-page__p"
-              >Cloud Native Starter demonstrates several other cloud-native features:</p>
-              <cv-list>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoDistributedLoggingMonitoring.md"
-                  >Distributed Logging</cv-link>
-                </cv-list-item>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoHealthCheck.md"
-                  >Health Checks</cv-link>
-                </cv-list-item>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoConfiguration.md"
-                  >Configuration</cv-link>
-                </cv-list-item>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoMetrics.md"
-                  >Metrics</cv-link>
-                </cv-list-item>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoAuthentication.md"
-                  >Authentication and Authorization</cv-link>
-                </cv-list-item>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoJPA.md"
-                  >Persistence</cv-link>
-                </cv-list-item>
-              </cv-list>
-              <p
-                class="landing-page__p"
-              ></p>
-            </div>
-
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <img class="landing-page__illo" src="../../assets/logging.jpg" />
-
-              <p class="landing-page__p"></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -286,9 +144,12 @@
       </div>
     </div>
 
+
+    <!-- Footer -->
+
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -296,7 +157,7 @@
             <div class="bx--col-md-8 bx--col-lg-14">
               <cv-link
                 style="font-size: inherit;"
-                href="https://github.com/ibm/cloud-native-starter"
+                href="https://github.com/ibm/cloud-native-starter/reactive"
               >Repo on GitHub</cv-link> |
               <cv-link
                 style="font-size: inherit;"
@@ -328,7 +189,7 @@ export default {
   created() {},
   methods: {
     onGithubClicked() {
-      window.open('https://github.com/ibm/cloud-native-starter', '_blank');
+      window.open('https://github.com/ibm/cloud-native-starter/reactive', '_blank');
     },
     onGetStartedClicked() {
       this.$router.push('get-started');
@@ -339,21 +200,9 @@ export default {
         '_blank'
       );
     },
-    onRestClicked() {
+    onReactiveRestClicked() {
       window.open(
-        'https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoConsumeRESTAPIs.md',
-        '_blank'
-      );
-    },
-    onTrafficClicked() {
-      window.open(
-        'https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoTrafficRouting.md',
-        '_blank'
-      );
-    },
-    onResiliencyClicked() {
-      window.open(
-        'https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoResiliency.md',
+        'https://github.com/IBM/cloud-native-starter/blob/master/reactive/README.md#scenario-2---reactive-rest-endpoints-for-higher-efficiency',
         '_blank'
       );
     }
