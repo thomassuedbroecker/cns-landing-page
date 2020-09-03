@@ -190,6 +190,12 @@
                       style="font-size: inherit;"
                       href="http://heidloff.net/article/authentication-authorization-openid-connect-istio"
                     >Authorization in Cloud-Native Applications via OpenID and Istio</cv-link>
+                  </cv-list-item>
+                  <cv-list-item>
+                    <cv-link
+                      style="font-size: inherit;"
+                      href="https://developer.ibm.com/technologies/java/articles/deploy-reactive-quarkus-microservices-on-ibm-cloud-kubernetes-service/"
+                    >Build more efficient applications with reactive Java technologies</cv-link>
                   </cv-list-item>  
                 </cv-list>
               </p>
