@@ -3,6 +3,7 @@
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
   >
+    <!-- Header -->
     <div
       class="bx--row landing-page__banner"
       style="padding-top: 4rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -59,7 +60,7 @@
       </div>
     </div>
 
-    <!-- Get started -->
+    <!-- Key Technologies -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -105,6 +106,9 @@
                     <cv-link style="font-size: inherit;" href="https://kubernetes.io/">Kubernetes</cv-link>
                   </cv-list-item>
                   <cv-list-item>
+                    <cv-link style="font-size: inherit;" href="https://www.okd.io">Open Shift</cv-link>
+                  </cv-list-item>
+                  <cv-list-item>
                     <cv-link style="font-size: inherit;" href="https://istio.io/">Istio</cv-link>
                   </cv-list-item>
                 </cv-list>
@@ -115,6 +119,7 @@
       </div>
     </div>
 
+    <!-- Core Services are based on Open Source -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 4rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -146,6 +151,7 @@
       </div>
     </div>
 
+    <!-- Run Everywhere -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -200,7 +206,8 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- Easy First Time Experience -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 2rem;padding-left: 2rem; padding-right: 2rem;"
@@ -232,6 +239,7 @@
       </div>
     </div>
 
+    <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -301,7 +309,8 @@
         </div>
       </div>
     </div>
-
+   
+    <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"

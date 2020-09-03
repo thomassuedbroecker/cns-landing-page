@@ -3,6 +3,7 @@
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
   >
+    <!-- Header -->
     <div
       class="bx--row landing-page__banner"
       style="padding-top: 4rem;padding-bottom: 4rem;padding-left: 2rem; padding-right: 2rem;"
@@ -85,7 +86,8 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- Open Shift -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -115,7 +117,8 @@
         </div>
       </div>
     </div>
-
+   
+    <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -227,10 +230,10 @@ export default {
       this.$router.push('get-started');
     },
     onWorkshop1Clicked() {
-      window.open('https://github.com/IBM/cloud-native-starter/tree/master/workshop-one-service', '_blank');
+      window.open('https://ibm-developer.gitbook.io/get-your-java-microservice-up-and-running/', '_blank');
     },
     onWorkshop1BadgeClicked() {
-      window.open('https://github.com/IBM/cloud-native-starter/tree/master/workshop-one-service#cloud-native-starter-badge---level-1', '_blank');
+      window.open('https://www.youracclaim.com/org/ibm/badge/cloud-native-starter-level-1', '_blank');
     },
     onWorkshop2Clicked() {
       window.open('https://harald-u.github.io/workshop-openshift-on-ibm-cloud/', '_blank');
