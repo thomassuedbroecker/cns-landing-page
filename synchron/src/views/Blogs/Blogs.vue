@@ -3,6 +3,7 @@
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
   >
+    <!-- Header -->
     <div
       class="bx--row landing-page__banner"
       style="padding-top: 4rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -21,7 +22,8 @@
         </p>
       </div>
     </div>
-
+    
+    <!-- MicroProfile -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -126,6 +128,7 @@
       </div>
     </div>
 
+    <!-- Kubernetes and Istio -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -187,7 +190,7 @@
                       style="font-size: inherit;"
                       href="http://heidloff.net/article/authentication-authorization-openid-connect-istio"
                     >Authorization in Cloud-Native Applications via OpenID and Istio</cv-link>
-                  </cv-list-item>
+                  </cv-list-item>  
                 </cv-list>
               </p>
             </div>
@@ -199,6 +202,7 @@
       </div>
     </div>
 
+    <!-- Red Hat OpenShift -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -266,6 +270,7 @@
       </div>
     </div>
 
+    <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -329,6 +334,7 @@
       </div>
     </div>
 
+    <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
