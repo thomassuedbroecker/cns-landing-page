@@ -15,6 +15,7 @@
       </div>
     </div>
 
+    <!-- Java User Group -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -26,30 +27,19 @@
               <h1
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
-              >Microservices for Beginners</h1>
+              >Developing Reactive Microservices with Quarkus</h1>
               <p class="landing-page__p">
-                In this 30 minutes talk
+                In this 60 minutes talk
                 <cv-link
                   style="font-size: inherit;"
                   href="https://twitter.com/nheidloff"
-                >Niklas Heidloff</cv-link> and
-                <cv-link
-                  style="font-size: inherit;"
-                  href="https://twitter.com/harald_u"
-                >Harald Uebele</cv-link> present
-                how developers can get started with cloud-native applications.
-              </p>
-              <p class="landing-page__p">
-                The
-                <cv-link
-                  style="font-size: inherit;"
-                  href="http://heidloff.net/recording-of-talk-how-to-develop-your-first-cloud-native-applications-with-java/"
-                >slides</cv-link> have been published.
+                >Niklas Heidloff</cv-link> presents
+                how developers can get started with developing reactive microservices with Quarkus.
               </p>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <a href="https://youtu.be/Z0yQ5XowDI4">
-                <img class="landing-page__illo" src="../../assets/talk-berlin.jpg" />
+              <a href="https://www.youtube.com/watch?v=aqT6ornm1F4">
+                <img class="landing-page__illo" src="../../assets/talk-java-user-group.png" />
               </a>
             </div>
           </div>
@@ -57,119 +47,10 @@
       </div>
     </div>
 
+    <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
-    >
-      <div class="bx--col bx--no-gutter">
-        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
-          <div class="bx--row landing-page__tab-content">
-            <div class="bx--col-md-4 bx--col-lg-7">
-              <a href="https://youtu.be/kp6tm8gdjTc?t=77">
-                <img class="landing-page__illo" src="../../assets/talk-webinar.jpg" />
-              </a>
-              <p class="landing-page__p"></p>
-            </div>
-
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">JakartaEE Tech Talk</h1>
-              <p class="landing-page__p">
-                In this 45 minutes webinar
-                <cv-link
-                  style="font-size: inherit;"
-                  href="https://twitter.com/nheidloff"
-                >Niklas Heidloff</cv-link> gives an overview of most of the cloud-native functionality in Cloud Native Starter.
-              </p>
-              <p class="landing-page__p">
-                The
-                <cv-link
-                  style="font-size: inherit;"
-                  href="http://heidloff.net/article/recording-jakarta-tech-talk-how-to-develop-microservices/"
-                >slides</cv-link> have been published.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="bx--row landing-page__r2"
-      style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
-    >
-      <div class="bx--col bx--no-gutter">
-        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
-          <div class="bx--row landing-page__tab-content">
-            <div class="bx--col-md-4 bx--col-lg-7">
-              <h1
-                class="landing-page__subheading"
-                style="font-size: 1.7rem;"
-              >Microservices für Beginner (German)</h1>
-              <p class="landing-page__p">
-                In this 30 minutes talk
-                <cv-link
-                  style="font-size: inherit;"
-                  href="https://twitter.com/nheidloff"
-                >Niklas Heidloff</cv-link> gives a quick overview of the key cloud-native functionality in Cloud Native Starter.
-              </p>
-              <p class="landing-page__p">
-                The
-                <cv-link
-                  style="font-size: inherit;"
-                  href="https://github.com/nheidloff/cloud-native-starter/blob/master/documentation/OneHourTalk.pdf"
-                >slides</cv-link> have been published.
-              </p>
-            </div>
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <a href="https://www.youtube.com/watch?v=oabKnZO2mUA">
-                <img class="landing-page__illo" src="../../assets/talk-hamburg.jpg" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
-    >
-      <div class="bx--col bx--no-gutter">
-        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
-          <div class="bx--row landing-page__tab-content">
-            <div class="bx--col-md-4 bx--col-lg-7">
-              <a href="http://airhacks.fm/#episode_63">
-                <img class="landing-page__illo" src="../../assets/podcast.png" />
-              </a>
-              <p class="landing-page__p"></p>
-            </div>
-
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Airhacks Podcast</h1>
-              <p class="landing-page__p">
-                In this podcast
-                <cv-link style="font-size: inherit;" href="https://twitter.com/AdamBien">Adam Bien</cv-link> interviews
-                <cv-link
-                  style="font-size: inherit;"
-                  href="https://twitter.com/nheidloff"
-                >Niklas Heidloff</cv-link> about the Cloud Native Starter project and provides feedback.
-              </p>
-              <p class="landing-page__p">
-                Listen to the 
-                <cv-link
-                  style="font-size: inherit;"
-                  href="http://airhacks.fm/#episode_63"
-                >podcast</cv-link>.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="bx--row landing-page__r2"
-      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -230,9 +111,11 @@
       </div>
     </div>
 
+    <!-- Footer -->
+
     <div
       class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
