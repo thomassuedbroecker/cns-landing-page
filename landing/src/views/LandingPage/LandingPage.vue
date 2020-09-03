@@ -18,6 +18,21 @@
             style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
             v-on:click="onGithubClicked"
           >Open Repo</cv-button>
+          <cv-button
+            style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
+            v-on:click="onCloudNativeClicked"
+            kind="tertiary"
+          >Cloud Native</cv-button>
+          <cv-button
+            style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
+            v-on:click="onReactiveClicked"
+            kind="tertiary"
+          >Reactive</cv-button>
+          <cv-button
+            style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
+            v-on:click="onSecurityClicked"
+            kind="tertiary"
+          >Security</cv-button>
         </p>
       </div>
     </div>
@@ -257,6 +272,15 @@ export default {
   methods: {
     onGithubClicked() {
       window.open('https://github.com/ibm/cloud-native-starter', '_blank');
+    },
+    onCloudNativeClicked() {
+      window.open('https://cloud-native-starter-synchron-tsuedbro.mybluemix.net/', '_blank');
+    },
+    onReactiveClicked() {
+      window.open('https://cloud-native-starter-reactive-tsuedbro.mybluemix.net/', '_blank');
+    },
+    onSecurityClicked() {
+      window.open('https://cloud-native-starter-security-tsuedbro.mybluemix.net/', '_blank');
     }
   }
 };
