@@ -172,10 +172,38 @@
       </div>
     </div>
 
+    <!-- Digital Conference  -->
+    <div
+      class="bx--row landing-page__r2"
+style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"    >
+      <div class="bx--col bx--no-gutter">
+        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
+          <div class="bx--row landing-page__tab-content">
+            <div class="bx--col-md-4 bx--col-lg-7">
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Get Started with Microservices</h1>
+              <p class="landing-page__p">
+                In this talk 25 minutes
+                <cv-link style="font-size: inherit;" href="https://twitter.com/nheidloff">Niklas Heidloff</cv-link> and
+                <cv-link
+                  style="font-size: inherit;"
+                  href="https://twitter.com/tsuedbroecker"
+                >Thomas Südbröcker</cv-link> how to get started with microservices.
+              </p>
+            </div>
+            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+              <a href="https://youtu.be/f3dRWNrsxuU">
+                <img class="landing-page__illo" src="../../assets/talk-digital-conference.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -239,7 +267,7 @@
     <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+ style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"    >
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">

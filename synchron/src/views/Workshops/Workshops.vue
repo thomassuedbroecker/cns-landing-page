@@ -11,7 +11,8 @@
         <h1 class="landing-page__heading" style="font-size:3rem;line-height: normal;">Workshops</h1>
       </div>
     </div>
-
+    
+    <!-- Cloud Native Starter Level 1 -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -52,7 +53,8 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- Manage Microservice Communication with Kubernetes and Istio Service Mesh -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -69,8 +71,8 @@
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Three Hours Workshop</h1>
-              <p class="landing-page__p">In this workshop you will learn how to develop microservices with MicroProfile, how to implement REST APIs, how to do traffic management and how to develop resilient applications. The application, which uses several microservices, is deployed to Kubernetes.</p>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Manage Microservice Communication with Kubernetes and Istio Service Mesh</h1>
+              <p class="landing-page__p">In this workshop, you will learn how to install and use Istio alongside microservices for a simple app called Cloud Native Starter.</p>
               <p class="landing-page__p" style="padding-top: 15px;">
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;"
@@ -231,10 +233,10 @@ export default {
       window.open('https://github.com/IBM/cloud-native-starter/tree/master/workshop-one-service#cloud-native-starter-badge---level-1', '_blank');
     },
     onWorkshop2Clicked() {
-      window.open('https://github.com/IBM/cloud-native-starter/tree/master/workshop', '_blank');
+      window.open('https://harald-u.github.io/workshop-openshift-on-ibm-cloud/', '_blank');
     },
     onWorkshop3Clicked() {
-      window.open('https://github.com/IBM/openshift-on-ibm-cloud-workshops/blob/master/README.md', '_blank');
+      window.open('https://harald-u.github.io/istio-handson/', '_blank');
     }
   }
 };
