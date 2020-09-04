@@ -12,6 +12,8 @@
       </div>
     </div>
 
+    <!-- Reactive endpoints -->
+
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -20,19 +22,8 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">One Hour Workshop</h1>
-              <p class="landing-page__p">This workshop demonstrates how to develop the 'authors' microservice with MicroProfile and how to deploy it to Kubernetes. The workshop is the prerequisite for the 
-              <cv-link
-                  style="font-size: inherit;"
-                  href="https://github.com/IBM/cloud-native-starter/tree/master/workshop-one-service#cloud-native-starter-badge---level-1"
-                >OpenBadge "Cloud Native Starter Level 1"</cv-link>.
-              </p>
-              <img
-                class="landing-page__illo"
-                src="../../assets/cloud-native-starter-level-1.png"
-                style="border:1px solid #ddd"
-                v-on:click="onWorkshop1BadgeClicked"
-              /> 
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Reactive Endpoints with Quarkus on OpenShift</h1>
+              <p class="landing-page__p">In this workshop you'll learn how to implement reactive endpoints with Java, Quarkus and MicroProfile. An end-to-end sample application will be deployed to Red Hat OpenShift.</p>
               <p class="landing-page__p" style="padding-top: 15px;">
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;"
@@ -44,7 +35,7 @@
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img
                 class="landing-page__illo"
-                src="../../assets/workshop1.png"
+                src="../../assets/workshop-endpoints.png"
                 style="border:1px solid #ddd"
               />
             </div>
@@ -229,7 +220,7 @@ export default {
       this.$router.push('get-started');
     },
     onWorkshop1Clicked() {
-      window.open('https://github.com/IBM/cloud-native-starter/tree/master/workshop-one-service', '_blank');
+      window.open('https://ibm-developer.gitbook.io/reactive-endpoints-with-quarkus-on-openshift/', '_blank');
     },
     onWorkshop1BadgeClicked() {
       window.open('https://github.com/IBM/cloud-native-starter/tree/master/workshop-one-service#cloud-native-starter-badge---level-1', '_blank');
