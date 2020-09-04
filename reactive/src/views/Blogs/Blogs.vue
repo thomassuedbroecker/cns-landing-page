@@ -3,6 +3,7 @@
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
   >
+    <!-- Header -->
     <div
       class="bx--row landing-page__banner"
       style="padding-top: 4rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -12,16 +13,10 @@
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
         >Blogs and Articles</h1>
-        <p class="landing-page__p" style="padding-top: 5px;">
-          <cv-button
-            style="padding-right: 12px;font-size: 20px;"
-            v-on:click="onOverviewClicked"
-            kind="tertiary"
-          >Read Overview Blog</cv-button>
-        </p>
       </div>
     </div>
-
+    
+    <!-- Reactive programming -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -30,102 +25,73 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">MicroProfile</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Reactive programming</h1>
               <p
                 class="landing-page__p"
-              >The following blogs cover cloud-native functionality in MicroProfile:</p>
+              >The following blogs cover serveral topics of reactive programming:</p>
 
               <p class="landing-page__p">
                 <cv-list style="list-style: black important!;">
                   <cv-list-item style="font-size: inherit;list-style: black;">
                     <cv-link
                       style="font-size: inherit;list-style: black;"
-                      href="http://heidloff.net/article/how-to-build-and-run-a-hello-world-java-microservice/"
-                    >How to build and run a Hello World Java Microservice</cv-link>
+                      href="http://heidloff.net/article-development-reactive-applications-quarkus/"
+                    >Development of Reactive Applications with Quarkus</cv-link>
                   </cv-list-item>
                   <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
-                      href="http://heidloff.net/article/dockerizing-container-java-microprofile"
-                    >Dockerizing Java MicroProfile Applications</cv-link>
+                      href="http://heidloff.net/article/accessing-apache-kafka-from-quarkus/"
+                    >Accessing Apache Kafka from Quarkus</cv-link>
                   </cv-list-item>
                   <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
-                      href="http://heidloff.net/article/resiliency-microservice-microprofile-java-istio"
-                    >Developing resilient Microservices with Istio and MicroProfile</cv-link>
+                      href="http://heidloff.net/article/accessing-postgresql-from-quarkus/"
+                    >Accessing PostgreSQL in Kubernetes from Quarkus</cv-link>
                   </cv-list-item>
                   <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
-                      href="http://heidloff.net/article/rest-apis-microprofile-javaee-jaxrs"
-                    >Implementing and documenting REST APIs with JavaEE</cv-link>
+                      href="http://heidloff.net/article/reactive-messaging-examples-quarkus/"
+                    >Reactive Messaging Examples for Quarkus</cv-link>
                   </cv-list-item>
                   <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
-                      href="http://heidloff.net/invoke-rest-apis-java-microprofile-microservice"
-                    >Invoking REST APIs from Java Microservices</cv-link>
+                      href="http://heidloff.net/article/developing-reactive-rest-apis-with-quarkus/"
+                    >Developing reactive REST APIs with Quarkus</cv-link>
                   </cv-list-item>
                   <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
-                      href="http://heidloff.net/article/prometheus-metrics-microprofile-microservices-istio/"
-                    >Prometheus Metrics for MicroProfile Microservices in Istio</cv-link>
+                      href="http://heidloff.net/article/invoking-rest-apis-asynchronously-with-quarkus/"
+                    >Invoking REST APIs asynchronously with Quarkus</cv-link>
                   </cv-list-item>
                   <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
-                      href="http://heidloff.net/article/implementing-health-checks-microprofile-istio"
-                    >Implementing Health Checks with MicroProfile and Istio</cv-link>
+                      href="http://heidloff.net/article/comparing-synchronous-asynchronous-access-postgresql/"
+                    >Comparing synchronous and asynchronous Access to Postgres</cv-link>
                   </cv-list-item>
                   <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
-                      href="http://heidloff.net/article/configuring-java-microservices-microprofile-kubernetes/"
-                    >Configuring Microservices with MicroProfile and Kubernetes</cv-link>
+                      href="http://heidloff.net/article/openj9-jvm-for-quarkus-applications/"
+                    >Using the OpenJ9 JVM for Quarkus Applications</cv-link>
                   </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="http://heidloff.net/article/persistence-java-microservices-kubernetes-jpa/"
-                    >Persistence for Java Microservices in Kubernetes via JPA</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="http://heidloff.net/article/quarkus-javaee-microprofile-kubernetes"
-                    >Using Quarkus to run Java Apps on Kubernetes</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="http://heidloff.net/article/debugging-microservices-kubernetes"
-                    >Debugging Microservices running in Kubernetes</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="http://heidloff.net/article/authenticating-web-users-openid-connect-jwt/"
-                    >Authenticating Web Users with OpenID and JWT</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="http://heidloff.net/article/authorization-microservices-java-microprofile/"
-                    >Authorization in Microservices with MicroProfile</cv-link>
-                  </cv-list-item>
-                </cv-list>
+              </cv-list>
               </p>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <img class="landing-page__illo" src="../../assets/microprofile.jpg" />
+              <img class="landing-page__illo" src="../../assets/blogs-reactive.png" />
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    
+    <!-- Kubernetes -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -137,68 +103,27 @@
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Kubernetes and Istio</h1>
               <p
                 class="landing-page__p"
-              >The following blogs cover cloud-native functionality in Kubernetes and Istio:</p>
+              >The following blogs deployment in Kubernetes:</p>
               <p class="landing-page__p">
                 <cv-list>
                   <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
-                      href="https://haralduebele.blog/2019/03/11/managing-microservices-traffic-with-istio/"
-                    >Managing Microservices Traffic with Istio</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="http://heidloff.net/article/sample-app-manage-microservices-traffic-istio"
-                    >Web Application to demo Traffic Management with Istio</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="http://heidloff.net/article/setup-local-development-kubernetes-istio"
-                    >Setup of a Local Kubernetes and Istio Dev Environment</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://haralduebele.blog/2019/04/04/moving-from-minikube-to-ibm-cloud-kubernetes-service/"
-                    >Moving from Minikube to IBM Cloud Kubernetes Service</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="http://heidloff.net/article/how-to-develop-your-first-cloud-native-applications-with-java/"
-                    >Recorded demos: Traffic management, resiliency, authorization, logging</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="http://heidloff.net/article/deploying-microprofile-microservices-tekton/"
-                    >Deploying MicroProfile Microservices with Tekton</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://haralduebele.blog/2019/04/08/whats-going-on-in-my-cluster/"
-                    >Distributed logging with LogDNA and Monitoring with Sysdig</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="http://heidloff.net/article/authentication-authorization-openid-connect-istio"
-                    >Authorization in Cloud-Native Applications via OpenID and Istio</cv-link>
+                      href="https://suedbroecker.net/2020/02/03/deploy-the-reactive-cloud-native-starter-example-to-ibm-cloud/"
+                    >Deployment to the IBM Cloud Kubernetes Service</cv-link>
                   </cv-list-item>
                 </cv-list>
               </p>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <img class="landing-page__illo" src="../../assets/kubeistio.png" />
+              <img class="landing-page__illo" src="../../assets/blogs-kube.png" />
             </div>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- OpenShift -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -210,50 +135,14 @@
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Red Hat OpenShift</h1>
               <p
                 class="landing-page__p"
-              >The following blogs cover cloud-native functionality in OpenShift:</p>
+              >The following blogs cover the deployment in OpenShift:</p>
               <p class="landing-page__p">
                 <cv-list>
                   <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
-                      href="http://heidloff.net/article/setup-cloud-native-sample-app-minishift/"
-                    >Setting up a cloud-native Sample App on Minishift in an Hour</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://haralduebele.blog/2019/07/03/deploying-the-cloud-native-starter-microservices-on-minishift/"
-                    >Deploying the Cloud Native Starter microservices on Minishift</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://haralduebele.blog/2019/07/10/deploying-the-cloud-native-starter-example-on-red-hat-openshift-on-the-ibm-cloud/"
-                    >Deploying on Red Hat OpenShift on the IBM Cloud</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="http://heidloff.net/article/source-to-image-builder-open-liberty-openshift/"
-                    >Source to Image Builder for Open Liberty Apps on OpenShift</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="http://heidloff.net/article/how-to-develop-open-liberty-microservices-openshift/"
-                    >How to develop Open Liberty Microservices on OpenShift</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="http://heidloff.net/article/deploying-open-liberty-microservices-openshift/"
-                    >Deploying Open Liberty Microservices to OpenShift</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="http://heidloff.net/article/accessing-private-gitlab-repositories-from-openshift/"
-                    >Accessing private GitLab Repositories from OpenShift</cv-link>
+                      href="https://haralduebele.blog/2020/02/03/cloud-native-and-reactive-microservices-on-red-hat-openshift-4/"
+                    >Deployment to Red Hat OpenShift</cv-link>
                   </cv-list-item>
                 </cv-list>
               </p>
@@ -266,6 +155,7 @@
       </div>
     </div>
 
+    <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -328,7 +218,8 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- Footer
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -362,6 +253,7 @@
         </div>
       </div>
     </div>
+    -->
   </div>
 </template>
 
@@ -375,12 +267,6 @@ export default {
     },
     onGetStartedClicked() {
       this.$router.push('get-started');
-    },
-    onOverviewClicked() {
-      window.open(
-        'http://heidloff.net/article/example-java-app-cloud-kubernetes',
-        '_blank'
-      );
     }
   }
 };

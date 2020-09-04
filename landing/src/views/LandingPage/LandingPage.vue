@@ -262,6 +262,7 @@
         </div>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -271,6 +272,7 @@ export default {
   created() {},
   methods: {
     onGithubClicked() {
+      {location.href = this.$store.state.urls.reactive} 
       window.open('https://github.com/ibm/cloud-native-starter', '_blank');
     },
     onCloudNativeClicked() {
