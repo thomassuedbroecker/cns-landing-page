@@ -47,7 +47,7 @@
               </p>
               <p
                 class="landing-page__p"
-              >The project demonstrates, how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, Istio and OpenShift.<br><br>These are the three different topic related to Cloud-Native application development:</p>       
+              >The project demonstrates, how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, Istio and OpenShift.<br><br>These are the three different topics related to Cloud-Native application development:</p>       
               <p class="landing-page__p" style="padding-top: 5px;">
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
