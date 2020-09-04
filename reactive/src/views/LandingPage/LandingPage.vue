@@ -13,14 +13,16 @@
         <h1
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
-        >Learn how to develop modern Cloud-Native Applications with Reactive Programming and Messaging</h1>
-        <p class="landing-page__p" style="padding-top: 5px;">
-          <cv-button
+        > Reactive</h1>
+        <p class="landing-page__p">
+        Learn how to develop modern Cloud-Native Applications with Reactive Programming and Messaging.
+        <br>
+        <cv-button
             style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
             v-on:click="onGetStartedClicked"
           >Get Started</cv-button>
           <cv-button
-            style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
+            style="padding-right: 12px;font-size: 20px;margin-top:20px"
             v-on:click="onGithubClicked"
             kind="tertiary"
           >Open Repo</cv-button>
@@ -40,10 +42,10 @@
               <h1
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
-              >What is the Reactive Application subproject?</h1>
+              >What's in that part?</h1>
               <p
                 class="landing-page__p"
-              >The Reactive Application subproject explains how to use reactive programming and event based messaging in Quarkus applications and how to run them on Kubernetes and OpenShift.</p>
+              >The Reactive part of the Cloud Native Starter project explains how to use reactive programming and event based messaging in Quarkus applications and how to run them on Kubernetes and OpenShift.</p>
 
               <p
                 class="landing-page__p"
