@@ -51,7 +51,7 @@
               </p>
               <p
                 class="landing-page__p"
-              >The open source project demonstrates, how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, Istio and OpenShift. It also addresses how to implement reactive behavior and secure Cloud-Native applications.</p>       
+              >The open source project demonstrates how to develop complete enterprise applications with Java, Quarkus, OpenLiberty and MicroProfile and how to operate them with Kubernetes, OpenShift and Istio. It also explains how to implement reactive systems and secure applications.</p>       
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img
@@ -186,16 +186,16 @@ export default {
   created() {},
   methods: {
     onCloudNativeClicked() {
-      this.$router.push('synchron_page');
-      //window.open('https://cloud-native-starter-synchron-tsuedbro.mybluemix.net/', '_blank');
+      //this.$router.push('synchron_page');
+      window.open('https://cloud-native-starter-synchron-tsuedbro.mybluemix.net/', '_blank');
     },
     onReactiveClicked() {
-      this.$router.push('reactive_page');
-      //window.open('https://cloud-native-starter-reactive-tsuedbro.mybluemix.net/', '_blank');
+      //this.$router.push('reactive_page');
+      window.open('https://cloud-native-starter-reactive-tsuedbro.mybluemix.net/', '_blank');
     },
     onSecurityClicked() {
-      this.$router.push('security_page');
-      //window.open('https://cloud-native-starter-security-tsuedbro.mybluemix.net/', '_blank');
+      //this.$router.push('security_page');
+      window.open('https://cloud-native-starter-security-tsuedbro.mybluemix.net/', '_blank');
     }
   }
 };

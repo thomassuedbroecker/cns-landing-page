@@ -44,7 +44,7 @@
               >What is in 'Basic Concepts'?</h1>
               <p
                 class="landing-page__p"
-              >Here we demonstrate how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes and Istio.<br>As example we use a simple application that displays and manages articles.</p>
+              >We demonstrate how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, RedHat OpenShift and Istio.<br>As example we use a simple application that displays and manages articles.</p>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img
