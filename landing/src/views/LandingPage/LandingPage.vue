@@ -41,7 +41,7 @@
                     ... uses Open Source as Key Technologies.
                   </cv-list-item>
                   <cv-list-item>
-                    ... coveres different topic of Cloud-Native development.
+                    ... coveres different topics of Cloud-Native development.
                   </cv-list-item>
                 </cv-list>
               </p>
@@ -52,7 +52,6 @@
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
                   v-on:click="onCloudNativeClicked"
-                  kind="tertiary"
                 >Start with Cloud Native</cv-button>
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;margin-right: 20px;"

@@ -23,7 +23,7 @@
           <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">      
           <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/security_page">
-          <span class="bx--text-truncate--end">Security for a Cloud Native Application</span></router-link>
+          <span class="bx--text-truncate--end">Security for a Cloud Native Applications</span></router-link>
         </li>
       </ul>
     </nav>
