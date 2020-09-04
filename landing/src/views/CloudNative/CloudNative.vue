@@ -13,7 +13,7 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">First Cloud Native Application</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Basic Concepts</h1>
               <p
                 class="landing-page__p"
               >Cloud Native Starter demonstrates how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, OpenShift and Istio.</p>

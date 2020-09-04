@@ -10,7 +10,7 @@
       <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">
           <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/">
-          <span class="bx--text-truncate--end">First Cloud-Native Application</span></router-link>
+          <span class="bx--text-truncate--end">Basic concepts</span></router-link>
         </li>
       </ul>
     </nav>

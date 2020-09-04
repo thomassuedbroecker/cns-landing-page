@@ -4,16 +4,15 @@
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
   >
-
     <!-- Reactive -->
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 3rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+            <div class="bx--col-md-4 bx--col-lg-7">
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Reactive Application</h1>
               <p
                 class="landing-page__p"

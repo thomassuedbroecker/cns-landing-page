@@ -32,7 +32,6 @@
               <img
                 class="landing-page__illo"
                 src="../../assets/cloud-native-starter-level-1.png"
-                style="border:1px solid #ddd"
                 v-on:click="onWorkshop1BadgeClicked"
               /> 
               <p class="landing-page__p" style="padding-top: 15px;">

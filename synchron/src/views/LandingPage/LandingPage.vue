@@ -12,9 +12,11 @@
         <h1
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
-        > Learn how to start developing and operating simple Cloud-Native Applications</h1>
-        <p class="landing-page__p" style="padding-top: 5px;">
-          <cv-button
+        > Basic Concepts</h1>
+        <p class="landing-page__p">
+        Learn how to start developing and operating simple Cloud-Native Applications
+        <br>
+        <cv-button
             style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
             v-on:click="onGetStartedClicked"
           >Get Started</cv-button>
@@ -39,14 +41,10 @@
               <h1
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
-              >What is the First Cloud-Native Application subproject?</h1>
+              >What is in 'Basic Concepts'?</h1>
               <p
                 class="landing-page__p"
-              >This subproject demonstrates how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes and Istio.</p>
-
-              <p
-                class="landing-page__p"
-              >It uses a simple sample application that displays and manages articles.</p>
+              >Here we demonstrate how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes and Istio.<br>As example we use a simple application that displays and manages articles.</p>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img

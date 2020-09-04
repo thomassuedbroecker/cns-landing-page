@@ -28,48 +28,35 @@
               <h1
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
-              >What is Cloud Native Starter?</h1>
+              >What's in Cloud Native Starter?</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter ...</p>
-              <p class="landing-page__p"> 
-              <cv-list>
-                  <cv-list-item>
-                    ... is an Open Source project. 
-                  </cv-list-item>
-                  <cv-list-item>
-                    ... uses Open Source as Key Technologies.
-                  </cv-list-item>
-                  <cv-list-item>
-                    ... coveres different topics of Cloud-Native development.
-                  </cv-list-item>
-                </cv-list>
-              </p>
-              <p
-                class="landing-page__p"
-              >The project demonstrates, how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, Istio and OpenShift.<br><br>These are the three different topics related to Cloud-Native application development:</p>       
+              >Cloud Native Starter contains three parts:</p>
+              <p class="landing-page__p">
               <p class="landing-page__p" style="padding-top: 5px;">
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
                   v-on:click="onCloudNativeClicked"
-                >Start with Cloud Native</cv-button>
+                >Basic Concepts</cv-button>
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
                   v-on:click="onReactiveClicked"
                   kind="tertiary"
-                >Start with Reactive</cv-button>
+                >Reactive</cv-button>
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
                   v-on:click="onSecurityClicked"
                   kind="tertiary"
-                >Start with Security</cv-button>
+                >Security</cv-button>
               </p>
+              <p
+                class="landing-page__p"
+              >The open source project demonstrates, how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, Istio and OpenShift. It also addresses how to implement reactive behavior and secure Cloud-Native applications.</p>       
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img
                 class="landing-page__illo"
                 src="../../assets/word-cloud-opentechnologies.png"
-                style="border:1px solid #ddd"
               />
             </div>
           </div>
@@ -198,18 +185,17 @@ export default {
   name: 'LandingPage',
   created() {},
   methods: {
-    onGithubClicked() {
-      {location.href = this.$store.state.urls.reactive} 
-      window.open('https://github.com/ibm/cloud-native-starter', '_blank');
-    },
     onCloudNativeClicked() {
-      window.open('https://cloud-native-starter-synchron-tsuedbro.mybluemix.net/', '_blank');
+      this.$router.push('synchron_page');
+      //window.open('https://cloud-native-starter-synchron-tsuedbro.mybluemix.net/', '_blank');
     },
     onReactiveClicked() {
-      window.open('https://cloud-native-starter-reactive-tsuedbro.mybluemix.net/', '_blank');
+      this.$router.push('reactive_page');
+      //window.open('https://cloud-native-starter-reactive-tsuedbro.mybluemix.net/', '_blank');
     },
     onSecurityClicked() {
-      window.open('https://cloud-native-starter-security-tsuedbro.mybluemix.net/', '_blank');
+      this.$router.push('security_page');
+      //window.open('https://cloud-native-starter-security-tsuedbro.mybluemix.net/', '_blank');
     }
   }
 };

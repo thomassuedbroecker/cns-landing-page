@@ -8,7 +8,7 @@
       <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">      
           <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/synchron_page">
-          <span class="bx--text-truncate--end">First Cloud Native Applications</span></router-link>
+          <span class="bx--text-truncate--end">Basic Concepts</span></router-link>
         </li>
       </ul>
     </nav>
@@ -16,14 +16,14 @@
       <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">      
           <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/reactive_page">
-          <span class="bx--text-truncate--end">Reactive Cloud Native Applications</span></router-link>
+          <span class="bx--text-truncate--end">Reactive</span></router-link>
         </li>
       </ul>
     </nav>
           <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">      
           <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/security_page">
-          <span class="bx--text-truncate--end">Security for a Cloud Native Applications</span></router-link>
+          <span class="bx--text-truncate--end">Security</span></router-link>
         </li>
       </ul>
     </nav>
