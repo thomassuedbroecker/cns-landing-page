@@ -13,27 +13,6 @@
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
         >Learn how to develop and operate Cloud-Native applications</h1>
-        <p class="landing-page__p" style="padding-top: 5px;">
-          <cv-button
-            style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
-            v-on:click="onGithubClicked"
-          >Open Repo</cv-button>
-          <cv-button
-            style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
-            v-on:click="onCloudNativeClicked"
-            kind="tertiary"
-          >Cloud Native</cv-button>
-          <cv-button
-            style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
-            v-on:click="onReactiveClicked"
-            kind="tertiary"
-          >Reactive</cv-button>
-          <cv-button
-            style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
-            v-on:click="onSecurityClicked"
-            kind="tertiary"
-          >Security</cv-button>
-        </p>
       </div>
     </div>
     
@@ -52,98 +31,47 @@
               >What is Cloud Native Starter?</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter is an open source project.<br><br>The project demonstrates, how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, Istio and OpenShift. <br>The project comes with a simple sample application that displays and manages articles, and contains the following three subprojects:</p>           
-              <p class="landing-page__p">
-                <cv-list>
+              >Cloud Native Starter ...</p>
+              <p class="landing-page__p"> 
+              <cv-list>
                   <cv-list-item>
-                    <router-link
-                      class="cv-link bx--link"
-                      style="font-size:20px"
-                      to="/synchron"
-                    >First Cloud Native Application</router-link>
+                    ... is an Open Source project. 
                   </cv-list-item>
                   <cv-list-item>
-                    <router-link
-                      class="cv-link bx--link"
-                      style="font-size:20px"
-                      to="/reactive"
-                    >Reactive Application</router-link>
+                    ... uses Open Source as Key Technologies.
                   </cv-list-item>
                   <cv-list-item>
-                    <router-link
-                      class="cv-link bx--link"
-                      style="font-size:20px"
-                      to="/security"
-                    >Security for a Cloud Native Application</router-link>
+                    ... coveres different topic of Cloud-Native development.
                   </cv-list-item>
                 </cv-list>
+              </p>
+              <p
+                class="landing-page__p"
+              >The project demonstrates, how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, Istio and OpenShift.<br><br>These are the three different topic related to Cloud-Native application development:</p>       
+              <p class="landing-page__p" style="padding-top: 5px;">
+                <cv-button
+                  style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
+                  v-on:click="onCloudNativeClicked"
+                  kind="tertiary"
+                >Start with Cloud Native</cv-button>
+                <cv-button
+                  style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
+                  v-on:click="onReactiveClicked"
+                  kind="tertiary"
+                >Start with Reactive</cv-button>
+                <cv-button
+                  style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
+                  v-on:click="onSecurityClicked"
+                  kind="tertiary"
+                >Start with Security</cv-button>
               </p>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img
                 class="landing-page__illo"
-                src="../../assets/web-app.png"
+                src="../../assets/word-cloud-opentechnologies.png"
                 style="border:1px solid #ddd"
               />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Open source as key technologies -->
-    <div
-      class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
-    >
-      <div class="bx--col bx--no-gutter">
-        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
-          <div class="bx--row landing-page__tab-content">
-            <div class="bx--col-md-4 bx--col-lg-7">
-              <img class="landing-page__illo" src="../../assets/logos.png" />
-              <p class="landing-page__p"></p>
-            </div>
-
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Open Source as Key Technologies</h1>
-              <p
-                class="landing-page__p"
-              >Cloud Native Starter uses open source technologies.<br>For example:</p>
-              <p class="landing-page__p">
-                <cv-list>
-                  <cv-list-item>
-                    <cv-link style="font-size: inherit;" href="https://quarkus.io/">Quarkus</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link style="font-size: inherit;" href="https://openliberty.io/">Open Liberty</cv-link> /
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://jakarta.ee/"
-                    >Eclipse JakartaEE</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://microprofile.io/"
-                    >Eclipse MicroProfile</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://www.eclipse.org/openj9//"
-                    >Eclipse OpenJ9</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link style="font-size: inherit;" href="https://kubernetes.io/">Kubernetes</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link style="font-size: inherit;" href="https://istio.io/">Istio</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link style="font-size: inherit;" href="https://www.keycloak.org/">Keycloak</cv-link>
-                  </cv-list-item>
-                </cv-list>
-              </p>
             </div>
           </div>
         </div>
@@ -153,7 +81,7 @@
     <!-- Run everywhere -->
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 4rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
+     style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -165,7 +93,7 @@
               >Run everywhere</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter subprojects can be run on any Kubernetes implementation without vendor lock-in. It provides documentation and scripts to deploy the sample application to different Kubernetes environments.</p>
+              >Cloud Native Starter project implements different topics and runs on any Kubernetes implementation without vendor lock-in. The project provides documentation and scripts to deploy the example application to different Kubernetes environments.</p>
               <p class="landing-page__p">
                 <cv-list>
                   <cv-list-item>
@@ -207,7 +135,7 @@
     <!-- Easy First Time Experience -->
     <div
       class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -231,7 +159,7 @@
     <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">

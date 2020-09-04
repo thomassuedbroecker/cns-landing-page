@@ -28,6 +28,24 @@ export default new Router({
         import(/* webpackChunkName: "about" */ './views/About')
     },
     {
+      path: '/reactive_page',
+      name: 'reactive_page',
+      component: () =>
+        import(/* webpackChunkName: "reactive-page" */ './views/Reactive')
+    },
+    {
+      path: '/synchron_page',
+      name: 'synchron_page',
+      component: () =>
+       import( /* webpackChunkName: "cloudnative-page" */ './views/CloudNative')
+    },
+    {
+      path: '/security_page',
+      name: 'security_page',
+      component: () =>
+       import( /* webpackChunkName: "security-page" */ './views/Security')
+    },
+    {
       path: '/reactive',
       name: 'reactive',
       beforeEnter() {location.href = 'https://cloud-native-starter-reactive-tsuedbro.mybluemix.net/'}

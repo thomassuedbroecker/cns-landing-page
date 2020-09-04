@@ -7,8 +7,23 @@
     <nav class="cv-header-nav bx--header__nav" aria-label="label nav">
       <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">      
-          <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/projects">
-          <span class="bx--text-truncate--end">Subprojects</span></router-link>
+          <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/synchron_page">
+          <span class="bx--text-truncate--end">First Cloud Native Applications</span></router-link>
+        </li>
+      </ul>
+    </nav>
+    <nav class="cv-header-nav bx--header__nav" aria-label="label nav">
+      <ul role="menubar" class="bx--header__menu-bar">
+        <li class="cv-header-menu-item">      
+          <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/reactive_page">
+          <span class="bx--text-truncate--end">Reactive Cloud Native Applications</span></router-link>
+        </li>
+      </ul>
+    </nav>
+          <ul role="menubar" class="bx--header__menu-bar">
+        <li class="cv-header-menu-item">      
+          <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/security_page">
+          <span class="bx--text-truncate--end">Security for a Cloud Native Application</span></router-link>
         </li>
       </ul>
     </nav>
