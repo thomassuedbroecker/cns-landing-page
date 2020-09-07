@@ -21,9 +21,11 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 echo "-----------------------------"
 echo "deploy landing page"
 echo "-----------------------------"
-
-echo "build application"
 cd landing
+
+echo "-----------------------------"
+echo "build application"
+echo "-----------------------------"
 yarn install
 yarn build
 cp Staticfile dist/Staticfile

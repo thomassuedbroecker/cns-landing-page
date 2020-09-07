@@ -24,9 +24,11 @@
               >Learn More</cv-button>
             </div>
             <div class="bx--col-md-4 bx--col-lg-7">
-              <img class="landing-page__illo" src="../../assets/architecture-reactive.png" />
+              <img class="landing-page__illo" 
+                   src="../../assets/architecture-reactive.png"
+                   style="border:1px solid #ddd"
+                   />
               <p class="landing-page__p"></p>
-              <p style="border:1px solid #ddd"></p>
             </div>
           </div>
         </div>
