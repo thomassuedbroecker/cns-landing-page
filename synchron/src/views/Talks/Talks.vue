@@ -175,7 +175,7 @@
     <!-- Digital Conference  -->
     <div
       class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"      >
+      style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;">
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
@@ -200,17 +200,19 @@
       </div>
     </div>
 
-    <!-- Wie faengt man ein cloud native projekt aon  -->
+    <!-- Wie faengt man ein cloud native projekt an  -->
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;">
+      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+            <div class="bx--col-md-4 bx--col-lg-7">
               <a href="https://twitter.com/devinsiderde/status/1257225676836528128">
                 <img class="landing-page__illo" src="../../assets/talk-dev-insider.png" />
               </a>
+              <p class="landing-page__p"></p>
             </div>
             <div class="bx--col-md-4 bx--col-lg-7">
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">How to start with a Cloud-Native project? (German)</h1>
@@ -234,7 +236,7 @@
     <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -298,7 +300,7 @@
     <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"    
+      style="background-color:#f3f3f3; padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"    
       >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
