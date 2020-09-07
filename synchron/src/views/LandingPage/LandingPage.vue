@@ -41,7 +41,7 @@
               <h1
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
-              >What is in 'Basic Concepts'?</h1>
+              >What's in the 'Basic Concepts' part?</h1>
               <p
                 class="landing-page__p"
               >We demonstrate how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, RedHat OpenShift and Istio.<br>As example we use a simple application that displays and manages articles.</p>

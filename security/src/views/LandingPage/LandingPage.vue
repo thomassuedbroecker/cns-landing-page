@@ -1,9 +1,9 @@
 <template>
-  <!-- Header -->
   <div
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
   >
+    <!-- Header -->
     <div
       class="bx--row landing-page__banner"
       style="padding-top: 4rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -12,8 +12,10 @@
         <h1
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
-        >Learn how to use authentication, authorization and network encryption in cloud native applications</h1>
-        <p class="landing-page__p" style="padding-top: 5px;">
+        >Security</h1>
+        <p class="landing-page__p">
+        Learn how to use authentication, authorization and network encryption in Cloud-Native Applications.
+        <br>
           <cv-button
             style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
             v-on:click="onGetStartedClicked"
@@ -26,7 +28,8 @@
         </p>
       </div>
     </div>
-
+    
+    <!-- What is in 'Security'?-->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -38,10 +41,10 @@
               <h1
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
-              >What is Cloud Native Starter?</h1>
+              >What's in 'Security' part?</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter is an open source project that demonstrates how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes and Istio.</p>
+              >Cloud Native Starter explains how to do authentication and authorization in Quarkus applications with Keycloak and how to do network encryption with Istio.</p>
 
               <p
                 class="landing-page__p"
@@ -59,6 +62,7 @@
       </div>
     </div>
 
+    <!-- Key Technologies -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -113,7 +117,8 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- Core Services are based on Open Source -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 4rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -144,7 +149,8 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- Run Everywhere -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -199,7 +205,8 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- Easy First Time Experience -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 2rem;padding-left: 2rem; padding-right: 2rem;"
@@ -230,7 +237,8 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -301,6 +309,7 @@
       </div>
     </div>
 
+    <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -311,7 +320,7 @@
             <div class="bx--col-md-8 bx--col-lg-14">
               <cv-link
                 style="font-size: inherit;"
-                href="https://github.com/ibm/cloud-native-starter"
+                href="https://github.com/ibm/cloud-native-starter/security"
               >Repo on GitHub</cv-link> |
               <cv-link
                 style="font-size: inherit;"
@@ -343,7 +352,7 @@ export default {
   created() {},
   methods: {
     onGithubClicked() {
-      window.open('https://github.com/ibm/cloud-native-starter', '_blank');
+      window.open('https://github.com/ibm/cloud-native-starter/securit', '_blank');
     },
     onGetStartedClicked() {
       this.$router.push('get-started');

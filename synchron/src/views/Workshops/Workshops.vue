@@ -26,7 +26,7 @@
               <p class="landing-page__p">This workshop demonstrates how to develop the 'authors' microservice with MicroProfile and how to deploy it to Kubernetes. The workshop is the prerequisite for the 
               <cv-link
                   style="font-size: inherit;"
-                  href="https://github.com/IBM/cloud-native-starter/tree/master/workshop-one-service#cloud-native-starter-badge---level-1"
+                  href="https://www.youracclaim.com/org/ibm/badge/cloud-native-starter-level-1"
                 >OpenBadge "Cloud Native Starter Level 1"</cv-link>.
               </p>
               <img
