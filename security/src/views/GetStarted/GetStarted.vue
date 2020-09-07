@@ -95,7 +95,7 @@ $ oc login --token=OnMwHZ4FLgZnWdcxxxxxxxxxxxxxxx --server=https://c107-e.us-sou
       </div>
     </div>
 
-    <!-- Install the Keycloak Operator -->
+    <!-- 3 Install the Keycloak Operator -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -107,7 +107,7 @@ $ oc login --token=OnMwHZ4FLgZnWdcxxxxxxxxxxxxxxx --server=https://c107-e.us-sou
               <h1
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
-              >4. Deploy the Sample Application</h1>
+              >3. Install the Keycloak Operator</h1>
               <p
                 class="landing-page__p"
               >Follow these steps to install the operator via the OpenShift Web Console                 <cv-link
@@ -120,7 +120,6 @@ $ oc create -f keycloak-operator.yaml
               </cv-code-snippet>
               </p>
             </div>
-
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
             </div>
           </div>
@@ -128,6 +127,39 @@ $ oc create -f keycloak-operator.yaml
       </div>
     </div>
 
+    <!-- 4 Create a Keycloak Cluster -->
+    <div
+      class="bx--row landing-page__r2"
+      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+    >
+      <div class="bx--col bx--no-gutter">
+        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
+          <div class="bx--row landing-page__tab-content">
+            <div class="bx--col-md-4 bx--col-lg-7">
+              <h1
+                class="landing-page__subheading"
+                style="font-size: 1.7rem;"
+              >3. Install the Keycloak Operator</h1>
+              <p
+                class="landing-page__p"
+              >Follow these steps to install the operator via the OpenShift Web Console                 <cv-link
+                  style="font-size: inherit;"
+                  href="https://www.keycloak.org/getting-started/getting-started-operator-openshift"
+                >(Documentation)</cv-link>.<br>Alternatively you can install it programmatically:
+              <cv-code-snippet>
+$ oc new-project keycloak
+$ oc create -f keycloak-operator.yaml
+              </cv-code-snippet>
+              </p>
+            </div>
+            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -191,6 +223,7 @@ $ oc create -f keycloak-operator.yaml
       </div>
     </div>
 
+    <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
