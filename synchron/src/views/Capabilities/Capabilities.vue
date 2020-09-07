@@ -3,6 +3,7 @@
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
   >
+    <!-- Header -->
     <div
       class="bx--row landing-page__banner"
       style="padding-top: 4rem;padding-bottom: 4rem;padding-left: 2rem; padding-right: 2rem;"
@@ -10,11 +11,12 @@
       <div class="bx--col-lg-16">
         <h1
           class="landing-page__heading"
-          style="font-size:3rem;line-height: normal;"
+          style="font-size:2,5rem;line-height: normal;"
         >Capabilities and Cloud-Native Functionality</h1>
       </div>
     </div>
-
+    
+    <!-- Java Containers -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -46,7 +48,8 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- REST API -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -76,6 +79,7 @@
       </div>
     </div>
 
+     <!-- Traffic routing -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -107,7 +111,8 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- Resiliency -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -137,6 +142,7 @@
       </div>
     </div>
 
+    <!-- More Capabilities -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -202,6 +208,7 @@
       </div>
     </div>
 
+    <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -265,6 +272,7 @@
       </div>
     </div>
 
+    <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"

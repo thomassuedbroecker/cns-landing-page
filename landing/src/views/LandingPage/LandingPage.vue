@@ -11,7 +11,7 @@
       <div class="bx--col-lg-16">
         <h1
           class="landing-page__heading"
-          style="font-size:3rem;line-height: normal;"
+          style="font-size:2,5rem;line-height: normal;"
         >Learn how to develop and operate Cloud-Native applications</h1>
       </div>
     </div>
@@ -51,7 +51,7 @@
               </p>
               <p
                 class="landing-page__p"
-              >The open source project demonstrates how to develop complete enterprise applications with Java, Quarkus, OpenLiberty and MicroProfile and how to operate them with Kubernetes, OpenShift and Istio. It also explains how to implement reactive systems and secure applications.</p>       
+              >The open source project demonstrates how to develop complete enterprise applications with Java, Quarkus, OpenLiberty and MicroProfile and how to operate them with Kubernetes, OpenShift and Istio. It also explains how to implement reactive systems and how to secure applications.</p>       
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img

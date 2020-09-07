@@ -11,7 +11,7 @@
       <div class="bx--col-lg-16">
         <h1
           class="landing-page__heading"
-          style="font-size:3rem;line-height: normal;"
+          style="font-size:2,5rem;line-height: normal;"
         > Basic Concepts</h1>
         <p class="landing-page__p">
         Learn how to start developing and operating simple Cloud-Native Applications

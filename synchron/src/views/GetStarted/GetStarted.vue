@@ -3,6 +3,7 @@
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
   >
+    <!-- Header -->
     <div
       class="bx--row landing-page__banner"
       style="padding-top: 4rem;padding-bottom: 4rem;padding-left: 2rem; padding-right: 2rem;"
@@ -10,11 +11,12 @@
       <div class="bx--col-lg-16">
         <h1
           class="landing-page__heading"
-          style="font-size:3rem;line-height: normal;"
+          style="font-size:2,5rem;line-height: normal;"
         >Get Started - Set up the Sample Application</h1>
       </div>
     </div>
 
+    <!-- 1. Clone the Repo -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -36,7 +38,8 @@ $ ROOT_FOLDER=$(pwd)
         </div>
       </div>
     </div>
-
+    
+    <!-- 2. Set up a Kubernetes Cluster -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -94,6 +97,7 @@ $ ROOT_FOLDER=$(pwd)
       </div>
     </div>
 
+    <!-- 3. Install Tools -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -160,6 +164,7 @@ $ docker run -v $ROOT_FOLDER/:/cloud-native-starter -it --rm ibmcom/ibm-cloud-de
       </div>
     </div>
 
+    <!-- 4. Deploy the Sample Application -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -209,6 +214,7 @@ $ scripts/show-urls.sh
       </div>
     </div>
 
+    <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -272,6 +278,7 @@ $ scripts/show-urls.sh
       </div>
     </div>
 
+    <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"

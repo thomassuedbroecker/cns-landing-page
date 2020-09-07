@@ -3,6 +3,7 @@
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
   >
+    <!-- Header -->
     <div
       class="bx--row landing-page__banner"
       style="padding-top: 4rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -10,14 +11,15 @@
       <div class="bx--col-lg-16">
         <h1
           class="landing-page__heading"
-          style="font-size:3rem;line-height: normal;"
+          style="font-size:2,5rem;line-height: normal;"
         >Contact the Authors</h1>
         <p
           class="landing-page__p"
         >We are always looking for feedback and we will try our best to answer your questions!</p>
       </div>
     </div>
-
+    
+    <!-- Niklas -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -49,7 +51,8 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- Harald -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -81,6 +84,7 @@
       </div>
     </div>
 
+    <!-- Thomas -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -111,7 +115,8 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -174,7 +179,8 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"

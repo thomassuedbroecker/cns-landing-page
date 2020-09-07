@@ -10,7 +10,7 @@
       <div class="bx--col-lg-16">
         <h1
           class="landing-page__heading"
-          style="font-size:3rem;line-height: normal;"
+          style="font-size:2,5rem;line-height: normal;"
         >Contact the Authors</h1>
         <p
           class="landing-page__p"
