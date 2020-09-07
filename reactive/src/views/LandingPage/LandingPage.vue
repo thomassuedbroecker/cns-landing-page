@@ -30,7 +30,7 @@
       </div>
     </div>
     
-    <!-- What is .. -->
+    <!-- What's in the Reactive part? -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -42,7 +42,7 @@
               <h1
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
-              >What's in that part?</h1>
+              >What's in the 'Reactive' part?</h1>
               <p
                 class="landing-page__p"
               >The Reactive part of the Cloud Native Starter project explains how to use reactive programming and event based messaging in Quarkus applications and how to run them on Kubernetes and OpenShift.</p>
