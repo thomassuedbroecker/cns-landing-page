@@ -84,13 +84,8 @@
               <p class="landing-page__p">
                 <cv-list>
                   <cv-list-item>
-                    <cv-link style="font-size: inherit;" href="https://quarkus.io/">Quarkus</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://jakarta.ee/"
-                    >Eclipse JakartaEE</cv-link>
+                    <cv-link style="font-size: inherit;" 
+                    href="https://quarkus.io/">Quarkus</cv-link>
                   </cv-list-item>
                   <cv-list-item>
                     <cv-link
@@ -99,19 +94,19 @@
                     >Eclipse MicroProfile</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://www.eclipse.org/openj9//"
-                    >Eclipse OpenJ9</cv-link>
+                    <cv-link style="font-size: inherit;" 
+                    href="https://kafka.apache.org"
+                    >Apache Kafka</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    <cv-link style="font-size: inherit;" href="https://kubernetes.io/">Kubernetes</cv-link>
+                    <cv-link style="font-size: inherit;" 
+                    href="https://vertx.io"
+                    >Vert.x</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    <cv-link style="font-size: inherit;" href="https://vertx.io">Vert.x</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link style="font-size: inherit;" href="https://kafka.apache.org">Apache Kafka</cv-link>
+                    <cv-link style="font-size: inherit;" 
+                    href="https://kubernetes.io/"
+                    >Kubernetes</cv-link>
                   </cv-list-item>
                 </cv-list>
               </p>

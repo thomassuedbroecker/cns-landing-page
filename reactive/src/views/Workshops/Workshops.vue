@@ -3,6 +3,7 @@
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
   >
+    <!-- Header -->
     <div
       class="bx--row landing-page__banner"
       style="padding-top: 4rem;padding-bottom: 4rem;padding-left: 2rem; padding-right: 2rem;"
@@ -44,6 +45,7 @@
       </div>
     </div>
 
+    <!-- Reactive Messaging -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -54,14 +56,14 @@
             <div class="bx--col-md-4 bx--col-lg-7">
               <img
                 class="landing-page__illo"
-                src="../../assets/workshop2.png"
+                src="../../assets/workshop-reactive-messaging.png"
               />
               <p class="landing-page__p"></p>
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Three Hours Workshop</h1>
-              <p class="landing-page__p">In this workshop you will learn how to develop microservices with MicroProfile, how to implement REST APIs, how to do traffic management and how to develop resilient applications. The application, which uses several microservices, is deployed to Kubernetes.</p>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Reactive messaging</h1>
+              <p class="landing-page__p">In this workshop you'll learn how to implement reactive messaging functionality with Java, Quarkus, Kafka, Vert.x and MicroProfile. An end-to-end sample application will be deployed to Red Hat OpenShift.</p>
               <p class="landing-page__p" style="padding-top: 15px;">
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;"
@@ -83,8 +85,30 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">OpenShift Workshop</h1>
-              <p class="landing-page__p">This workshop describes four different ways how to deploy the 'authors' microservice to Red Hat OpenShift.</p>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Reactive Endpoints - YouTube playlist</h1>
+              <p class="landing-page__p">This playlist contains videos related to the hands-on workshop: Reactive Endpoints with Quarkus on Openshift.</p>
+              <p class="landing-page__p">  
+                 <cv-list>
+                  <cv-list-item>
+                    Setup the Sample Application
+                  </cv-list-item>
+                  <cv-list-item>
+                    Develop Reactive Endpoints
+                  </cv-list-item>
+                  <cv-list-item>
+                    Invoke Endpoints Reactively
+                  </cv-list-item>
+                  <cv-list-item>
+                    Deploy the Microservice to OpenShift
+                  </cv-list-item>
+                  <cv-list-item>
+                    Use of Distributed Logging
+                  </cv-list-item>
+                  <cv-list-item>
+                    Setup the Reactive Example Application with one bash-script on OpenShift in IBM Cloud
+                  </cv-list-item>
+                </cv-list>
+              </p> 
               <p class="landing-page__p" style="padding-top: 15px;">
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;"
@@ -93,12 +117,11 @@
                 >Open Workshop</cv-button>
               </p>
             </div>
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <img
-                class="landing-page__illo"
-                src="../../assets/workshop3.png"
-                style="border:1px solid #ddd"
-              />
+            <div class="bx--col-md-4 bx--col-lg-7">
+              <a href="https://www.youtube.com/playlist?list=PLUte4WEyMEjVjm9ZE5Gp3LKrt78VovkRJ">
+                <img class="landing-page__illo" src="../../assets/workshop-youtube-playlist.png" />
+              </a>
+              <p class="landing-page__p"></p>
             </div>
           </div>
         </div>
@@ -214,7 +237,7 @@ export default {
   created() {},
   methods: {
     onGithubClicked() {
-      window.open('https://github.com/ibm/cloud-native-starter', '_blank');
+      window.open('https://github.com/ibm/cloud-native-starter/reactive', '_blank');
     },
     onGetStartedClicked() {
       this.$router.push('get-started');
@@ -222,11 +245,8 @@ export default {
     onWorkshop1Clicked() {
       window.open('https://ibm-developer.gitbook.io/reactive-endpoints-with-quarkus-on-openshift/', '_blank');
     },
-    onWorkshop1BadgeClicked() {
-      window.open('https://github.com/IBM/cloud-native-starter/tree/master/workshop-one-service#cloud-native-starter-badge---level-1', '_blank');
-    },
     onWorkshop2Clicked() {
-      window.open('https://github.com/IBM/cloud-native-starter/tree/master/workshop', '_blank');
+      window.open('https://app.gitbook.com/@ibm-developer/s/reactive-messaging-with-quarkus-on-openshift/', '_blank');
     },
     onWorkshop3Clicked() {
       window.open('https://github.com/IBM/openshift-on-ibm-cloud-workshops/blob/master/README.md', '_blank');

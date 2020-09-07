@@ -3,6 +3,7 @@
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
   >
+    <!-- Header -->
     <div
       class="bx--row landing-page__banner"
       style="padding-top: 4rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -18,6 +19,7 @@
       </div>
     </div>
 
+    <!-- Niklas -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -50,6 +52,7 @@
       </div>
     </div>
 
+    <!-- Harald -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -81,6 +84,7 @@
       </div>
     </div>
 
+    <!-- Thomas -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -112,6 +116,7 @@
       </div>
     </div>
 
+    <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -175,6 +180,7 @@
       </div>
     </div>
 
+    <!-- Footer 
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -208,6 +214,7 @@
         </div>
       </div>
     </div>
+    -->
   </div>
 </template>
 

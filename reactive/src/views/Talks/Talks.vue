@@ -111,8 +111,7 @@
       </div>
     </div>
 
-    <!-- Footer -->
-
+    <!-- Footer 
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -146,6 +145,7 @@
         </div>
       </div>
     </div>
+    -->
   </div>
 </template>
 
