@@ -36,7 +36,7 @@
       </ul>
     </nav>
 
-    <!-- Talks -->
+    <!-- Talks 
     <nav class="cv-header-nav bx--header__nav" aria-label="label nav">
       <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">
@@ -45,6 +45,7 @@
         </li>
       </ul>
     </nav>
+    -->
 
     <!-- Blogs -->
     <nav class="cv-header-nav bx--header__nav" aria-label="label nav">

@@ -3,6 +3,7 @@
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
   >
+    <!-- Header -->
     <div
       class="bx--row landing-page__banner"
       style="padding-top: 4rem;padding-bottom: 4rem;padding-left: 2rem; padding-right: 2rem;"
@@ -15,6 +16,7 @@
       </div>
     </div>
 
+    <!-- Introduction -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -23,20 +25,20 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">1. Clone the Repo</h1>
-              <p class="landing-page__p">First things first. Clone the repo:</p>
-              <cv-code-snippet>
-$ git clone https://github.com/IBM/cloud-native-starter.git
-$ cd cloud-native-starter
-$ ROOT_FOLDER=$(pwd)
-              </cv-code-snippet>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Setup</h1>
+              <p class="landing-page__p">At this point the code is run locally which means you need a JVM and Maven. For the web application you also need yarn. In this setup, Keycloak is installed on a Red Hat OpenShift cluster on IBM Cloud.
+              </p>
             </div>
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8"></div>
+            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+              <img class="landing-page__illo" src="../../assets/architecture-security-local.png" />
+              <p class="landing-page__p"></p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
+    
+    <!-- 1 Create a OpenShift cluster -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -48,52 +50,28 @@ $ ROOT_FOLDER=$(pwd)
               <h1
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
-              >2. Set up a Kubernetes Cluster</h1>
+              >1. Create an OpenShift cluster, e.g. on the IBM Cloud</h1>
               <p
                 class="landing-page__p"
               >The sample application runs on any Kubernetes cluster. However the easiest way to get started it to use Minikube which the instructions on this page will cover.</p>
               <p
                 class="landing-page__p"
-              >In order to set up Minikube and Istio locally, follow the steps in the documentation.</p>
+              >In order to setup OpenShift on IBM Cloud, follow the steps in the documentation.</p>
               <p class="landing-page__p" style="padding-top: 15px;">
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;"
-                  v-on:click="onSetupMinikubeClicked"
-                >Set up Minikube</cv-button>
+                  v-on:click="onSetupReHatOpenShiftClicked"
+                >Setup instructions</cv-button>
               </p>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <p
-                class="landing-page__p"
-              >Alternatively there are instructions and scripts for the following environments:</p>
-              <p class="landing-page__p">
-                <cv-list>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/IKSDeployment.md"
-                    >IBM Cloud Kubernetes Service</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/MinishiftDeployment.md"
-                    >Minishift</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/OpenShiftIKSDeployment.md"
-                    >Red Hat Open Shift on IBM Cloud</cv-link>
-                  </cv-list-item>
-                </cv-list>
-              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    
+    <!-- 2 Login in a Terminal -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -102,64 +80,22 @@ $ ROOT_FOLDER=$(pwd)
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">3. Install Tools</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">2. Login in a Terminal</h1>
               <p
                 class="landing-page__p"
-              >In order to deploy the sample application, you need to install Docker Desktop, if you haven't done this yet.</p>
-              <p class="landing-page__p" style="padding-top: 5px;">
-                <cv-button
-                  style="padding-right: 12px;font-size: 20px;"
-                  v-on:click="onInstallDockerClicked"
-                  kind="tertiary"
-                >Install Docker</cv-button>
-              </p>
-              <p
-                class="landing-page__p"
-              >Additionally the following command line interfaces (CLIs) must be installed:</p>
-              <p class="landing-page__p">
-                <cv-list>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git"
-                    >git</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://curl.haxx.se/download.html"
-                    >curl</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://kubernetes.io/docs/tasks/tools/install-kubectl/"
-                    >kubectl</cv-link>
-                  </cv-list-item>
-                </cv-list>
+              >Get the login command from the OpenShift Web Console, e.g.
+              <cv-code-snippet>
+$ oc login --token=OnMwHZ4FLgZnWdcxxxxxxxxxxxxxxx --server=https://c107-e.us-south.containers.cloud.ibm.com:30058              </cv-code-snippet>
               </p>
             </div>
-
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <p
-                class="landing-page__p"
-              >As alternative to setting up all CLIs manually, the following Docker image can be used.</p>
-              <p
-                class="landing-page__p"
-              >For Windows this is the only option so that the follwing 'sh' scripts can be executed.</p>
-              <p
-                class="landing-page__p"
-              >The caveat is that in this case the Istio tools cannot be invoked easily.</p>
-              <cv-code-snippet>
-$ cd ${ROOT_FOLDER}
-$ docker run -v $ROOT_FOLDER/:/cloud-native-starter -it --rm ibmcom/ibm-cloud-developer-tools-amd64
-              </cv-code-snippet>
             </div>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- Install the Keycloak Operator -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -174,35 +110,18 @@ $ docker run -v $ROOT_FOLDER/:/cloud-native-starter -it --rm ibmcom/ibm-cloud-de
               >4. Deploy the Sample Application</h1>
               <p
                 class="landing-page__p"
-              >Invoke the following commands to set up the core components of the sample application:</p>
-              <cv-code-snippet>
-$ cd ${ROOT_FOLDER}
-$ scripts/check-prerequisites.sh
-$ scripts/deploy-articles-java-jee.sh
-$ scripts/deploy-web-api-java-jee.sh
-$ scripts/deploy-authors-nodejs.sh
-$ scripts/deploy-istio-ingress-v1.sh
-$ scripts/deploy-web-app-vuejs.sh
-$ scripts/show-urls.sh
-              </cv-code-snippet>
-              <p
-                class="landing-page__p"
-              >To invoke the web application open the URL that is printed out in the last command.</p>
-              <p class="landing-page__p">
-                To set up more microservices functionality, follow the instructions in the
-                <cv-link
+              >Follow these steps to install the operator via the OpenShift Web Console                 <cv-link
                   style="font-size: inherit;"
-                  href="https://github.com/ibm/cloud-native-starter#setup"
-                >documentation</cv-link>.
+                  href="https://www.keycloak.org/getting-started/getting-started-operator-openshift"
+                >(Documentation)</cv-link>.<br>Alternatively you can install it programmatically:
+              <cv-code-snippet>
+$ oc new-project keycloak
+$ oc create -f keycloak-operator.yaml
+              </cv-code-snippet>
               </p>
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <img
-                class="landing-page__illo"
-                src="../../assets/urls.jpg"
-                style="border:1px solid #ddd"
-              />
             </div>
           </div>
         </div>
@@ -316,9 +235,9 @@ export default {
     onGithubClicked() {
       window.open('https://github.com/ibm/cloud-native-starter', '_blank');
     },
-    onSetupMinikubeClicked() {
+    onSetupReHatOpenShiftClicked() {
       window.open(
-        'https://github.com/IBM/cloud-native-starter/blob/master/documentation/SetupLocalEnvironment.md',
+        'https://cloud.ibm.com/kubernetes/catalog/create?platformType=openshift',
         '_blank'
       );
     },

@@ -44,7 +44,7 @@
               >What's in 'Security' part?</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter explains how to do authentication and authorization in Quarkus applications with Keycloak and how to do network encryption with Istio.</p>
+              >The security part explains how to do authentication and authorization in Quarkus applications with Keycloak and how to do network encryption with Istio.</p>
 
               <p
                 class="landing-page__p"
@@ -79,18 +79,13 @@
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Key Technologies</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter explains how to use the following technologies together:</p>
+              >The security part explains how to use the following technologies together:</p>
               <p class="landing-page__p">
-                <cv-list>
+               <cv-list>
                   <cv-list-item>
-                    <cv-link style="font-size: inherit;" href="https://quarkus.io/">Quarkus</cv-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <cv-link style="font-size: inherit;" href="https://openliberty.io/">Open Liberty</cv-link> /
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://jakarta.ee/"
-                    >Eclipse JakartaEE</cv-link>
+                    <cv-link style="font-size: inherit;" 
+                    href="https://quarkus.io/"
+                    >Quarkus</cv-link>
                   </cv-list-item>
                   <cv-list-item>
                     <cv-link
@@ -99,16 +94,27 @@
                     >Eclipse MicroProfile</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    <cv-link
-                      style="font-size: inherit;"
-                      href="https://www.eclipse.org/openj9//"
-                    >Eclipse OpenJ9</cv-link>
+                    <cv-link style="font-size: inherit;" 
+                    href="https://www.keycloak.org"
+                    >Keycloak
+                    </cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    <cv-link style="font-size: inherit;" href="https://kubernetes.io/">Kubernetes</cv-link>
+                    <cv-link 
+                    style="font-size: inherit;" 
+                    href="https://kubernetes.io/"
+                    >Kubernetes</cv-link>
                   </cv-list-item>
                   <cv-list-item>
-                    <cv-link style="font-size: inherit;" href="https://istio.io/">Istio</cv-link>
+                    <cv-link style="font-size: inherit;" 
+                    href="https://www.okd.io"
+                    >Open Shift
+                    </cv-link>
+                  </cv-list-item>
+                  <cv-list-item>
+                    <cv-link style="font-size: inherit;" 
+                    href="https://istio.io/"
+                    >Istio</cv-link>
                   </cv-list-item>
                 </cv-list>
               </p>
@@ -141,7 +147,7 @@
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img
                 class="landing-page__illo"
-                src="../../assets/architecture.jpg"
+                src="../../assets/architecture-security.png"
                 style="border:1px solid #ddd"
               />
             </div>
