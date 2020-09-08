@@ -98,7 +98,7 @@ $ oc login --token=OnMwHZ4FLgZnWdcxxxxxxxxxxxxxxx --server=https://c107-e.us-sou
     <!-- 3 Clone project -->
     <div
       class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -224,7 +224,7 @@ $ bash oc-get-keycloak-urls.sh
     <!-- 7 Import realm in Keycloak -->
     <div
       class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -244,15 +244,6 @@ $ bash oc-get-keycloak-urls.sh
                   style="font-size: inherit;"
                   href="https://github.com/IBM/cloud-native-starter/blob/master/security/articles-secure/src/main/resources/application.properties"
                 >setup Keycloak</cv-link> for how to import the realm.
-              <cv-code-snippet>
-$ cd $ROOT_FOLDER/IKS
-$ bash oc-get-admin-password.sh
-              </cv-code-snippet>
-              Get Keycloak URLs:
-              <cv-code-snippet>
-$ cd $ROOT_FOLDER/IKS
-$ bash oc-get-keycloak-urls.sh
-              </cv-code-snippet>
               </p>      
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
