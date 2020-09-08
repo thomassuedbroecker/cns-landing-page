@@ -314,7 +314,7 @@ Keycloak [auth-server-url]: https://YOUR_URL/auth/realms/quarkus
       </div>
     </div>
 
-    <!-- 9 Configure web-api-secure -->
+    <!-- 10 Configure web-app -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -339,6 +339,126 @@ urls = {
   api: 'http://localhost:8081/',
   login: 'https://YOUR_URL/auth' // insert your http or https://[KeycloakURL]/auth
 }
+                </cv-code-snippet>
+              </p>      
+            </div>
+            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 11 Run web-app -->
+    <div
+      class="bx--row landing-page__r2"
+      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+    >
+      <div class="bx--col bx--no-gutter">
+        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
+          <div class="bx--row landing-page__tab-content">
+            <div class="bx--col-md-4 bx--col-lg-7">
+              <h1
+                class="landing-page__subheading"
+                style="font-size: 1.7rem;"
+              >11. Run web-app</h1>
+              <p
+                class="landing-page__p"
+              >
+              Run first terminal (on port 8080).
+                <cv-code-snippet>
+$ cd security/web-app
+$ yarn install
+$ yarn serve
+                </cv-code-snippet>
+              </p>      
+            </div>
+            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 12  Run web-api -->
+    <div
+      class="bx--row landing-page__r2"
+      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+    >
+      <div class="bx--col bx--no-gutter">
+        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
+          <div class="bx--row landing-page__tab-content">
+            <div class="bx--col-md-4 bx--col-lg-7">
+              <h1
+                class="landing-page__subheading"
+                style="font-size: 1.7rem;"
+              >12. Run web-api</h1>
+              <p
+                class="landing-page__p"
+              >
+              Run first terminal (on port 8080):
+                <cv-code-snippet>
+$ cd security/web-api-secure
+$ mvn clean package quarkus:dev
+                </cv-code-snippet>
+              </p>      
+            </div>
+            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 13 Run articles-secure -->
+    <div
+      class="bx--row landing-page__r2"
+      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+    >
+      <div class="bx--col bx--no-gutter">
+        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
+          <div class="bx--row landing-page__tab-content">
+            <div class="bx--col-md-4 bx--col-lg-7">
+              <h1
+                class="landing-page__subheading"
+                style="font-size: 1.7rem;"
+              >13. Run articles-secure</h1>
+              <p
+                class="landing-page__p"
+              >
+              Run third terminal (on port 8082):
+                <cv-code-snippet>
+$ cd security/articles-secure
+$ mvn clean package quarkus:dev
+                </cv-code-snippet>
+              </p>      
+            </div>
+            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 14 Open Web App -->
+    <div
+      class="bx--row landing-page__r2"
+      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+    >
+      <div class="bx--col bx--no-gutter">
+        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
+          <div class="bx--row landing-page__tab-content">
+            <div class="bx--col-md-4 bx--col-lg-7">
+              <h1
+                class="landing-page__subheading"
+                style="font-size: 1.7rem;"
+              >14. Open Web App</h1>
+              <p
+                class="landing-page__p"
+              >
+              Open a browser and log in with the test user: alice, alice
+              <cv-code-snippet>
+http://localhost:8080
                 </cv-code-snippet>
               </p>      
             </div>
