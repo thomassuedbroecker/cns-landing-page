@@ -112,9 +112,10 @@
       </div>
     </div>
 
+    <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 3rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -136,16 +137,10 @@
                     <router-link
                       class="cv-link bx--link"
                       style="font-size:20px"
-                      to="/get-started"
-                    >Set up the sample application</router-link>
-                  </cv-list-item>
-                  <cv-list-item>
-                    <router-link
-                      class="cv-link bx--link"
-                      style="font-size:20px"
                       to="/capabilities"
                     >Learn about the capabilities</router-link>
                   </cv-list-item>
+                  <!-- Exclude 
                   <cv-list-item>
                     <router-link
                       class="cv-link bx--link"
@@ -153,6 +148,7 @@
                       to="/talks"
                     >Watch recorded talks</router-link>
                   </cv-list-item>
+                  -->
                   <cv-list-item>
                     <router-link
                       class="cv-link bx--link"
@@ -167,6 +163,13 @@
                       to="/workshops"
                     >Get your hands dirty with workshops</router-link>
                   </cv-list-item>
+                  <cv-list-item>
+                    <router-link
+                      class="cv-link bx--link"
+                      style="font-size:20px"
+                      to="/about"
+                    >Contact the Cloud Native Starter developers</router-link>
+                  </cv-list-item>
                 </cv-list>
               </p>
             </div>
@@ -175,6 +178,7 @@
       </div>
     </div>
 
+    <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"

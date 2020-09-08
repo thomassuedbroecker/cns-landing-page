@@ -95,7 +95,7 @@ $ oc login --token=OnMwHZ4FLgZnWdcxxxxxxxxxxxxxxx --server=https://c107-e.us-sou
       </div>
     </div>
 
-    <!-- 3 Install the Keycloak Operator -->
+    <!-- 3 Clone project -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -107,10 +107,40 @@ $ oc login --token=OnMwHZ4FLgZnWdcxxxxxxxxxxxxxxx --server=https://c107-e.us-sou
               <h1
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
-              >3. Install the Keycloak Operator</h1>
+              >3. Clone GitHub project</h1>
               <p
                 class="landing-page__p"
-              >Follow these steps to install the operator via the OpenShift Web Console                 <cv-link
+              >              
+              <cv-code-snippet>
+$ git clone https://github.com/IBM/cloud-native-starter.git
+$ cd security
+$ ROOT_FOLDER=$(pwd)
+             </cv-code-snippet>
+             </p>
+            </div>
+            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4 Install the Keycloak Operator -->
+    <div
+      class="bx--row landing-page__r2"
+      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+    >
+      <div class="bx--col bx--no-gutter">
+        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
+          <div class="bx--row landing-page__tab-content">
+            <div class="bx--col-md-4 bx--col-lg-7">
+              <h1
+                class="landing-page__subheading"
+                style="font-size: 1.7rem;"
+              >4. Install the Keycloak Operator</h1>
+              <p
+                class="landing-page__p"
+              >Follow these steps to install the operator via the OpenShift Web Console <cv-link
                   style="font-size: inherit;"
                   href="https://www.keycloak.org/getting-started/getting-started-operator-openshift"
                 >(Documentation)</cv-link>.<br>Alternatively you can install it programmatically:
@@ -127,7 +157,36 @@ $ oc create -f keycloak-operator.yaml
       </div>
     </div>
 
-    <!-- 4 Create a Keycloak Cluster -->
+    <!-- 5 Create a Keycloak Cluster -->
+    <div
+      class="bx--row landing-page__r2"
+      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+    >
+      <div class="bx--col bx--no-gutter">
+        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
+          <div class="bx--row landing-page__tab-content">
+            <div class="bx--col-md-4 bx--col-lg-7">
+              <h1
+                class="landing-page__subheading"
+                style="font-size: 1.7rem;"
+              >5. Create a Keycloak Cluster</h1>
+              <p
+                class="landing-page__p"
+              >You can create the Keycloak cluster either in the OpenShift Web Console or programmatically:
+              <cv-code-snippet>
+$ oc create -f keycloak.yaml
+$ oc get keycloak/example-keycloak -o jsonpath='{.status.ready}'
+              </cv-code-snippet>
+              </p>
+            </div>
+            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6 Get the admin password and Keycloak URLs -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -139,18 +198,21 @@ $ oc create -f keycloak-operator.yaml
               <h1
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
-              >3. Install the Keycloak Operator</h1>
+              >6. Get the admin password and Keycloak URLs</h1>
               <p
                 class="landing-page__p"
-              >Follow these steps to install the operator via the OpenShift Web Console                 <cv-link
-                  style="font-size: inherit;"
-                  href="https://www.keycloak.org/getting-started/getting-started-operator-openshift"
-                >(Documentation)</cv-link>.<br>Alternatively you can install it programmatically:
+              >
+              Get admin password:
               <cv-code-snippet>
-$ oc new-project keycloak
-$ oc create -f keycloak-operator.yaml
+$ cd $ROOT_FOLDER/IKS
+$ bash oc-get-admin-password.sh
               </cv-code-snippet>
-              </p>
+              Get Keycloak URLs:
+              <cv-code-snippet>
+$ cd $ROOT_FOLDER/IKS
+$ bash oc-get-keycloak-urls.sh
+              </cv-code-snippet>
+              </p>      
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
             </div>
@@ -158,6 +220,48 @@ $ oc create -f keycloak-operator.yaml
         </div>
       </div>
     </div>
+
+    <!-- 7 Import realm in Keycloak -->
+    <div
+      class="bx--row landing-page__r2"
+      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+    >
+      <div class="bx--col bx--no-gutter">
+        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
+          <div class="bx--row landing-page__tab-content">
+            <div class="bx--col-md-4 bx--col-lg-7">
+              <h1
+                class="landing-page__subheading"
+                style="font-size: 1.7rem;"
+              >7. Import realm in Keycloak</h1>
+              <p
+                class="landing-page__p"
+              >
+              Insert your the auth-server-url URL of your Keycloak instance in <cv-link
+                  style="font-size: inherit;"
+                  href="https://github.com/IBM/cloud-native-starter/blob/master/security/articles-secure/src/main/resources/application.properties"
+                >application.properties</cv-link>. Check the  <cv-link
+                  style="font-size: inherit;"
+                  href="https://github.com/IBM/cloud-native-starter/blob/master/security/articles-secure/src/main/resources/application.properties"
+                >setup Keycloak</cv-link> for how to import the realm.
+              <cv-code-snippet>
+$ cd $ROOT_FOLDER/IKS
+$ bash oc-get-admin-password.sh
+              </cv-code-snippet>
+              Get Keycloak URLs:
+              <cv-code-snippet>
+$ cd $ROOT_FOLDER/IKS
+$ bash oc-get-keycloak-urls.sh
+              </cv-code-snippet>
+              </p>      
+            </div>
+            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <!-- What's next? -->
     <div
@@ -187,6 +291,7 @@ $ oc create -f keycloak-operator.yaml
                       to="/capabilities"
                     >Learn about the capabilities</router-link>
                   </cv-list-item>
+                  <!-- Exclude 
                   <cv-list-item>
                     <router-link
                       class="cv-link bx--link"
@@ -194,6 +299,7 @@ $ oc create -f keycloak-operator.yaml
                       to="/talks"
                     >Watch recorded talks</router-link>
                   </cv-list-item>
+                  -->
                   <cv-list-item>
                     <router-link
                       class="cv-link bx--link"
@@ -342,5 +448,12 @@ ul {
 
 .landing-page__label {
   @include carbon--type-style('heading-01');
+}
+
+.code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
 }
 </style>

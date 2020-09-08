@@ -3,6 +3,7 @@
     class="bx--grid bx--grid--full-width landing-page"
     style="padding-left: 0rem; padding-right: 0rem;"
   >
+    <!-- Header -->
     <div
       class="bx--row landing-page__banner"
       style="padding-top: 4rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -12,15 +13,9 @@
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
         >Blogs and Articles</h1>
-        <p class="landing-page__p" style="padding-top: 5px;">
-          <cv-button
-            style="padding-right: 12px;font-size: 20px;"
-            v-on:click="onOverviewClicked"
-            kind="tertiary"
-          >Read Overview Blog</cv-button>
-        </p>
       </div>
     </div>
+    
 
     <div
       class="bx--row landing-page__r2"
@@ -30,10 +25,10 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">MicroProfile</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Authorization/Authentication</h1>
               <p
                 class="landing-page__p"
-              >The following blogs cover cloud-native functionality in MicroProfile:</p>
+              >The following blogs authorization/authentication functionality with Quarkus and Keycloak:</p>
 
               <p class="landing-page__p">
                 <cv-list style="list-style: black important!;">
