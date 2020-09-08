@@ -22,8 +22,11 @@
                 v-on:click="onReactiveClicked"
                 kind="tertiary"
               >Learn More</cv-button>
+              <p
+                class="landing-page__p"
+              ></p>
             </div>
-            <div class="bx--col-md-4 bx--col-lg-7">
+            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img class="landing-page__illo" 
                    src="../../assets/architecture-reactive.png"
                    style="border:1px solid #ddd"

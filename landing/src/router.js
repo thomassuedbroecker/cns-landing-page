@@ -16,12 +16,6 @@ export default new Router({
       component: LandingPage
     },
     {
-      path: '/projects',
-      name: 'projects',
-      component: () =>
-        import(/* webpackChunkName: "capabilities" */ './views/Projects')
-    },
-    {
       path: '/about',
       name: 'about',
       component: () =>
