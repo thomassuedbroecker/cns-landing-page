@@ -34,16 +34,16 @@
               >Cloud Native Starter contains three parts:</p>
               <p class="landing-page__p" style="padding-top: 5px;">
                 <cv-button
-                  style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-bottom: 5px"
+                  style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-top:5px; margin-bottom: 5px"
                   v-on:click="onCloudNativeClicked"
                 >Basic Concepts</cv-button>
                 <cv-button
-                  style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-bottom: 5px"
+                  style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-top:5px; margin-bottom: 5px"
                   v-on:click="onReactiveClicked"
                   kind="tertiary"
                 >Reactive</cv-button>
                 <cv-button
-                  style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-bottom: 5px"
+                  style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-top:5px; margin-bottom: 5px"
                   v-on:click="onSecurityClicked"
                   kind="tertiary"
                 >Security</cv-button>
