@@ -41,11 +41,10 @@
               <h1
                 class="landing-page__subheading"
                 style="font-size: 1.7rem;"
-              >What's in 'Security' part?</h1>
+              >What's in the 'Security' part?</h1>
               <p
                 class="landing-page__p"
               >The security part explains how to do authentication and authorization in Quarkus applications with Keycloak and how to do network encryption with Istio.</p>
-
               <p
                 class="landing-page__p"
               >The project comes with a simple sample application that displays and manages articles.</p>
