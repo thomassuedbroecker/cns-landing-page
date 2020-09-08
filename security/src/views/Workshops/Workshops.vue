@@ -23,8 +23,7 @@
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
               <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Get started with security for your Java Microservices application</h1>
-              <p class="landing-page__p">This workshop demonstrates how to develop the 'authors' microservice with MicroProfile and how to deploy it to Kubernetes. The workshop is the prerequisite for the 
-               As a developer you should ask yourself: "How can I make my application (more) secure?"
+              <p class="landing-page__p">As a developer you should ask yourself: "How can I make my application (more) secure?"
                In this workshop we will show you with an example:
               </p>
               <p class="landing-page__p">
