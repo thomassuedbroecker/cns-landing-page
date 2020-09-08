@@ -115,7 +115,7 @@
     <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 3rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="background-color:#f3f3f3; padding-top: 3rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">

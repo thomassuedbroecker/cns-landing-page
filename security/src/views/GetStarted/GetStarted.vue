@@ -25,7 +25,7 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Setup</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Introduction</h1>
               <p class="landing-page__p">At this point the code is run locally which means you need a JVM and Maven. For the web application you also need yarn. In this setup, Keycloak is installed on a Red Hat OpenShift cluster on IBM Cloud.
               </p>
             </div>
@@ -98,7 +98,7 @@ $ oc login --token=OnMwHZ4FLgZnWdcxxxxxxxxxxxxxxx --server=https://c107-e.us-sou
     <!-- 3 Clone project -->
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="background-color:#f3f3f3; padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -128,7 +128,7 @@ $ ROOT_FOLDER=$(pwd)
     <!-- 4 Install the Keycloak Operator -->
     <div
       class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -160,7 +160,7 @@ $ oc create -f keycloak-operator.yaml
     <!-- 5 Create a Keycloak Cluster -->
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="background-color:#f3f3f3; padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -189,7 +189,7 @@ $ oc get keycloak/example-keycloak -o jsonpath='{.status.ready}'
     <!-- 6 Get the admin password and Keycloak URLs -->
     <div
       class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -224,7 +224,7 @@ $ bash oc-get-keycloak-urls.sh
     <!-- 7 Import realm in Keycloak -->
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="background-color:#f3f3f3; padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -288,7 +288,7 @@ Keycloak [auth-server-url]: https://YOUR_URL/auth/realms/quarkus
     <!-- 9 Configure web-api-secure -->
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="background-color:#f3f3f3; padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -352,7 +352,7 @@ urls = {
     <!-- 11 Run web-app -->
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="background-color:#f3f3f3; padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -413,7 +413,7 @@ $ mvn clean package quarkus:dev
     <!-- 13 Run articles-secure -->
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="background-color:#f3f3f3; padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -472,7 +472,7 @@ http://localhost:8080
     <!-- What's next? -->
     <div
       class="bx--row landing-page__r2"
-      style="padding-top: 3rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="background-color:#f3f3f3; padding-top: 3rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -538,7 +538,7 @@ http://localhost:8080
     <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
-      style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
     >
       <div class="bx--col bx--no-gutter">
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">

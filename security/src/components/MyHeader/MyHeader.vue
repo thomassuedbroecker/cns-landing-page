@@ -76,7 +76,8 @@
         </li>
       </ul>
     </nav>
-   
+  
+    <!-- Footer -->
     <div class="bx--header__global">
         <cv-header-global-action aria-label="Notifications" v-on:click="onGithubClicked">
           <Github20 />
@@ -94,7 +95,7 @@ export default {
   components: { Github20 },
   methods: {
     onGithubClicked() {
-      window.open('https://github.com/IBM/cloud-native-starter/blob/master/reactive/README.md', '_blank');
+      window.open('https://github.com/IBM/cloud-native-starter/blob/master/security/README.md', '_blank');
     }
   }
 };

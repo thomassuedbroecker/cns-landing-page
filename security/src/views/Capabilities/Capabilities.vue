@@ -12,11 +12,11 @@
         <h1
           class="landing-page__heading"
           style="font-size:3rem;line-height: normal;"
-        >Capabilities and Cloud-Native Functionality</h1>
+        >Capabilities and Functionalities</h1>
       </div>
     </div>
 
-    <!-- -->
+    <!-- Authentication -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 3rem;padding-left: 2rem; padding-right: 2rem;"
@@ -25,14 +25,14 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Java Containers</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Authentication</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter demonstrates how to containerize microservices which use Quarkus and Open Liberty.</p>
+              >The example demonstrates how to integrate Keycloak for the authentication in a Vue.js fronend application.</p>
               <p class="landing-page__p" style="padding-top: 5px;">
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;"
-                  v-on:click="onContainerClicked"
+                  v-on:click="onAuthenticationClicked"
                   kind="tertiary"
                 >Learn More</cv-button>
               </p>
@@ -40,7 +40,7 @@
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img
                 class="landing-page__illo"
-                src="../../assets/containers.jpg"
+                src="../../assets/capabilities-application-sample.gif"
                 style="border:1px solid #ddd"
               />
             </div>
@@ -49,6 +49,7 @@
       </div>
     </div>
 
+    <!-- Authorization -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -57,19 +58,19 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <img class="landing-page__illo" src="../../assets/rest.png" />
+              <img class="landing-page__illo" src="../../assets/capabilities-authentication-keycloak-vue.png" />
 
               <p class="landing-page__p"></p>
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">REST APIs</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Authorization</h1>
               <p
                 class="landing-page__p"
-              >The sample shows how to expose and consume REST APIs with MicroProfile.</p>
+              >The sample shows how to implement authorization in a Java microservice with Quarkus and Keycloak.</p>
               <cv-button
                 style="padding-right: 12px;font-size: 20px;"
-                v-on:click="onRestClicked"
+                v-on:click="onAuthorizationClicked"
                 kind="tertiary"
               >Learn More</cv-button>
             </div>
@@ -78,6 +79,7 @@
       </div>
     </div>
 
+    <!-- TLS -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 3rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -86,13 +88,13 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Traffic Routing</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">TLS</h1>
               <p
                 class="landing-page__p"
-              >The project shows how traffic between different versions of services can be split with Istio.</p>
+              >That part shows how to expose a gateway via DNS with TLS enabled in IBM Cloud for the example application.</p>
               <cv-button
                 style="padding-right: 12px;font-size: 20px;"
-                v-on:click="onTrafficClicked"
+                v-on:click="onTLSClicked"
                 kind="tertiary"
               >Learn More</cv-button>
               <p
@@ -101,7 +103,7 @@
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <img class="landing-page__illo" src="../../assets/traffic-management.png" style="border:1px solid #ddd" />
+              <img class="landing-page__illo" src="../../assets/capabilities-https.jpg" style="border:1px solid #ddd" />
 
               <p class="landing-page__p"></p>
             </div>
@@ -110,6 +112,7 @@
       </div>
     </div>
 
+    <!-- mTLS -->
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -118,86 +121,21 @@
         <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
           <div class="bx--row landing-page__tab-content">
             <div class="bx--col-md-4 bx--col-lg-7">
-              <img class="landing-page__illo" src="../../assets/resiliency.png" />
+              <img class="landing-page__illo" src="../../assets/capabilities-mtls.jpg" />
 
               <p class="landing-page__p"></p>
             </div>
 
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">Resiliency</h1>
+              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">mTLS</h1>
               <p
                 class="landing-page__p"
-              >The sample shows how to develop Java microservices with MicroProfile so that application stay responsive.</p>
+              >The sample shows how to secure microservices using Authentication with mTLS in IBM Cloud.</p>
               <cv-button
                 style="padding-right: 12px;font-size: 20px;"
-                v-on:click="onResiliencyClicked"
+                v-on:click="onmTLSClicked"
                 kind="tertiary"
               >Learn More</cv-button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="bx--row landing-page__r2"
-      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
-    >
-      <div class="bx--col bx--no-gutter">
-        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
-          <div class="bx--row landing-page__tab-content">
-            <div class="bx--col-md-4 bx--col-lg-7">
-              <h1 class="landing-page__subheading" style="font-size: 1.7rem;">More Capabilities</h1>
-              <p
-                class="landing-page__p"
-              >Cloud Native Starter demonstrates several other cloud-native features:</p>
-              <cv-list>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoDistributedLoggingMonitoring.md"
-                  >Distributed Logging</cv-link>
-                </cv-list-item>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoHealthCheck.md"
-                  >Health Checks</cv-link>
-                </cv-list-item>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoConfiguration.md"
-                  >Configuration</cv-link>
-                </cv-list-item>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoMetrics.md"
-                  >Metrics</cv-link>
-                </cv-list-item>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoAuthentication.md"
-                  >Authentication and Authorization</cv-link>
-                </cv-list-item>
-                <cv-list-item>
-                  <cv-link
-                    style="font-size: 20px;line-height: 1.6rem;"
-                    href="https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoJPA.md"
-                  >Persistence</cv-link>
-                </cv-list-item>
-              </cv-list>
-              <p
-                class="landing-page__p"
-              ></p>
-            </div>
-
-            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <img class="landing-page__illo" src="../../assets/logging.jpg" />
-
-              <p class="landing-page__p"></p>
             </div>
           </div>
         </div>
@@ -270,6 +208,7 @@
       </div>
     </div>
 
+    <!-- Footer -->
     <div
       class="bx--row landing-page__r2"
       style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
@@ -312,32 +251,32 @@ export default {
   created() {},
   methods: {
     onGithubClicked() {
-      window.open('https://github.com/ibm/cloud-native-starter', '_blank');
+      window.open('https://github.com/ibm/cloud-native-starter/security', '_blank');
     },
     onGetStartedClicked() {
       this.$router.push('get-started');
     },
-    onContainerClicked() {
+    onAuthenticationClicked() {
       window.open(
-        'https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoJavaImage.md',
+        'https://ibm-developer.gitbook.io/get-started-with-security-for-your-java-microservi/application-security-with-keycloak-and-quarkus/application_authentication',
         '_blank'
       );
     },
-    onRestClicked() {
+    onAuthorizationClicked() {
       window.open(
-        'https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoConsumeRESTAPIs.md',
+        'https://ibm-developer.gitbook.io/get-started-with-security-for-your-java-microservi/application-security-with-keycloak-and-quarkus/application_authorization',
         '_blank'
       );
     },
-    onTrafficClicked() {
+    onTLSClicked() {
       window.open(
-        'https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoTrafficRouting.md',
+        'https://ibm-developer.gitbook.io/get-started-with-security-for-your-java-microservi/setup-the-ibm-cloud-application-environment/setup_istio_ingress_tls',
         '_blank'
       );
     },
-    onResiliencyClicked() {
+    onmTLSClicked() {
       window.open(
-        'https://github.com/IBM/cloud-native-starter/blob/master/documentation/DemoResiliency.md',
+        'https://ibm-developer.gitbook.io/get-started-with-security-for-your-java-microservi/platform-security-with-mtls/p-sec-exercise-02',
         '_blank'
       );
     }
