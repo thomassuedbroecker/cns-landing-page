@@ -237,13 +237,13 @@ $ bash oc-get-keycloak-urls.sh
               <p
                 class="landing-page__p"
               >
-              Insert your the auth-server-url URL of your Keycloak instance in <cv-link
+             Open the Keycloak console and log in as admin. Then import <cv-link
                   style="font-size: inherit;"
-                  href="https://github.com/IBM/cloud-native-starter/blob/master/security/articles-secure/src/main/resources/application.properties"
-                >application.properties</cv-link>. Check the  <cv-link
+                  href="https://github.com/IBM/cloud-native-starter/blob/master/security/IKS/quarkus-realm.json"
+                >quarkus-realm.json</cv-link>. Check the  <cv-link
                   style="font-size: inherit;"
-                  href="https://github.com/IBM/cloud-native-starter/blob/master/security/articles-secure/src/main/resources/application.properties"
-                >setup Keycloak</cv-link> for how to import the realm.
+                  href="https://github.com/IBM/cloud-native-starter/blob/master/security/KEYCLOAK-SETUP.md"
+                >setup Keycloak documentation</cv-link> for how to import the realm.
               </p>      
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
@@ -253,6 +253,101 @@ $ bash oc-get-keycloak-urls.sh
       </div>
     </div>
 
+    <!-- 8 Configure articles-secure -->
+    <div
+      class="bx--row landing-page__r2"
+      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+    >
+      <div class="bx--col bx--no-gutter">
+        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
+          <div class="bx--row landing-page__tab-content">
+            <div class="bx--col-md-4 bx--col-lg-7">
+              <h1
+                class="landing-page__subheading"
+                style="font-size: 1.7rem;"
+              >8. Configure articles-secure</h1>
+              <p
+                class="landing-page__p"
+              >
+             Insert your the auth-server-url URL of your Keycloak instance in <cv-link
+                  style="font-size: inherit;"
+                  href="https://github.com/IBM/cloud-native-starter/blob/master/security/articles-secure/src/main/resources/application.properties"
+                >application.properties</cv-link>. Therefore you use the Keycloak URL of the output in your terminal.
+                <cv-code-snippet>
+Keycloak [auth-server-url]: https://YOUR_URL/auth/realms/quarkus
+                </cv-code-snippet>
+              </p>      
+            </div>
+            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 9 Configure web-api-secure -->
+    <div
+      class="bx--row landing-page__r2"
+      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+    >
+      <div class="bx--col bx--no-gutter">
+        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
+          <div class="bx--row landing-page__tab-content">
+            <div class="bx--col-md-4 bx--col-lg-7">
+              <h1
+                class="landing-page__subheading"
+                style="font-size: 1.7rem;"
+              >9. Configure web-api-secure</h1>
+              <p
+                class="landing-page__p"
+              >
+             Insert your the auth-server-url URL you know from above in <cv-link
+                  style="font-size: inherit;"
+                  href="https://github.com/IBM/cloud-native-starter/blob/master/security/web-api-secure/src/main/resources/application.properties"
+                >application.properties</cv-link>.
+              </p>      
+            </div>
+            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 9 Configure web-api-secure -->
+    <div
+      class="bx--row landing-page__r2"
+      style="padding-top: 1rem;padding-bottom: 0rem;padding-left: 2rem; padding-right: 2rem;"
+    >
+      <div class="bx--col bx--no-gutter">
+        <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
+          <div class="bx--row landing-page__tab-content">
+            <div class="bx--col-md-4 bx--col-lg-7">
+              <h1
+                class="landing-page__subheading"
+                style="font-size: 1.7rem;"
+              >10. Configure web-app</h1>
+              <p
+                class="landing-page__p"
+              >
+              Now insert the Keycloak URL `Keycloak URL`/auth from the output of your terminal session in <cv-link
+                  style="font-size: inherit;"
+                  href="https://github.com/IBM/cloud-native-starter/blob/master/security/web-app/src/main.js"
+                >main.js</cv-link>.
+                <cv-code-snippet>
+urls = {
+  api: 'http://localhost:8081/',
+  login: 'https://YOUR_URL/auth' // insert your http or https://[KeycloakURL]/auth
+}
+                </cv-code-snippet>
+              </p>      
+            </div>
+            <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- What's next? -->
     <div
