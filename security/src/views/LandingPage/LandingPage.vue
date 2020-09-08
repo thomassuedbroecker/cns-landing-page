@@ -14,7 +14,7 @@
           style="font-size:3rem;line-height: normal;"
         >Security</h1>
         <p class="landing-page__p">
-        Learn how to use authentication, authorization and network encryption in Cloud-Native Applications.
+        Learn how to use Authentication, Authorization and Network Encryption in Cloud-Native Applications.
         <br>
           <cv-button
             style="padding-right: 12px;font-size: 20px;margin-right: 20px;"
