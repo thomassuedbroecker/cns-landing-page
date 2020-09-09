@@ -31,20 +31,20 @@
               >What's in Cloud Native Starter?</h1>
               <p
                 class="landing-page__p"
-              >Cloud Native Starter contains three parts:</p>
-              <p class="landing-page__p" style="padding-top: 5px;">
+              >Is a open source project demonstrates how to develop complete enterprise applications with Java, Quarkus, OpenLiberty and MicroProfile and how to operate them with Kubernetes, OpenShift and Istio. Cloud Native Starter contains three parts:</p>
+              <p class="landing-page__p">
                 <cv-button
-                  style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-top:5px; margin-bottom: 5px"
+                  style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-bottom: 5px"
                   v-on:click="onCloudNativeClicked"
                   kind="tertiary"
                 >Basic Concepts</cv-button>
                 <cv-button
-                  style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-top:5px; margin-bottom: 5px"
+                  style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-bottom: 5px"
                   v-on:click="onReactiveClicked"
                   kind="tertiary"
                 >Reactive</cv-button>
                 <cv-button
-                  style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-top:5px; margin-bottom: 5px"
+                  style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-bottom: 5px"
                   v-on:click="onSecurityClicked"
                   kind="tertiary"
                 >Security</cv-button>
@@ -188,9 +188,9 @@ export default {
     };
   },
   created() {  
-    this.content = "The open source project demonstrates how to develop complete enterprise applications with Java, Quarkus, OpenLiberty and MicroProfile and how to operate them with Kubernetes, OpenShift and Istio. It also explains how to implement reactive systems and how to secure applications.";
+    this.content = "";
     this.image = 'word-cloud-opentechnologies';
-    this.header = 'Overview';
+    this.header = '';
     //'<div> <img class="landing-page__illo" src="../../assets/word-cloud-opentechnologies.png" /> </div>';
   },
   methods: {
