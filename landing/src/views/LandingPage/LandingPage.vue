@@ -12,7 +12,7 @@
         <h1
           class="landing-page__heading"
           style="font-size:2,5rem;line-height: normal;"
-        >Learn how to develop and operate Cloud-Native applications</h1>
+        >Learn how to develop and operate Cloud-Native Applications</h1>
       </div>
     </div>
     
@@ -36,6 +36,7 @@
                 <cv-button
                   style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-top:5px; margin-bottom: 5px"
                   v-on:click="onCloudNativeClicked"
+                  kind="tertiary"
                 >Basic Concepts</cv-button>
                 <cv-button
                   style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-top:5px; margin-bottom: 5px"
@@ -50,13 +51,10 @@
               </p>
               <p
                 class="landing-page__p"
-              >The open source project demonstrates how to develop complete enterprise applications with Java, Quarkus, OpenLiberty and MicroProfile and how to operate them with Kubernetes, OpenShift and Istio. It also explains how to implement reactive systems and how to secure applications.</p>       
+              ><b>{{header}}</b><br><br>{{content}}</p>  
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
-              <img
-                class="landing-page__illo"
-                src="../../assets/word-cloud-opentechnologies.png"
-              />
+              <img class="landing-page__illo" :src="getImgUrl()" v-bind:alt="pic">
             </div>
           </div>
         </div>
@@ -182,19 +180,44 @@
 <script>
 export default {
   name: 'LandingPage',
-  created() {},
+  data: function() {
+    return {
+  	  content: null,
+      image: null,
+      header: null
+    };
+  },
+  created() {  
+    this.content = "The open source project demonstrates how to develop complete enterprise applications with Java, Quarkus, OpenLiberty and MicroProfile and how to operate them with Kubernetes, OpenShift and Istio. It also explains how to implement reactive systems and how to secure applications.";
+    this.image = 'word-cloud-opentechnologies';
+    this.header = 'Overview';
+    //'<div> <img class="landing-page__illo" src="../../assets/word-cloud-opentechnologies.png" /> </div>';
+  },
   methods: {
+    getImgUrl() {
+     var images = require.context('../../assets/', false, /\.png$/)
+     return images('./' + this.image + ".png")
+    },
     onCloudNativeClicked() {
-      //this.$router.push('synchron_page');
-      window.open('https://cloud-native-starter-synchron-tsuedbro.mybluemix.net/', '_blank');
+      // this.$router.push('synchron_page');
+      // window.open('https://cloud-native-starter-synchron-tsuedbro.mybluemix.net/', '_blank');
+      this.header="Basic Concepts";
+      this.content="Cloud Native Starter demonstrates how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, OpenShift and Istio.";
+      this.image='architecture-synchron';
     },
     onReactiveClicked() {
-      //this.$router.push('reactive_page');
-      window.open('https://cloud-native-starter-reactive-tsuedbro.mybluemix.net/', '_blank');
+      // this.$router.push('reactive_page');
+      // window.open('https://cloud-native-starter-reactive-tsuedbro.mybluemix.net/', '_blank');
+      this.header="Reactive";
+      this.content="Cloud Native Starter explains how to use reactive programming and event based messaging in Quarkus applications and how to run them on Kubernetes and OpenShift.";
+      this.image='architecture-reactive';
     },
     onSecurityClicked() {
-      //this.$router.push('security_page');
-      window.open('https://cloud-native-starter-security-tsuedbro.mybluemix.net/', '_blank');
+      // this.$router.push('security_page');
+      // window.open('https://cloud-native-starter-security-tsuedbro.mybluemix.net/', '_blank');
+      this.header="Security";
+      this.content="Cloud Native Starter explains how to do authentication and authorization in Quarkus applications with Keycloak and how to do network encryption with Istio.";
+      this.image='architecture-security';
     }
   }
 };

@@ -1,14 +1,36 @@
 <template>
   <header role="banner" data-header class="cv-header bx--header" aria-label="label">
     
-    <router-link class="cv-header-name bx--header__name router-link-exact-active router-link-active" role="menuitem" style="font-size:14px" to="/">
-    <span class="bx--text-truncate--end">Cloud Native Starter</span></router-link>
+    <!-- Home dropdown -->
+    <div class="dropdown">
+     <router-link class="cv-header-name bx--header__name router-link-exact-active router-link-active" role="menuitem" style="font-size:14px" to="/">
+     <span class="bx--text-truncate--end">Cloud Native Starter</span></router-link>
+     <div class="dropdown-content">
+        <p class="bx--item">
+          <router-link style="font-size:16px color:#ffffff" to="/basic-concepts">
+          <span class="bx--text-truncate--end">Basic Concepts</span>
+          </router-link>
+        </p>
+        <hr align="center" />
+        <p class="bx--item">
+          <router-link role="menuitem" style="font-size:16px" to="/reactive">
+          <span class="bx--text-truncate--end">Reactive</span>
+          </router-link>
+        </p>
+        <hr align="center" />
+        <p class="bx--item">
+          <router-link role="menuitem" style="font-size:16px" to="/security">
+          <span class="bx--text-truncate--end">Security</span>
+          </router-link>
+        </p>
+      </div>
+    </div>
 
     <!-- Basic Concepts -->
     <nav class="cv-header-nav bx--header__nav" aria-label="label nav">
       <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">      
-          <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/synchron_page">
+          <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/synchron">
           <span class="bx--text-truncate--end">Basic Concepts</span></router-link>
         </li>
       </ul>
@@ -18,7 +40,7 @@
     <nav class="cv-header-nav bx--header__nav" aria-label="label nav">
       <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">      
-          <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/reactive_page">
+          <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/reactive">
           <span class="bx--text-truncate--end">Reactive</span></router-link>
         </li>
       </ul>
@@ -26,7 +48,7 @@
     <nav>
         <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">      
-          <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/security_page">
+          <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/security">
           <span class="bx--text-truncate--end">Security</span></router-link>
         </li>
       </ul>
@@ -69,4 +91,62 @@ export default {
     padding-left: 1rem;
     position: relative;
     display: contents !important;
-}</style>
+}
+@import '../../styles/carbon-utils';
+
+.bx--header__nav {
+    height: 100%;
+    padding-left: 1rem;
+    position: relative;
+    display: contents !important;
+}
+
+.bx--header__section {
+    height: 100%;
+    //padding-left: 1rem;
+    position: relative;
+    display: contents !important;
+}
+
+// Own
+
+.landing-page__p {
+  @include carbon--type-style('productive-heading-03');
+  margin-top: $spacing-06;
+  margin-bottom: $spacing-08;
+
+  @include carbon--breakpoint-between((320px + 1), md) {
+    max-width: 75%;
+  }
+}
+
+.bx--item {
+    height: 100%;
+    padding-left: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    display: contents !important;
+}
+
+// Drop down
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
