@@ -15,7 +15,8 @@ export default new Router({
       name: 'landing-page',
       component: LandingPage
     },
-    // Application Navigation
+    // ----------------------
+    // Applications navigation
     {
       path: '/home',
       name: 'home',
@@ -30,12 +31,14 @@ export default new Router({
       path: '/reactive',
       name: 'reactive',
       beforeEnter() {location.href = 'https://cloud-native-starter-reactive-tsuedbro.mybluemix.net/'}
-    },
+    },       
     {
       path: '/security',
       name: 'security',
       beforeEnter() {location.href = 'https://cloud-native-starter-security-tsuedbro.mybluemix.net/'}
     },
+    // Applications navigation
+    // -----------------------
     {
       path: '/get-started',
       name: 'get-started',
