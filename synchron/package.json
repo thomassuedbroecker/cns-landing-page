@@ -14,9 +14,11 @@
   "dependencies": {
     "@carbon/icons-vue": "10.4.0",
     "@carbon/vue": "2.12.0",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.16.0",
     "carbon-components": "10.4.1",
     "core-js": "2.6.5",
-    "vue": "2.6.10",
+    "vue": "^2.6.12",
     "vue-apollo": "3.0.0-beta.11",
     "vue-router": "3.0.3"
   },
@@ -36,7 +38,7 @@
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
     "vue-cli-plugin-apollo": "^0.21.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.11"
   },
   "prettier": {
     "singleQuote": true
