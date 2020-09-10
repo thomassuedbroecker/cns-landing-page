@@ -34,7 +34,7 @@
 
     <!-- Security -->
     <router-link class="cv-header-name bx--header__name router-link-exact-active router-link-active" role="menuitem" style="font-size:14px" to="/">
-    <span class="bx--header__section">Security -></span>
+    <span class="bx--header__section">Security</span>
     </router-link>
     
     <!-- Security old
@@ -187,7 +187,7 @@ export default {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #ffffff;
+  background-color: #f3f3f3;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;

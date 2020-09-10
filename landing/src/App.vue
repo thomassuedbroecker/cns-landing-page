@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <my-header></my-header>
+    <!-- <my-menu></my-menu> -->
     <cv-content id="#main-content">
       <router-view />
     </cv-content>
@@ -9,12 +10,13 @@
 
 <script>
 import MyHeader from './components/MyHeader';
-//import MyFooter from './components/MyFooter';
+//import MyMenu from './components/MyMenu';
 
 export default {
   name: 'App',
   components: {
-    MyHeader
+    MyHeader,
+    //MyMenu
   }
 };
 </script>
