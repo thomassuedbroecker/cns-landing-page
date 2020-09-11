@@ -112,9 +112,9 @@
               <p class="landing-page__p" style="padding-top: 15px;">
                 <cv-button
                   style="padding-right: 12px;font-size: 20px;"
-                  v-on:click="onWorkshop3Clicked"
+                  v-on:click="onYouTubePlaylistClicked"
                   kind="tertiary"
-                >Open Workshop</cv-button>
+                >Open YouTube Playlist</cv-button>
               </p>
             </div>
             <div class="bx--col-md-4 bx--col-lg-7">
@@ -248,8 +248,8 @@ export default {
     onWorkshop2Clicked() {
       window.open('https://app.gitbook.com/@ibm-developer/s/reactive-messaging-with-quarkus-on-openshift/', '_blank');
     },
-    onWorkshop3Clicked() {
-      window.open('https://github.com/IBM/openshift-on-ibm-cloud-workshops/blob/master/README.md', '_blank');
+    onYouTubePlaylistClicked() {
+      window.open('https://www.youtube.com/playlist?list=PLUte4WEyMEjVjm9ZE5Gp3LKrt78VovkRJ', '_blank');
     }
   }
 };

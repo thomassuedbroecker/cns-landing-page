@@ -31,7 +31,7 @@
               >What's in Cloud Native Starter?</h1>
               <p
                 class="landing-page__p"
-              >Is a open source project demonstrates how to develop complete enterprise applications with Java, Quarkus, OpenLiberty and MicroProfile and how to operate them with Kubernetes, OpenShift and Istio. Cloud Native Starter contains three parts:</p>
+              >Is a open source project that demonstrates how to develop complete enterprise applications with Java, Quarkus, OpenLiberty and MicroProfile and how to operate them with Kubernetes, OpenShift and Istio. Cloud Native Starter contains three parts:</p>
               <p class="landing-page__p">
                 <cv-button
                   style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-bottom: 5px"

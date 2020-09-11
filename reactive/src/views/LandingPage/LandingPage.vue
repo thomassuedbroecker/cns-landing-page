@@ -45,7 +45,7 @@
               >What's in the 'Reactive' part?</h1>
               <p
                 class="landing-page__p"
-              >The Reactive part of the Cloud Native Starter project explains how to use reactive programming and event based messaging in Quarkus applications and how to run them on Kubernetes and OpenShift.</p>
+              >The reactive part of the Cloud Native Starter project explains how to use reactive programming and event based messaging in Quarkus applications and how to run them on Kubernetes and OpenShift.</p>
 
               <p
                 class="landing-page__p"
