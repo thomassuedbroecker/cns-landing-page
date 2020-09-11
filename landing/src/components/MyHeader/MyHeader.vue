@@ -28,7 +28,7 @@
     </div>
     
     <!-- Headline -->
-    <router-link class="cv-header-name bx--header__name router-link-exact-active router-link-active" style="font-size:16px margin-left:1px padding:0" to="/">
+    <router-link class="cv-header-name bx--header__name router-link-exact-active router-link-active" style="font-size:16px margin-left:1px padding:0" to="/home">
      <span class="bx--text-truncate--end">Cloud Native Starter</span>
     </router-link>
 

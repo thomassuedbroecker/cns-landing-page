@@ -39,20 +39,29 @@ export default new Router({
       component: () =>
        import( /* webpackChunkName: "security-page" */ './views/Security')
     },
+    // ----------------------
+    // Applications navigation
+    {
+      path: '/home',
+      name: 'home',
+      beforeEnter() {location.href = 'https://cloud-native-starter-landing-tsuedbro.mybluemix.net/'}
+    },
+    {
+      path: '/basic-concepts',
+      name: 'basic-concepts',
+      beforeEnter() {location.href = 'https://cloud-native-starter-synchron-tsuedbro.mybluemix.net/'}
+    },
     {
       path: '/reactive',
       name: 'reactive',
       beforeEnter() {location.href = 'https://cloud-native-starter-reactive-tsuedbro.mybluemix.net/'}
-    },
-    {
-      path: '/synchron',
-      name: 'synchron',
-      beforeEnter() {location.href = 'https://cloud-native-starter-synchron-tsuedbro.mybluemix.net/'}
-    },
+    },       
     {
       path: '/security',
       name: 'security',
       beforeEnter() {location.href = 'https://cloud-native-starter-security-tsuedbro.mybluemix.net/'}
-    }
+    },
+    // Applications navigation
+    // -----------------------
   ]
 });
