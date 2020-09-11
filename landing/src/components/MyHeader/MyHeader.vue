@@ -36,7 +36,7 @@
     <nav class="cv-header-nav bx--header__nav" aria-label="label nav">
       <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">      
-          <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/synchron">
+          <router-link class="bx--header__menu-item" role="menuitem" style="font-size:14px" to="/basic-concepts">
           <span class="bx--text-truncate--end">Basic Concepts</span></router-link>
         </li>
       </ul>
