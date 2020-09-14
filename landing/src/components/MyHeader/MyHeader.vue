@@ -2,10 +2,11 @@
   <header role="banner" data-header class="cv-header bx--header" aria-label="label">
     
     <!-- Home dropdown -->
+    
     <div class="dropdown">
      <cv-header-global-action aria-label="Notifications">
-         <ArrowDown20 /> 
-     </cv-header-global-action>    
+         <Menu20 /> 
+     </cv-header-global-action>   
      <div class="dropdown-content">
         <p class="bx--item">
           <router-link to="/basic-concepts">
@@ -32,7 +33,7 @@
      <span class="bx--text-truncate--end">Cloud Native Starter</span>
     </router-link>
 
-    <!-- Basic Concepts -->
+    <!-- Basic Concepts 
     <nav class="cv-header-nav bx--header__nav" aria-label="label nav">
       <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">      
@@ -41,8 +42,9 @@
         </li>
       </ul>
     </nav>
+    -->
 
-    <!-- Reactive -->
+    <!-- Reactive 
     <nav class="cv-header-nav bx--header__nav" aria-label="label nav">
       <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">      
@@ -51,8 +53,9 @@
         </li>
       </ul>
     </nav>
+    -->
 
-    <!-- Security -->
+    <!-- Security
     <nav class="cv-header-nav bx--header__nav" aria-label="label nav">
         <ul role="menubar" class="bx--header__menu-bar">
         <li class="cv-header-menu-item">      
@@ -61,6 +64,7 @@
         </li>
       </ul>
     </nav>
+    -->
 
     <!-- About -->
     <nav class="cv-header-nav bx--header__nav" aria-label="label nav">
@@ -84,11 +88,11 @@
 
 <script>
 import Github20 from '@carbon/icons-vue/es/logo--github/20';
-import ArrowDown20 from '@carbon/icons-vue/es/arrow--down/20';
+import Menu20 from '@carbon/icons-vue/es/menu/20';
 
 export default {
   name: 'MyHeader',
-  components: { Github20, ArrowDown20 },
+  components: { Github20, Menu20 },
   methods: {
     onGithubClicked() {
       window.open('https://github.com/ibm/cloud-native-starter', '_blank');

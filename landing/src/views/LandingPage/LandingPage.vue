@@ -51,7 +51,7 @@
               </p>
               <p
                 class="landing-page__p"
-              ><b>{{header}}</b><br><br>{{content}}</p>  
+              ><b>{{header}}</b><br><br>{{content}} <span v-html="linkHtml"></span></p>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img class="landing-page__illo" :src="getImgUrl()" v-bind:alt="pic">
@@ -184,13 +184,15 @@ export default {
     return {
   	  content: null,
       image: null,
-      header: null
+      header: null,
+      linkHtml: null
     };
   },
   created() {  
     this.content = "";
     this.image = 'word-cloud-opentechnologies';
     this.header = '';
+    this.linkHtml = '';
     //'<div> <img class="landing-page__illo" src="../../assets/word-cloud-opentechnologies.png" /> </div>';
   },
   methods: {
@@ -204,6 +206,7 @@ export default {
       this.header="Basic Concepts";
       this.content="Cloud Native Starter demonstrates how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, OpenShift and Istio.";
       this.image='architecture-synchron';
+      this.linkHtml='<a href="https://cloud-native-starter-synchron.mybluemix.net/">Learn more ...</a>';
     },
     onReactiveClicked() {
       // this.$router.push('reactive_page');
@@ -211,6 +214,7 @@ export default {
       this.header="Reactive";
       this.content="Cloud Native Starter explains how to use reactive programming and event based messaging in Quarkus applications and how to run them on Kubernetes and OpenShift.";
       this.image='architecture-reactive';
+      this.linkHtml='<a href="https://cloud-native-starter-reactive.mybluemix.net/">Learn more ...</a>';
     },
     onSecurityClicked() {
       // this.$router.push('security_page');
@@ -218,6 +222,7 @@ export default {
       this.header="Security";
       this.content="Cloud Native Starter explains how to do authentication and authorization in Quarkus applications with Keycloak and how to do network encryption with Istio.";
       this.image='architecture-security';
+      this.linkHtml='<a href="https://cloud-native-starter-security.mybluemix.net/">Learn more ...</a>';
     }
   }
 };
