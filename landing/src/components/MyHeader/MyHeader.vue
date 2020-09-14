@@ -8,7 +8,7 @@
      </cv-header-global-action>    
      <div class="dropdown-content">
         <p class="bx--item">
-          <router-link to="/synchron">
+          <router-link to="/basic-concepts">
           <span class="bx--text-truncate--end">Basic Concepts</span>
           </router-link>
         </p>
