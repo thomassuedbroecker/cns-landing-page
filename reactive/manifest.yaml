@@ -1,6 +1,6 @@
 applications:
-- name: cloud-native-starter-reactive-tsuedbro
-  host: cloud-native-starter-reactive-tsuedbro
+- name: cloud-native-starter-reactive
+  host: cloud-native-starter-reactive
   memory: 512M
   instances: 1
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack

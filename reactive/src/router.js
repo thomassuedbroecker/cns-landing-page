@@ -20,22 +20,22 @@ export default new Router({
     {
       path: '/home',
       name: 'home',
-      beforeEnter() {location.href = 'https://cloud-native-starter-landing-tsuedbro.mybluemix.net/'}
+      beforeEnter() {location.href = 'https://cloud-native-starter.mybluemix.net/'}
     },
     {
       path: '/basic-concepts',
       name: 'basic-concepts',
-      beforeEnter() {location.href = 'https://cloud-native-starter-synchron-tsuedbro.mybluemix.net/'}
+      beforeEnter() {location.href = 'https://cloud-native-starter-synchron.mybluemix.net/'}
     },
     {
       path: '/reactive',
       name: 'reactive',
-      beforeEnter() {location.href = 'https://cloud-native-starter-reactive-tsuedbro.mybluemix.net/'}
+      beforeEnter() {location.href = 'https://cloud-native-starter-reactive.mybluemix.net/'}
     },       
     {
       path: '/security',
       name: 'security',
-      beforeEnter() {location.href = 'https://cloud-native-starter-security-tsuedbro.mybluemix.net/'}
+      beforeEnter() {location.href = 'https://cloud-native-starter-security.mybluemix.net/'}
     },
     // Applications navigation
     // -----------------------
