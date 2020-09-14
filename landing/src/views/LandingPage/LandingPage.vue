@@ -31,7 +31,7 @@
               >What's in Cloud Native Starter?</h1>
               <p
                 class="landing-page__p"
-              >Is a open source project that contains example code to demonstrate how to get started with Cloud-Native applications based on a microservices architecture. The project contains three parts:</p>
+              >Is an open source project that contains example code to demonstrate how to get started with Cloud-Native applications based on a microservices architecture. The project contains three parts:</p>
               <p class="landing-page__p">
                 <cv-button
                   style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-bottom: 5px"
