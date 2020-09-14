@@ -31,7 +31,7 @@
               >What's in Cloud Native Starter?</h1>
               <p
                 class="landing-page__p"
-              >Is a open source project that demonstrates how to develop complete enterprise applications with Java, Quarkus, OpenLiberty and MicroProfile and how to operate them with Kubernetes, OpenShift and Istio. Cloud Native Starter contains three parts:</p>
+              >Is a open source project that contains example code to demonstrate how to get started with Cloud-Native applications based on a microservices architecture. The project contains three parts:</p>
               <p class="landing-page__p">
                 <cv-button
                   style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-bottom: 5px"
@@ -49,9 +49,18 @@
                   kind="tertiary"
                 >Security</cv-button>
               </p>
+              <h1
+                class="landing-page__subheading"
+                style="font-size: 1.7rem;"
+              >{{header}}</h1>
               <p
                 class="landing-page__p"
-              ><b>{{header}}</b><br><br>{{content}} <span v-html="linkHtml"></span></p>
+              >{{content}} <span v-html="linkHtml"></span></p>
+              <cv-button
+                  style="padding-right: 12px; font-size: 20px; margin-right: 20px; margin-bottom: 5px"
+                  v-on:click="onLearnMoreClicked"
+                  v-show="buttonstate"
+              >Learn more</cv-button>
             </div>
             <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
               <img class="landing-page__illo" :src="getImgUrl()" v-bind:alt="pic">
@@ -185,7 +194,8 @@ export default {
   	  content: null,
       image: null,
       header: null,
-      linkHtml: null
+      linkHtml: null,
+      buttonstate: false
     };
   },
   created() {  
@@ -200,13 +210,18 @@ export default {
      var images = require.context('../../assets/', false, /\.png$/)
      return images('./' + this.image + ".png")
     },
+    onLearnMoreClicked() {
+      this.$router.push(this.link);
+    },
     onCloudNativeClicked() {
       // this.$router.push('synchron_page');
       // window.open('https://cloud-native-starter-synchron-tsuedbro.mybluemix.net/', '_blank');
       this.header="Basic Concepts";
       this.content="Cloud Native Starter demonstrates how to develop complete enterprise applications with Java and MicroProfile and how to operate them with Kubernetes, OpenShift and Istio.";
       this.image='architecture-synchron';
-      this.linkHtml='<a href="https://cloud-native-starter-synchron.mybluemix.net/">Learn more ...</a>';
+      //this.linkHtml='<a href="https://cloud-native-starter-synchron.mybluemix.net/">Learn more ...</a>';
+      this.buttonstate = true;
+      this.link='basic-concepts';
     },
     onReactiveClicked() {
       // this.$router.push('reactive_page');
@@ -214,7 +229,9 @@ export default {
       this.header="Reactive";
       this.content="Cloud Native Starter explains how to use reactive programming and event based messaging in Quarkus applications and how to run them on Kubernetes and OpenShift.";
       this.image='architecture-reactive';
-      this.linkHtml='<a href="https://cloud-native-starter-reactive.mybluemix.net/">Learn more ...</a>';
+      //this.linkHtml='<a href="https://cloud-native-starter-reactive.mybluemix.net/">Learn more ...</a>';
+      this.link='reactive';
+      this.buttonstate = true;
     },
     onSecurityClicked() {
       // this.$router.push('security_page');
@@ -222,7 +239,9 @@ export default {
       this.header="Security";
       this.content="Cloud Native Starter explains how to do authentication and authorization in Quarkus applications with Keycloak and how to do network encryption with Istio.";
       this.image='architecture-security';
-      this.linkHtml='<a href="https://cloud-native-starter-security.mybluemix.net/">Learn more ...</a>';
+      //this.linkHtml='<a href="https://cloud-native-starter-security.mybluemix.net/">Learn more ...</a>';
+      this.link='security';
+      this.buttonstate = true;
     }
   }
 };
