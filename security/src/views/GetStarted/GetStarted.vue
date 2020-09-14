@@ -546,7 +546,7 @@ http://localhost:8080
             <div class="bx--col-md-8 bx--col-lg-14">
               <cv-link
                 style="font-size: inherit;"
-                href="https://github.com/ibm/cloud-native-starter"
+                href="https://github.com/IBM/cloud-native-starter/tree/master/security"
               >Repo on GitHub</cv-link> |
               <cv-link
                 style="font-size: inherit;"
@@ -578,7 +578,7 @@ export default {
   created() {},
   methods: {
     onGithubClicked() {
-      window.open('https://github.com/ibm/cloud-native-starter', '_blank');
+      window.open('https://github.com/IBM/cloud-native-starter/tree/master/security', '_blank');
     },
     onSetupReHatOpenShiftClicked() {
       window.open(

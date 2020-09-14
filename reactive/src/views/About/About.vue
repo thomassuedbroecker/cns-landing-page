@@ -224,7 +224,7 @@ export default {
   created() {},
   methods: {
     onGithubClicked() {
-      window.open('https://github.com/ibm/cloud-native-starter', '_blank');
+      window.open('https://github.com/IBM/cloud-native-starter/tree/master/reactive', '_blank');
     },
     onGetStartedClicked() {
       this.$router.push('get-started');
