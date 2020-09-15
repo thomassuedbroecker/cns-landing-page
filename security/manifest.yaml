@@ -1,6 +1,6 @@
 applications:
-- name: cloud-native-starter-security
-  host: cloud-native-starter-security
+- name: 'cloud-native-starter-security'
+  host: 'cloud-native-starter-security'
   memory: 512M
   instances: 1
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack
