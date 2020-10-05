@@ -1,6 +1,6 @@
 applications:
-- name: 'cloud-native-starter-synchron'
-  host: 'cloud-native-starter-synchron'
+- name: cloud-native-starter-synchron
+  host: cloud-native-starter-synchron
   memory: 512M
   instances: 1
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack

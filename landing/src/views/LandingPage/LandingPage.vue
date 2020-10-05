@@ -195,7 +195,8 @@ export default {
       image: null,
       header: null,
       linkHtml: null,
-      buttonstate: false
+      buttonstate: false,
+      link: null
     };
   },
   created() {  
@@ -203,6 +204,7 @@ export default {
     this.image = 'word-cloud-opentechnologies';
     this.header = '';
     this.linkHtml = '';
+    this.link= '';
     //'<div> <img class="landing-page__illo" src="../../assets/word-cloud-opentechnologies.png" /> </div>';
   },
   methods: {

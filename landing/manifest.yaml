@@ -1,6 +1,6 @@
 applications:
-- name: 'cloud-native-starter-landing'
-  host: 'cloud-native-starter'
+- name: cloud-native-starter-landing
+  host: cloud-native-starter
   memory: 512M
   instances: 1
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack
