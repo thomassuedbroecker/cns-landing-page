@@ -115,7 +115,7 @@
       </div>
     </div>
    
-    <!-- What's next? -->
+    <!-- What's next? 
     <div
       class="bx--row landing-page__r2"
       style="background-color:#f3f3f3;padding-top: 1rem;padding-bottom: 1rem;padding-left: 2rem; padding-right: 2rem;"
@@ -178,6 +178,7 @@
         </div>
       </div>
     </div>
+    -->
   
     <!-- Footer -->
     <div
