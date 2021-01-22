@@ -235,10 +235,10 @@ export default {
       window.open('https://www.youracclaim.com/org/ibm/badge/cloud-native-starter-level-1', '_blank');
     },
     onWorkshop2Clicked() {
-      window.open('https://harald-u.github.io/workshop-openshift-on-ibm-cloud/', '_blank');
+      window.open('https://harald-u.github.io/istio-handson/', '_blank');
     },
     onWorkshop3Clicked() {
-      window.open('https://harald-u.github.io/istio-handson/', '_blank');
+      window.open('https://harald-u.github.io/workshop-openshift-on-ibm-cloud/', '_blank');
     }
   }
 };
