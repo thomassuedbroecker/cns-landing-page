@@ -141,7 +141,7 @@
                   <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
-                      href="https://haralduebele.blog/2020/02/03/cloud-native-and-reactive-microservices-on-red-hat-openshift-4/"
+                      href="https://haralduebele.github.io/2020/02/03/cloud-native-and-reactive-microservices-on-red-hat-openshift-4/"
                     >Deployment to Red Hat OpenShift</cv-link>
                   </cv-list-item>
                 </cv-list>

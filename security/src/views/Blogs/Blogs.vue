@@ -73,7 +73,7 @@
                   <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
-                      href="https://haralduebele.blog/2020/09/03/application-security-from-a-platform-perspective/"
+                      href="https://haralduebele.github.io/2020/09/03/application-security-from-a-platform-perspective/"
                     >Application Security from a Platform Perspective</cv-link>
                   </cv-list-item>
                </cv-list>

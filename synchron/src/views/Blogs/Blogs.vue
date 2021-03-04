@@ -146,7 +146,7 @@
                   <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
-                      href="https://haralduebele.blog/2019/03/11/managing-microservices-traffic-with-istio/"
+                      href="https://haralduebele.github.io/2019/03/11/managing-microservices-traffic-with-istio/"
                     >Managing Microservices Traffic with Istio</cv-link>
                   </cv-list-item>
                   <cv-list-item>
@@ -164,7 +164,7 @@
                   <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
-                      href="https://haralduebele.blog/2019/04/04/moving-from-minikube-to-ibm-cloud-kubernetes-service/"
+                      href="https://haralduebele.github.io/2019/04/04/moving-from-minikube-to-ibm-cloud-kubernetes-service/"
                     >Moving from Minikube to IBM Cloud Kubernetes Service</cv-link>
                   </cv-list-item>
                   <cv-list-item>
@@ -182,7 +182,7 @@
                   <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
-                      href="https://haralduebele.blog/2019/04/08/whats-going-on-in-my-cluster/"
+                      href="https://haralduebele.github.io/2019/04/08/whats-going-on-in-my-cluster/"
                     >Distributed logging with LogDNA and Monitoring with Sysdig</cv-link>
                   </cv-list-item>
                   <cv-list-item>
@@ -232,13 +232,13 @@
                   <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
-                      href="https://haralduebele.blog/2019/07/03/deploying-the-cloud-native-starter-microservices-on-minishift/"
+                      href="https://haralduebele.github.io/2019/07/03/deploying-the-cloud-native-starter-microservices-on-minishift/"
                     >Deploying the Cloud Native Starter microservices on Minishift</cv-link>
                   </cv-list-item>
                   <cv-list-item>
                     <cv-link
                       style="font-size: inherit;"
-                      href="https://haralduebele.blog/2019/07/10/deploying-the-cloud-native-starter-example-on-red-hat-openshift-on-the-ibm-cloud/"
+                      href="https://haralduebele.github.io/2019/07/10/deploying-the-cloud-native-starter-example-on-red-hat-openshift-on-the-ibm-cloud/"
                     >Deploying on Red Hat OpenShift on the IBM Cloud</cv-link>
                   </cv-list-item>
                   <cv-list-item>
